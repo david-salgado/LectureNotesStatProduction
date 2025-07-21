@@ -11,15 +11,40 @@ library(xml2)
 
 # Set relative paths ####
 path_project  <- here()
-path_data_raw <- file.path(path_project, 'data', 'raw')
 path_metadata <- file.path(path_project, 'metadata')
 
+
+# Explore metadata (JSON) ####
+metadata_json <- fromJSON(file.path(path_metadata, "WLD_2023_SYNTH-CEN-EN_v01_M.json"))
+
+## Root nodes ####
+names(metadata_json)
+
+## Node doc_desc ####
+cat("Title: ", metadata_json$doc_desc$title)
+cat("Production Date: ", metadata_json$doc_desc$prod_date)
+cat("Producer: ", paste(metadata_json$doc_desc$producers, collapse = ', '))
+cat("Version Statement: ")
+cat("    Date: ", metadata_json$doc_desc$version_statement$version_date)
+cat("    Version: ", metadata_json$doc_desc$version_statement$version)
+cat("    Notes: ", metadata_json$doc_desc$version_statement$version_notes)
+
+## Node study_desc ####
+names(metadata_json$study_desc)
+metadata_json$study_desc$title_statement
+metadata_json$study_desc$authoring_entity
+metadata_json$study_desc$series_statement
+metadata_json$study_desc$version_statement
+metadata_json$study_desc$study_info
+metadata_json$study_desc$production_statement
+metadata_json$study_desc$data_access
+metadata_json$study_desc$method
 
 # Explore metadata (DDI-C) ####
 metadata_xml <- read_xml(file.path(path_metadata, "WLD_2023_SYNTH-CEN-EN_v01_M.xml"))
 metadata_xml_nons <- xml_ns_strip(metadata_xml)
 
-## Main root nodes ####
+## Root nodes ####
 nodes_root <- xml_children(metadata_xml_nons)
 xml_name(nodes_root)
 
@@ -106,13 +131,6 @@ for(i in seq_along(variables)) {
 }
 
 
-
-# Read data
-data_household_raw.dt <- as.data.table(
-  read_dta(file.path(path_data_raw, 'WLD_2023_SYNTH-CEN-HLD-EN_v01_M.dta'))
-)
-
-metadata_json <- fromJSON(file.path(path_metadata, "WLD_2023_SYNTH-CEN-EN_v01_M.json"))
 
 stats_eda_univ.dt <- as.data.table(describe(data_household_raw.dt, -hid))
  

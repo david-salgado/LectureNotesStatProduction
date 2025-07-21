@@ -129,9 +129,3 @@ for(i in seq_along(variables)) {
     cat("\n- Available Statistics: ", paste(sapply(stats, xml_attrs), collapse = ", "))
   }
 }
-
-
-
-stats_eda_univ.dt <- as.data.table(describe(data_household_raw.dt, -hid))
- 
-

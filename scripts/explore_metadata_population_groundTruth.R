@@ -1,21 +1,19 @@
 # Load packages ####
 library(haven)
 library(data.table)
-library(dlookr)
-library(ggplot2)
-library(GGally)
 library(jsonlite)
 library(here)
-library(DDIwR)
 library(xml2)
+library(openxlsx)
 
 # Set relative paths ####
 path_project  <- here()
 path_metadata <- file.path(path_project, 'metadata')
-
+path_metadata_orig <- file.path(path_project, 'metadata', 'original')
+path_metadata_LFS <- file.path(path_project, 'metadata', 'LFS')
 
 # Explore metadata (JSON) ####
-metadata_json <- fromJSON(file.path(path_metadata, "WLD_2023_SYNTH-CEN-EN_v01_M.json"))
+metadata_json <- fromJSON(file.path(path_metadata_orig, "WLD_2023_SYNTH-CEN-EN_v01_M.json"))
 
 ## Root nodes ####
 names(metadata_json)
@@ -41,7 +39,7 @@ metadata_json$study_desc$data_access
 metadata_json$study_desc$method
 
 # Explore metadata (DDI-C) ####
-metadata_xml <- read_xml(file.path(path_metadata, "WLD_2023_SYNTH-CEN-EN_v01_M.xml"))
+metadata_xml <- read_xml(file.path(path_metadata_orig, "WLD_2023_SYNTH-CEN-EN_v01_M.xml"))
 metadata_xml_nons <- xml_ns_strip(metadata_xml)
 
 ## Root nodes ####
@@ -97,6 +95,12 @@ for(file in nodes_fileDscr) {
 ## Node dataDscr ####
 variables <- xml_find_all(metadata_xml_nons, "//var")
 cat("\n\nSummary of Variables:\n")
+variables.dt <- data.table(
+  id = character(length(variables)),
+  name = character(length(variables)),
+  label = character(length(variables)),
+  file = character(length(variables))
+)
 for(i in seq_along(variables)) {
   var_id <- xml_attr(variables[i], "ID")
   var_name <- xml_attr(variables[i], "name")
@@ -105,6 +109,12 @@ for(i in seq_along(variables)) {
   var_quest <- xml_find_first(variables[i], "./qstn/qstnLit")
   var_quest <- ifelse(is.na(var_quest), "-", xml_text(var_quest))
   var_file <- xml_attr(variables[i], "files")
+  
+  variables.dt[
+    i, id := var_id][
+    i, name := var_name][
+    i, label := var_label][
+    i, file := var_file]
   
   cat("\n\nVariable ", var_id, ": ", var_name)
   cat("\n- Variable Label: ", var_label)
@@ -129,3 +139,6 @@ for(i in seq_along(variables)) {
     cat("\n- Available Statistics: ", paste(sapply(stats, xml_attrs), collapse = ", "))
   }
 }
+write.xlsx(variables.dt, file.path(path_metadata, 'variables.xlsx'))
+
+# Expert (manual) assignment of variables to surveys: variables.xlsx -> variables_selection.xlsx

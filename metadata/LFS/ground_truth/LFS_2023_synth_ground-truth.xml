@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codeBook xmlns="http://www.icpsr.umich.edu/DDI"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.icpsr.umich.edu/DDI https://ddialliance.org/hubfs/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd"
+          version="2.5">
+  <docDscr source="user">
+    <citation source="user">
+      <titlStmt source="user">
+        <titl source="user">Individual and Household Population, 2023 [Ground Truth]: Labour Force Variables: LFS XML Codebook</titl>
+        <subTitl source="user">Labour Force Variables</subTitl>
+        <subTitl source="user">LFS XML Codebook</subTitl>
+        <altTitl source="user">LFS2023</altTitl>
+        <IDNo source="user" agency="EMOS-UCM">LFS2023-EMOS_UCM</IDNo>
+      </titlStmt>
+      <rspStmt source="user">
+        <AuthEnty source="user" affiliation= "Complutense University of Madrid" abbr="EMOS-UCM">European Master of Official Statistics (EMOS) at Complutense University of Madrid (Spain)</AuthEnty>
+        <othId source="user" role="editor" affiliation= "Complutense University of Madrid" abbr="EMOS-UCM"><p>Elena Rosa-Pérez</p></othId>
+        <othId source="user" role="editor" affiliation= "Complutense University of Madrid" abbr="EMOS-UCM"><p>David Salgado</p></othId>
+        <othId source="user" role="editor" affiliation= "Complutense University of Madrid" abbr="EMOS-UCM"><p>María de Blas</p></othId>
+      </rspStmt>
+      <prodStmt source="user">
+        <producer source="user" affiliation= "Complutense University of Madrid" abbr="UCM">European Master of Official Statistics (EMOS) at Complutense University of Madrid (Spain)</producer>
+        <copyright source="user">No copyright. This work is released into the public domain</copyright>
+        <prodDate source="user" date="2025-08-03">August 3, 2025</prodDate>
+        <prodPlac source="user">Madrid, Spain: Complutense University of Madrid</prodPlac>
+        <software source="user" version="" date="">Not applicable</software>
+        <fundAg source="user" abbr="" role="">Not applicable</fundAg>
+        <grantNo source="user" agency="">Not applicable</grantNo>
+      </prodStmt>
+      <distStmt source="user">
+        <distrbtr URI="https://github.com/david-salgado/LectureNotesStatProduction" source="user" affiliation="Complutense University of Madrid" abbr="UCM">EMOS-UCM</distrbtr>	
+      </distStmt>
+      <verStmt source="user">
+        <version source="user" type="draft" date="2025-08-03">v1.0</version>
+        <verResp source="user" affiliation= "Complutense University of Madrid" abbr="EMOS">European Master of Official Statistics (EMOS) at Complutense University of Madrid (Spain)</verResp>
+      </verStmt>
+    </citation>
+    <docSrc source="user">
+      <titlStmt source="user">
+        <titl source="user">Individual and Household Population, 2023 [Ground Truth]: Labour Force Variables: LFS XML Codebook</titl>
+        <subTitl source="user">Labour Force Variables</subTitl>
+        <subTitl source="user">LFS XML Codebook</subTitl>
+        <altTitl source="user">LFS2023</altTitl>
+        <IDNo source="user" agency="UCM"></IDNo>
+      </titlStmt>
+      <rspStmt source="user">
+        <AuthEnty source="user" affiliation= "Complutense University of Madrid" abbr="UCM">European Master of Official Statistics (EMOS) at Complutense University of Madrid (Spain)</AuthEnty>
+      </rspStmt>
+      <prodStmt source="user">
+         <producer source="user" affiliation= "Complutense University of Madrid" abbr="UCM">European Master of Official Statistics (EMOS) at Complutense University of Madrid (Spain)</producer>
+         <prodDate source="user" date="2025-08-03">August 3, 2025</prodDate>
+         <prodPlac source="user">Madrid, Spain: Complutense University of Madrid: Dept. Statistics and Operations Research</prodPlac>
+       </prodStmt>
+      <verStmt source="user">
+         <version source="user" type="release">Academic year 2025/2026</version>
+         <verResp source="user">European Master of Official Statistics (EMOS) at Complutense University of Madrid (Spain)</verResp>
+       </verStmt>
+      <biblCit source="user">European Master of Official Statistics at Complutense University of Madrid. Individual and Household Population, 2023 [Ground Truth]: Labour Force Variables: LFS XML Codebook. Madrid (Spain): Complutense University of Madrid, Dept. Statistics and Operations Research, 2025.</biblCit>
+     </docSrc>
+    <notes source="user">This documenting xml file is built following the example 1990STF1_2_5.xml released by the DDI Alliance to illustrate the use of the standard DDI-C v2.5</notes> 
+  </docDscr>
+  <stdyDscr source="user">
+    <citation source="user">
+      <titlStmt source="user">
+        <titl source="user">Individual and Household Population, 2023 [Ground Truth]: Labour Force Variables</titl>
+        <subTitl source="user">Labour Force Variables</subTitl>
+		<altTitl source="user">LFS2023</altTitl>
+      </titlStmt>
+      <rspStmt source="user">
+        <AuthEnty source="user" affiliation="Complutense University of Madrid" abbr="UCM">European Master of Official Statistics (EMOS) at Complutense University of Madrid</AuthEnty>
+      </rspStmt>
+      <prodStmt source="user">
+        <producer source="user" affiliation="Complutense University of Madrid" abbr="UCM">European Master of Official Statistics (EMOS) at Complutense University of Madrid</producer>
+        <prodDate source="user" date="2025-08-03">August 03, 2025</prodDate>
+        <prodPlac source="user">Madrid, Spain: Complutense University of Madrid: Dept. Statistics and Operations Research</prodPlac>
+      </prodStmt>
+      <verStmt source="user">
+         <version source="user" type="release">v1.0 - Academic year 2025/2026</version>
+         <verResp source="user">European Master of Official Statistics (EMOS) at Complutense University of Madrid (Spain)</verResp>
+       </verStmt>
+      <biblCit source="user">European Master of Official Statistics at Complutense University of Madrid. Individual and Household Population, 2023 [Ground Truth]: Labour Force Variables: LFS XML Codebook. Madrid (Spain): Complutense University of Madrid, Dept. Statistics and Operations Research, 2025.</biblCit>
+    </citation>
+    <stdyInfo source="user">
+      <subject source="user">
+        <keyword vocab="" vocabURI="">synthetic data</keyword>
+        <keyword vocab="" vocabURI="">open data</keyword>
+        <keyword vocab="" vocabURI="">safe data</keyword>
+        <keyword vocab="" vocabURI="">demographics</keyword>
+        <keyword vocab="" vocabURI="">education</keyword>
+        <keyword vocab="" vocabURI="">labour, employment</keyword>
+      </subject>
+	  <abstract source="user"><![CDATA[This synthetic dataset constitutes a subset of variables of the synthetic datasets generated by the World Bank. It represents the subset of variables related to labour market statistics in an Imaginary Country. It contains the entire finite populations of individuals and households for the year 2023. The detailed list of datasets used to create the training datasets by the World Bank is available in the Technical Documentation (document provided as an external resource). The dataset is a relational dataset of 10,003,891 individuals (2,501,755 households), representing the entire population of an imaginary middle-income country. The dataset contains two data files: one with variables at the household level, the other one with variables at the individual level. The data only includes ordinary households (no community households). The dataset was created using REaLTabFormer, a model that leverages deep learning methods. The dataset was created for the purpose of training and simulation and is not intended to be representative of any specific country. It is used with these goals in the European Master of Official Statistics at Complutense University of Madrid.]]></abstract>
+      <sumDscr>
+        <timePrd source="producer" date="2023" event="start" cycle=""/>
+        <timePrd source="producer" date="2023" event="end" cycle=""/>
+        <collDate source="producer" date="2023" event="start" cycle=""/>
+        <collDate source="producer" date="2023" event="end" cycle=""/>
+        <nation source="producer" abbr="WLD">Imaginary country</nation>
+        <geogCover source="producer" >The dataset is a synthetic dataset for an imaginary country. It was created to represent the full national population of this country, by province and district (equivalent to admin1 and admin2 levels) and by urban/rural areas of residence.</geogCover>
+        <geogUnit source="producer" >province (admin1), district (admin2)</geogUnit>
+        <anlyUnit source="producer" ><![CDATA[household, Individual]]></anlyUnit>
+        <universe source="producer" clusion="I"><![CDATA[The dataset is a fully-synthetic dataset representative of the resident population of ordinary households for an imaginary middle-income country.]]></universe>
+        <dataKind source="producer" >Synthetic census-like data</dataKind>
+      </sumDscr>
+	  <qualityStatement>
+        <standardsCompliance>
+          <standard>
+            <standardName>Not applicable. Synthetic data</standardName>
+            <producer>Not applicable. Synthetic data</producer>
+          </standard>
+          <complianceDescription/>
+        </standardsCompliance>
+        <otherQualityStatement source="producer">The synthetic dataset is intended to provide a realistic representation of a middle-income countries. A set of summary indicators/tables was produced to ensure the realistic aspect of the data. </otherQualityStatement>
+      </qualityStatement>     
+	  <notes><![CDATA[The dataset is a synthetic dataset generated using a model that used data from IPUMS International, from the Demographic and Health Survey program, and from the World Bank Global Consumption Database (microdata) as training data. The detailed list of datasets used to create the training datasets is available in the Technical Documentation (document provided as an external resource).]]></notes>
+    </stdyInfo>
+    <method source="producer">
+      <dataColl source="producer">
+        <dataCollector source="user">Not applicable (synthetic dataset)</dataCollector>
+        <timeMeth source="producer">cross section</timeMeth>
+        <freq source="user">weekly</freq>
+        <sampProc source="producer"><![CDATA[Not applicable. Full synthetic population dataset.]]></sampProc>
+        <sampleFrame source="producer">
+          <sampleFrameName/>
+          <custodian/>
+          <universe/>
+          <frameUnit isPrimary="">
+            <unitType numberOfUnits=""/>
+          </frameUnit>
+          <updateProcedure/>
+        </sampleFrame>
+        <deviat source="producer">None</deviat>
+        <collMode source="producer">Synthetic data generation</collMode>
+        <resInstru source="producer"><![CDATA[The dataset is a synthetic dataset. Although the variables it contains are variables typically collected from sample surveys or population censuses, no questionnaire is available for this dataset. A &quot;fake&quot; questionnaire was however created for the sample dataset extracted from this dataset, to be used as training material.]]></resInstru>
+        <instrumentDevelopment source="producer" type=""><![CDATA[Not applicable]]></instrumentDevelopment>
+        <collSitu source="producer"><![CDATA[Not applicable]]></collSitu>
+        <actMin source="producer"><![CDATA[Not applicable]]></actMin>
+        <ConOps source="producer"><![CDATA[Not applicable]]></ConOps>
+        <weight source="producer"><![CDATA[The synthetic dataset is the equivalent of a census dataset. No weighting applies.]]></weight>
+        <cleanOps source="producer"><![CDATA[The synthetic data generation process included a set of &quot;validators&quot; (consistency checks, based on which synthetic observation were assessed and rejected/replaced when needed). Also, some post-processing was applied to the data to result in the distributed data files. ]]></cleanOps>
+      </dataColl>
+      <notes source="producer"><![CDATA[The dataset was generated using REaLTabFormer, a four-level hierarchical generative model. The first-level model is the household composition generator, which generates variables that define each household's composition (household size and basic demographic profile of members, including age and relationship to the head of household). The second-level model is the household-level variables generator, which generates the variables whose values are common to all household members (such as dwelling characteristics) based on the household composition. The third-level model is the household-head generator, which generates observations for the head of the households based on the output of the previous two models. The fourth-level model is the household member generator, which generates data on the household members, excluding the head, for households of size two and above. The household member generator model uses the data generated by the household composition, household-level variables, and household head generator models. This hierarchical model provides relational dependencies within a household that would not be guaranteed if all records were generated independently.
+  
+  To implement the different models, we adopted a transformer architecture. The household composition generator is a decoder model that generates data from normally distributed noise. The other three models use a sequence-to-sequence model inspired by the application of deep learning to language translation.
+  
+  More detailed information is available in the Technical Documentation provided as an external PDF document.]]></notes>
+      <anlyInfo source="producer">
+        <respRate source="producer">"><![CDATA[Not applicable. No data collection occurred.]]></respRate>
+        <EstSmpErr source="producer">"><![CDATA[Not applicable. No sample selection occurred.]]></EstSmpErr>
+        <dataAppr source="producer">"><![CDATA[The dataset was synthetically generated and validated using internal consistency checks. No external benchmarks were used. It is not intended to represent any real population.]]></dataAppr>
+      </anlyInfo>
+      <stdyClas source="producer"><![CDATA[]]></stdyClas>
+      <dataProcessing source="producer" type=""/>
+      <codingInstructions source="producer" relatedProcesses="" type="">
+        <txt/>
+        <command formalLanguage=""/>
+      </codingInstructions>
+    </method>
+    <dataAccs source="producer">
+      <setAvail source="producer">
+        <accsPlac source="user"><![CDATA[Not applicable]]></accsPlac>
+        <origArch source="user" URI="https://microdata.worldbank.org/index.php/catalog/study/WLD_2023_SYNTH-CEN-EN_v01_M">World Bank Microdata Library</origArch>
+		<avlStatus source="user">available</avlStatus>
+        <collSize source="user">2501755 households and 10003891 individuals</collSize>
+        <complete source="user">complete</complete>
+        <fileQnty source="user">2 (one at the household level, one at the individual level). The two data files can be merged using variable "hid" as merging key.</fileQnty>
+        <notes source="user"><![CDATA[Original data available as open data (CC BY 4.0 license). The original datasets must be downloaded from the World Bank Catalog and further preprocessed to get the populations for the labour market variables described here.]]></notes>
+      </setAvail>
+      <useStmt source="producer">
+        <restrctn source="producer">The dataset was generated as a fully-synthetic dataset. The model used to create the synthetic observations includes multiple procedures to avoid overfitting and data-copying. Also, the data used for training the model went through processes of sampling and recoding that make it impossible to link a synthetic observation to an actual observation. The dataset is thus safe for dissemination. It can be used with no restriction and is shared as open data.  </restrctn>
+        <contact source="user" affiliation="Complutense University of Madrid" URI="https://github.com/david-salgado/LectureNotesStatProduction" email="">European Master of Official Statistics at Complutense University of Madrid</contact>
+        <citReq source="user"><![CDATA[No citation requirement beyond standard academic referencing. All credits for the generation of synthetic data must be attributed to the World Bank.]]></citReq>
+        <deposReq source="user"><![CDATA[Not applicable]]></deposReq>
+        <conditions source="user"><![CDATA[Not applicable]]></conditions>
+        <disclaimer source="producer"><![CDATA[The data are to be used for training or simulation purposes only. It is not intended to be representative of any particular country, and should not be used for inference purpose. ]]></disclaimer>
+      </useStmt>
+      <notes><![CDATA[]]></notes>
+    </dataAccs>
+  </stdyDscr>
+  <fileDscr source="user" ID="F1">
+    <fileTxt source="user">
+      <fileName source="user">LFS_2023_synth_household_ground-truth</fileName>
+      <fileCont source="user">Synthetic data, household-level labour force variables, full population</fileCont>
+      <dimensns source="user">
+	  <fileStrc source="user">
+        <recGrp charSet="UTF-8">
+          <recDelim>\r\n</recDelim>
+          <delim>;</delim>
+          <quoteChar>"</quoteChar>
+        </recGrp>
+      </fileStrc>
+        <caseQnty source="producer">2501755</caseQnty>
+        <varQnty source="user">6</varQnty>
+      </dimensns>
+ 	  <dataChck source="producer">Not applicable. Synthetic data validated using internal consistency rules during generation.</dataChck>
+      <dataMsng source="producer">No missing data. All fields are synthetically generated and complete.</dataMsng>
+      <verStmt source="producer">
+        <version>v1.0 Academic Year 2025/2026</version>
+      </verStmt>
+    </fileTxt>
+    <notes source="user"><![CDATA[File is in CSV format using semicolon (;) as field separator. Compatible with European regional settings.]]></notes>
+  </fileDscr>
+  <fileDscr source="user" ID="F2">
+    <fileTxt source="user">
+      <fileName source="user">LFS_2023_synth_individual_ground-truth</fileName>
+      <fileCont source="user">Synthetic data, individual-level labour force variables, full population</fileCont>
+      <dimensns source="user">
+        <caseQnty source="producer">10003891</caseQnty>
+        <varQnty source="user">13</varQnty>
+      </dimensns>
+      <fileStrc source="user">
+        <recGrp charSet="UTF-8">
+          <recDelim>\r\n</recDelim>
+          <delim>;</delim>
+          <quoteChar>"</quoteChar>
+        </recGrp>
+      </fileStrc>
+	  <dataChck source="producer">Not applicable. Synthetic data validated using internal consistency rules during generation.</dataChck>
+      <dataMsng source="producer">No missing data. All fields are synthetically generated and complete.</dataMsng>
+      <verStmt source="producer">
+        <version>v1.0 Academic Year 2025/2026</version>
+      </verStmt>
+    </fileTxt>
+    <notes source="user"><![CDATA[File is in CSV format using semicolon (;) as field separator. Compatible with European regional settings.]]></notes>
+</fileDscr>
+  <dataDscr source="producer">
+    <var ID="V1" name="hid" files="F1" intrvl="discrete">
+    <varFormat type="character" schema="other"/>
+    <location width="11"/>
+    <labl>Household identifier</labl>
+    <qstn/>
+    <valrng>
+      <range/>
+    </valrng>
+    <sumStat type="vald">2501755</sumStat>
+    <catgry/>
+  </var>
+    <var ID="V2" name="geo1" files="F1" intrvl="discrete">
+      <varFormat type="numeric" schema="other"/>
+      <location width="12"/>
+      <labl>Geographic area - Admin 1</labl>
+      <qstn/>
+      <valrng>
+        <range/>
+      </valrng>
+      <sumStat type="vald">2501755</sumStat>
+      <sumStat type="min">1.0</sumStat>
+      <sumStat type="max">10.0</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>geo_01</labl>
+        <catStat type="freq">342733</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>geo_02</labl>
+        <catStat type="freq">239113</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>geo_03</labl>
+        <catStat type="freq">281600</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>geo_04</labl>
+        <catStat type="freq">370596</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>geo_05</labl>
+        <catStat type="freq">210960</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>geo_06</labl>
+        <catStat type="freq">186992</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>geo_07</labl>
+        <catStat type="freq">181766</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>geo_08</labl>
+        <catStat type="freq">102927</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>geo_09</labl>
+        <catStat type="freq">287141</catStat>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>geo_10</labl>
+        <catStat type="freq">297927</catStat>
+      </catgry>
+    </var>
+    <var ID="V3" name="geo2" files="F1" intrvl="discrete">
+      <varFormat type="numeric" schema="other"/>
+      <location width="9"/>
+      <labl>Geographic area - Admin 2</labl>
+      <qstn/>
+      <valrng>
+        <range/>
+      </valrng>
+      <sumStat type="vald">2501755</sumStat>
+      <sumStat type="min">11.0</sumStat>
+      <sumStat type="max">109.0</sumStat>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>geo_01_01</labl>
+        <catStat type="freq">59310</catStat>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>geo_01_02</labl>
+        <catStat type="freq">31237</catStat>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>geo_01_03</labl>
+        <catStat type="freq">81591</catStat>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>geo_01_04</labl>
+        <catStat type="freq">50048</catStat>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>geo_01_05</labl>
+        <catStat type="freq">22824</catStat>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>geo_01_06</labl>
+        <catStat type="freq">31488</catStat>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>geo_01_07</labl>
+        <catStat type="freq">31280</catStat>
+      </catgry>
+      <catgry>
+        <catValu>18</catValu>
+        <labl>geo_01_08</labl>
+        <catStat type="freq">34955</catStat>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>geo_02_01</labl>
+        <catStat type="freq">2298</catStat>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>geo_02_02</labl>
+        <catStat type="freq">10096</catStat>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>geo_02_03</labl>
+        <catStat type="freq">19557</catStat>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>geo_02_04</labl>
+        <catStat type="freq">31384</catStat>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>geo_02_05</labl>
+        <catStat type="freq">18294</catStat>
+      </catgry>
+      <catgry>
+        <catValu>26</catValu>
+        <labl>geo_02_06</labl>
+        <catStat type="freq">28804</catStat>
+      </catgry>
+      <catgry>
+        <catValu>27</catValu>
+        <labl>geo_02_07</labl>
+        <catStat type="freq">38236</catStat>
+      </catgry>
+      <catgry>
+        <catValu>28</catValu>
+        <labl>geo_02_08</labl>
+        <catStat type="freq">90444</catStat>
+      </catgry>
+      <catgry>
+        <catValu>31</catValu>
+        <labl>geo_03_01</labl>
+        <catStat type="freq">57092</catStat>
+      </catgry>
+      <catgry>
+        <catValu>32</catValu>
+        <labl>geo_03_02</labl>
+        <catStat type="freq">47501</catStat>
+      </catgry>
+      <catgry>
+        <catValu>33</catValu>
+        <labl>geo_03_03</labl>
+        <catStat type="freq">74820</catStat>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>geo_03_04</labl>
+        <catStat type="freq">84839</catStat>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>geo_03_05</labl>
+        <catStat type="freq">17348</catStat>
+      </catgry>
+      <catgry>
+        <catValu>41</catValu>
+        <labl>geo_04_01</labl>
+        <catStat type="freq">112568</catStat>
+      </catgry>
+      <catgry>
+        <catValu>42</catValu>
+        <labl>geo_04_02</labl>
+        <catStat type="freq">94739</catStat>
+      </catgry>
+      <catgry>
+        <catValu>43</catValu>
+        <labl>geo_04_03</labl>
+        <catStat type="freq">86864</catStat>
+      </catgry>
+      <catgry>
+        <catValu>44</catValu>
+        <labl>geo_04_04</labl>
+        <catStat type="freq">76425</catStat>
+      </catgry>
+      <catgry>
+        <catValu>51</catValu>
+        <labl>geo_05_01</labl>
+        <catStat type="freq">12259</catStat>
+      </catgry>
+      <catgry>
+        <catValu>52</catValu>
+        <labl>geo_05_02</labl>
+        <catStat type="freq">27308</catStat>
+      </catgry>
+      <catgry>
+        <catValu>53</catValu>
+        <labl>geo_05_03</labl>
+        <catStat type="freq">38765</catStat>
+      </catgry>
+      <catgry>
+        <catValu>54</catValu>
+        <labl>geo_05_04</labl>
+        <catStat type="freq">31763</catStat>
+      </catgry>
+      <catgry>
+        <catValu>55</catValu>
+        <labl>geo_05_05</labl>
+        <catStat type="freq">46619</catStat>
+      </catgry>
+      <catgry>
+        <catValu>56</catValu>
+        <labl>geo_05_06</labl>
+        <catStat type="freq">34988</catStat>
+      </catgry>
+      <catgry>
+        <catValu>57</catValu>
+        <labl>geo_05_07</labl>
+        <catStat type="freq">19258</catStat>
+      </catgry>
+      <catgry>
+        <catValu>61</catValu>
+        <labl>geo_06_01</labl>
+        <catStat type="freq">50756</catStat>
+      </catgry>
+      <catgry>
+        <catValu>62</catValu>
+        <labl>geo_06_02</labl>
+        <catStat type="freq">45646</catStat>
+      </catgry>
+      <catgry>
+        <catValu>63</catValu>
+        <labl>geo_06_03</labl>
+        <catStat type="freq">63717</catStat>
+      </catgry>
+      <catgry>
+        <catValu>64</catValu>
+        <labl>geo_06_04</labl>
+        <catStat type="freq">26873</catStat>
+      </catgry>
+      <catgry>
+        <catValu>71</catValu>
+        <labl>geo_07_01</labl>
+        <catStat type="freq">33694</catStat>
+      </catgry>
+      <catgry>
+        <catValu>72</catValu>
+        <labl>geo_07_02</labl>
+        <catStat type="freq">31453</catStat>
+      </catgry>
+      <catgry>
+        <catValu>73</catValu>
+        <labl>geo_07_03</labl>
+        <catStat type="freq">71233</catStat>
+      </catgry>
+      <catgry>
+        <catValu>74</catValu>
+        <labl>geo_07_04</labl>
+        <catStat type="freq">45386</catStat>
+      </catgry>
+      <catgry>
+        <catValu>81</catValu>
+        <labl>geo_08_01</labl>
+        <catStat type="freq">20100</catStat>
+      </catgry>
+      <catgry>
+        <catValu>82</catValu>
+        <labl>geo_08_02</labl>
+        <catStat type="freq">18325</catStat>
+      </catgry>
+      <catgry>
+        <catValu>83</catValu>
+        <labl>geo_08_03</labl>
+        <catStat type="freq">40109</catStat>
+      </catgry>
+      <catgry>
+        <catValu>84</catValu>
+        <labl>geo_08_04</labl>
+        <catStat type="freq">24393</catStat>
+      </catgry>
+      <catgry>
+        <catValu>91</catValu>
+        <labl>geo_09_01</labl>
+        <catStat type="freq">22651</catStat>
+      </catgry>
+      <catgry>
+        <catValu>92</catValu>
+        <labl>geo_09_02</labl>
+        <catStat type="freq">47120</catStat>
+      </catgry>
+      <catgry>
+        <catValu>93</catValu>
+        <labl>geo_09_03</labl>
+        <catStat type="freq">13912</catStat>
+      </catgry>
+      <catgry>
+        <catValu>94</catValu>
+        <labl>geo_09_04</labl>
+        <catStat type="freq">53854</catStat>
+      </catgry>
+      <catgry>
+        <catValu>95</catValu>
+        <labl>geo_09_05</labl>
+        <catStat type="freq">38390</catStat>
+      </catgry>
+      <catgry>
+        <catValu>96</catValu>
+        <labl>geo_09_06</labl>
+        <catStat type="freq">47919</catStat>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>geo_09_07</labl>
+        <catStat type="freq">25600</catStat>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>geo_09_08</labl>
+        <catStat type="freq">37695</catStat>
+      </catgry>
+      <catgry>
+        <catValu>101</catValu>
+        <labl>geo_10_01</labl>
+        <catStat type="freq">17786</catStat>
+      </catgry>
+      <catgry>
+        <catValu>102</catValu>
+        <labl>geo_10_02</labl>
+        <catStat type="freq">22855</catStat>
+      </catgry>
+      <catgry>
+        <catValu>103</catValu>
+        <labl>geo_10_03</labl>
+        <catStat type="freq">18275</catStat>
+      </catgry>
+      <catgry>
+        <catValu>104</catValu>
+        <labl>geo_10_04</labl>
+        <catStat type="freq">30606</catStat>
+      </catgry>
+      <catgry>
+        <catValu>105</catValu>
+        <labl>geo_10_05</labl>
+        <catStat type="freq">37045</catStat>
+      </catgry>
+      <catgry>
+        <catValu>106</catValu>
+        <labl>geo_10_06</labl>
+        <catStat type="freq">51073</catStat>
+      </catgry>
+      <catgry>
+        <catValu>107</catValu>
+        <labl>geo_10_07</labl>
+        <catStat type="freq">41711</catStat>
+      </catgry>
+      <catgry>
+        <catValu>108</catValu>
+        <labl>geo_10_08</labl>
+        <catStat type="freq">51344</catStat>
+      </catgry>
+      <catgry>
+        <catValu>109</catValu>
+        <labl>geo_10_09</labl>
+        <catStat type="freq">27232</catStat>
+      </catgry>
+    </var>
+    <var ID="V4" name="ea" files="F1" intrvl="contin">
+      <varFormat type="numeric" schema="other"/>
+      <location width="9"/>
+      <labl>Enumeration area</labl>
+      <qstn/>
+      <valrng>
+        <range/>
+      </valrng>
+      <sumStat type="vald">2501755</sumStat>
+      <sumStat type="min">11001.0</sumStat>
+      <sumStat type="max">109054.0</sumStat>
+      <catgry/>
+    </var>
+    <var ID="V5" name="urbrur" files="F1" intrvl="discrete">
+      <varFormat type="numeric" schema="other"/>
+      <location width="12"/>
+      <labl>Residence (urban/rural)</labl>
+      <qstn/>
+      <valrng>
+        <range/>
+      </valrng>
+      <sumStat type="vald">2501755</sumStat>
+      <sumStat type="min">1.0</sumStat>
+      <sumStat type="max">2.0</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Rural</labl>
+        <catStat type="freq">1123145</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Urban</labl>
+        <catStat type="freq">1378610</catStat>
+      </catgry>
+    </var>
+    <var ID="V6" name="hhsize" files="F1" intrvl="discrete">
+      <varFormat type="numeric" schema="other"/>
+      <location width="12"/>
+      <labl>Household size</labl>
+      <qstn/>
+      <valrng>
+        <range/>
+      </valrng>
+      <sumStat type="vald">2501755</sumStat>
+      <sumStat type="min">1.0</sumStat>
+      <sumStat type="max">26.0</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <catStat type="freq">243612</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <catStat type="freq">370276</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <catStat type="freq">485958</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <catStat type="freq">541695</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <catStat type="freq">384777</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <catStat type="freq">201054</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <catStat type="freq">117019</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <catStat type="freq">78155</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <catStat type="freq">35347</catStat>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <catStat type="freq">20662</catStat>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <catStat type="freq">9234</catStat>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <catStat type="freq">5092</catStat>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <catStat type="freq">2889</catStat>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <catStat type="freq">2399</catStat>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <catStat type="freq">1052</catStat>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <catStat type="freq">815</catStat>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <catStat type="freq">525</catStat>
+      </catgry>
+      <catgry>
+        <catValu>18</catValu>
+        <catStat type="freq">408</catStat>
+      </catgry>
+      <catgry>
+        <catValu>19</catValu>
+        <catStat type="freq">227</catStat>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <catStat type="freq">116</catStat>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <catStat type="freq">105</catStat>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <catStat type="freq">82</catStat>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <catStat type="freq">74</catStat>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <catStat type="freq">90</catStat>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <catStat type="freq">58</catStat>
+      </catgry>
+      <catgry>
+        <catValu>26</catValu>
+        <catStat type="freq">34</catStat>
+      </catgry>
+    </var>
+	<var ID="V48" name="hid" files="F2" intrvl="discrete">
+    <varFormat type="character" schema="other"/>
+    <location width="11"/>
+    <labl>Household identifier</labl>
+    <qstn/>
+    <valrng>
+      <range/>
+    </valrng>
+    <sumStat type="vald">10003891</sumStat>
+    <catgry/>
+  </var>
+	<var ID="V49" name="idno" files="F2" intrvl="discrete">
+    <varFormat type="numeric" schema="other"/>
+    <location width="12"/>
+    <labl>Person identification number</labl>
+    <qstn>
+      <postQTxt>Sequential number within the household; start with the head</postQTxt>
+    </qstn>
+    <valrng>
+      <range/>
+    </valrng>
+    <sumStat type="vald">10003891</sumStat>
+    <sumStat type="min">1.0</sumStat>
+    <sumStat type="max">26.0</sumStat>
+    <catgry>
+      <catValu>1</catValu>
+    </catgry>
+    <catgry>
+      <catValu>2</catValu>
+    </catgry>
+    <catgry>
+      <catValu>3</catValu>
+    </catgry>
+    <catgry>
+      <catValu>4</catValu>
+    </catgry>
+    <catgry>
+      <catValu>5</catValu>
+    </catgry>
+    <catgry>
+      <catValu>6</catValu>
+    </catgry>
+    <catgry>
+      <catValu>7</catValu>
+    </catgry>
+    <catgry>
+      <catValu>8</catValu>
+    </catgry>
+    <catgry>
+      <catValu>9</catValu>
+    </catgry>
+    <catgry>
+      <catValu>10</catValu>
+    </catgry>
+    <catgry>
+      <catValu>11</catValu>
+    </catgry>
+    <catgry>
+      <catValu>12</catValu>
+    </catgry>
+    <catgry>
+      <catValu>13</catValu>
+    </catgry>
+    <catgry>
+      <catValu>14</catValu>
+    </catgry>
+    <catgry>
+      <catValu>15</catValu>
+    </catgry>
+    <catgry>
+      <catValu>16</catValu>
+    </catgry>
+    <catgry>
+      <catValu>17</catValu>
+    </catgry>
+    <catgry>
+      <catValu>18</catValu>
+    </catgry>
+    <catgry>
+      <catValu>19</catValu>
+    </catgry>
+    <catgry>
+      <catValu>20</catValu>
+    </catgry>
+    <catgry>
+      <catValu>21</catValu>
+    </catgry>
+    <catgry>
+      <catValu>22</catValu>
+    </catgry>
+    <catgry>
+      <catValu>23</catValu>
+    </catgry>
+    <catgry>
+      <catValu>24</catValu>
+    </catgry>
+    <catgry>
+      <catValu>25</catValu>
+    </catgry>
+    <catgry>
+      <catValu>26</catValu>
+    </catgry>
+  </var>
+	<var ID="V50" name="relation" files="F2" intrvl="discrete">
+    <varFormat type="numeric" schema="other"/>
+    <location width="14"/>
+    <labl>Relationship to the head of household</labl>
+    <qstn>
+      <qstnLit>What is the relationship of [name] to the head of household?</qstnLit>
+    </qstn>
+    <valrng>
+      <range/>
+    </valrng>
+    <sumStat type="vald">10003891</sumStat>
+    <sumStat type="min">1.0</sumStat>
+    <sumStat type="max">5.0</sumStat>
+    <catgry>
+      <catValu>1</catValu>
+      <labl>Head</labl>
+      <catStat type="freq">2501755</catStat>
+    </catgry>
+    <catgry>
+      <catValu>2</catValu>
+      <labl>Spouse/partner</labl>
+      <catStat type="freq">1769639</catStat>
+    </catgry>
+    <catgry>
+      <catValu>3</catValu>
+      <labl>Child</labl>
+      <catStat type="freq">4380468</catStat>
+    </catgry>
+    <catgry>
+      <catValu>4</catValu>
+      <labl>Other relative</labl>
+      <catStat type="freq">1249874</catStat>
+    </catgry>
+    <catgry>
+      <catValu>5</catValu>
+      <labl>Non-relative</labl>
+      <catStat type="freq">102155</catStat>
+    </catgry>
+  </var>
+	<var ID="V51" name="sex" files="F2" intrvl="discrete">
+    <varFormat type="numeric" schema="other"/>
+    <location width="12"/>
+    <labl>Sex</labl>
+    <qstn>
+      <qstnLit>Is [name] male or female?</qstnLit>
+    </qstn>
+    <valrng>
+      <range/>
+    </valrng>
+    <sumStat type="vald">10003891</sumStat>
+    <sumStat type="min">1.0</sumStat>
+    <sumStat type="max">2.0</sumStat>
+    <catgry>
+      <catValu>1</catValu>
+      <labl>Male</labl>
+      <catStat type="freq">4927032</catStat>
+    </catgry>
+    <catgry>
+      <catValu>2</catValu>
+      <labl>Female</labl>
+      <catStat type="freq">5076859</catStat>
+    </catgry>
+  </var>
+	<var ID="V52" name="age" files="F2" intrvl="contin">
+    <varFormat type="numeric" schema="other"/>
+    <location width="12"/>
+    <labl>Age in years</labl>
+    <qstn>
+      <qstnLit>How old is [name]? </qstnLit>
+      <postQTxt>Record in completed years.</postQTxt>
+    </qstn>
+    <valrng>
+      <range/>
+    </valrng>
+    <sumStat type="vald">10003891</sumStat>
+    <sumStat type="min">0.0</sumStat>
+    <sumStat type="max">100.0</sumStat>
+    <sumStat type="mean">27.601675288145383</sumStat>
+    <sumStat type="stdev">20.06088714245367</sumStat>
+    <catgry/>
+  </var>
+ 	<var ID="V54" name="marstat" files="F2" intrvl="discrete">
+      <varFormat type="numeric" schema="other"/>
+      <location width="20"/>
+      <labl>Marital status</labl>
+      <qstn>
+        <qstnLit>What is [name's] marital status?</qstnLit>
+      </qstn>
+      <valrng>
+        <range/>
+      </valrng>
+      <universe>For members aged 12 years and above:</universe>
+      <sumStat type="vald">10003891</sumStat>
+      <sumStat type="min">1.0</sumStat>
+      <sumStat type="max">4.0</sumStat>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Single/never married</labl>
+        <catStat type="freq">5161388</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Married/in union</labl>
+        <catStat type="freq">4165075</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Divorced/separated</labl>
+        <catStat type="freq">285481</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Widowed</labl>
+        <catStat type="freq">391947</catStat>
+      </catgry>
+    </var>
+    <var ID="V57" name="educ_attain" files="F2" intrvl="discrete">
+      <varFormat type="numeric" schema="other"/>
+      <location width="37"/>
+      <labl>Education attainment</labl>
+      <qstn>
+        <qstnLit>What is the highest level of school that [name] has completed?</qstnLit>
+      </qstn>
+      <valrng>
+        <range/>
+      </valrng>
+      <universe>For members aged 5 and above</universe>
+      <sumStat type="vald">10003891</sumStat>
+      <sumStat type="min">0.0</sumStat>
+      <sumStat type="max">4.0</sumStat>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU (not in universe) or no education</labl>
+        <catStat type="freq">859188</catStat>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Less than primary</labl>
+        <catStat type="freq">5552858</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Primary</labl>
+        <catStat type="freq">2271994</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Secondary</labl>
+        <catStat type="freq">1036700</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>University</labl>
+        <catStat type="freq">283151</catStat>
+      </catgry>
+    </var>
+    <var ID="V60" name="act_status" files="F2" intrvl="discrete">
+      <varFormat type="numeric" schema="other"/>
+      <location width="21"/>
+      <labl>Activity status</labl>
+      <qstn>
+        <qstnLit>What is [name's] status of activity?</qstnLit>
+      </qstn>
+      <valrng>
+        <range/>
+      </valrng>
+      <universe>For members aged 15 and above</universe>
+      <sumStat type="vald">10003891</sumStat>
+      <sumStat type="min">0.0</sumStat>
+      <sumStat type="max">3.0</sumStat>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU (not in universe)</labl>
+        <catStat type="freq">2229318</catStat>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Employed</labl>
+        <catStat type="freq">4062131</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Unemployed</labl>
+        <catStat type="freq">245271</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Inactive</labl>
+        <catStat type="freq">3467171</catStat>
+      </catgry>
+    </var>
+    <var ID="V61" name="labor_force" files="F2" intrvl="discrete">
+      <varFormat type="numeric" schema="other"/>
+      <location width="15"/>
+      <labl>Labor force status</labl>
+      <qstn>
+        <qstnLit>Is [name] in the labor force?</qstnLit>
+      </qstn>
+      <valrng>
+        <range/>
+      </valrng>
+      <universe>For members aged 15 and above</universe>
+      <sumStat type="vald">10003891</sumStat>
+      <sumStat type="min">0.0</sumStat>
+      <sumStat type="max">2.0</sumStat>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not in universe</labl>
+        <catStat type="freq">3235655</catStat>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq">4207777</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>No</labl>
+        <catStat type="freq">2560459</catStat>
+      </catgry>
+    </var>
+    <var ID="V62" name="occupation" files="F2" intrvl="discrete">
+      <varFormat type="numeric" schema="other"/>
+      <location width="39"/>
+      <labl>Main occupation</labl>
+      <qstn>
+        <qstnLit>What is/was [name's] main occupation?</qstnLit>
+        <postQTxt>Ask about current occupation if employed, otherwise about the last occupation.</postQTxt>
+      </qstn>
+      <valrng>
+        <range/>
+      </valrng>
+      <universe>For members aged 15 and above; If [name] is active:</universe>
+      <sumStat type="vald">10003891</sumStat>
+      <sumStat type="min">0.0</sumStat>
+      <sumStat type="max">11.0</sumStat>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>Not in universe</labl>
+        <catStat type="freq">6029430</catStat>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Legislators, senior officials and manag</labl>
+        <catStat type="freq">93335</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Professionals</labl>
+        <catStat type="freq">242930</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Technicians and associate professionals</labl>
+        <catStat type="freq">187585</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Clerks</labl>
+        <catStat type="freq">181551</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Service workers and shop and market sal</labl>
+        <catStat type="freq">597206</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Skilled agricultural and fishery worker</labl>
+        <catStat type="freq">1297596</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Crafts and related trades workers</labl>
+        <catStat type="freq">578588</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Plant and machine operators and assembl</labl>
+        <catStat type="freq">236179</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Elementary occupations</labl>
+        <catStat type="freq">527930</catStat>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Armed forces</labl>
+        <catStat type="freq">10910</catStat>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Other occupations, unspecified or n.e.c</labl>
+        <catStat type="freq">20651</catStat>
+      </catgry>
+    </var>
+    <var ID="V63" name="industry" files="F2" intrvl="discrete">
+      <varFormat type="numeric" schema="other"/>
+      <location width="39"/>
+      <labl>Industry of main occupation</labl>
+      <qstn>
+        <qstnLit>In what industry is/was [name's] main occupation?</qstnLit>
+        <postQTxt>Ask about current occupation if employed, otherwise about the last occupation.</postQTxt>
+      </qstn>
+      <valrng>
+        <range/>
+      </valrng>
+      <universe>For members aged 15 and above; If [name] is active:</universe>
+      <sumStat type="vald">10003891</sumStat>
+      <sumStat type="min">0.0</sumStat>
+      <sumStat type="max">16.0</sumStat>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU (not in universe)</labl>
+        <catStat type="freq">6062456</catStat>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Agriculture, fishing, and forestry</labl>
+        <catStat type="freq">1439272</catStat>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Mining and extraction</labl>
+        <catStat type="freq">32993</catStat>
+      </catgry>
+      <catgry>
+        <catValu>3</catValu>
+        <labl>Manufacturing</labl>
+        <catStat type="freq">407343</catStat>
+      </catgry>
+      <catgry>
+        <catValu>4</catValu>
+        <labl>Electricity, gas, water and waste manag</labl>
+        <catStat type="freq">20389</catStat>
+      </catgry>
+      <catgry>
+        <catValu>5</catValu>
+        <labl>Construction</labl>
+        <catStat type="freq">290193</catStat>
+      </catgry>
+      <catgry>
+        <catValu>6</catValu>
+        <labl>Wholesale and retail trade</labl>
+        <catStat type="freq">509861</catStat>
+      </catgry>
+      <catgry>
+        <catValu>7</catValu>
+        <labl>Hotels and restaurants</labl>
+        <catStat type="freq">140116</catStat>
+      </catgry>
+      <catgry>
+        <catValu>8</catValu>
+        <labl>Transportation, storage, and communicat</labl>
+        <catStat type="freq">173811</catStat>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>Financial services and insurance</labl>
+        <catStat type="freq">40573</catStat>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Public administration and defense</labl>
+        <catStat type="freq">116242</catStat>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Business services and real estate</labl>
+        <catStat type="freq">177665</catStat>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Education</labl>
+        <catStat type="freq">191024</catStat>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Health and social work</labl>
+        <catStat type="freq">85617</catStat>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>Other services</labl>
+        <catStat type="freq">131048</catStat>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>Private household services</labl>
+        <catStat type="freq">185278</catStat>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>Other industry, n.e.c.</labl>
+        <catStat type="freq">10</catStat>
+      </catgry>
+    </var>
+    <var ID="V64" name="migrate_recent" files="F2" intrvl="discrete">
+      <varFormat type="numeric" schema="other"/>
+      <location width="39"/>
+      <labl>Recent migration</labl>
+      <qstn>
+        <qstnLit>Has [name] migrated from another district, province, or country in the past 12 months?</qstnLit>
+      </qstn>
+      <valrng>
+        <range/>
+      </valrng>
+      <sumStat type="vald">10003891</sumStat>
+      <sumStat type="min">0.0</sumStat>
+      <sumStat type="max">99.0</sumStat>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>NIU (not in universe)</labl>
+        <catStat type="freq">640647</catStat>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Same major administrative unit</labl>
+        <catStat type="freq">918359</catStat>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>Same major, same minor administrative u</labl>
+        <catStat type="freq">1766954</catStat>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Same major, different minor administrat</labl>
+        <catStat type="freq">1251476</catStat>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Different major administrative unit</labl>
+        <catStat type="freq">2550663</catStat>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>Abroad</labl>
+        <catStat type="freq">928175</catStat>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>Unknown/missing</labl>
+        <catStat type="freq">1947617</catStat>
+      </catgry>
+    </var>
+    <var ID="V65" name="disability" files="F2" intrvl="discrete">
+      <varFormat type="numeric" schema="other"/>
+      <location width="14"/>
+      <labl>Has a disability</labl>
+      <qstn>
+        <qstnLit>Does [name] have a disability?</qstnLit>
+      </qstn>
+      <valrng>
+        <range/>
+      </valrng>
+      <sumStat type="vald">10003891</sumStat>
+      <sumStat type="min">0.0</sumStat>
+      <sumStat type="max">1.0</sumStat>
+      <catgry>
+        <catValu>0</catValu>
+        <labl>No disability</labl>
+        <catStat type="freq">9612806</catStat>
+      </catgry>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Has disability</labl>
+        <catStat type="freq">391085</catStat>
+      </catgry>
+    </var>
+  </dataDscr>
+</codeBook>

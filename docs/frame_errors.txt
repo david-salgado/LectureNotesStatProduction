@@ -1,0 +1,5 @@
+1. Duplicates
+2. Overcoverage
+3. Undercoverage
+4. Misclassification errors
+5. Measurement errors

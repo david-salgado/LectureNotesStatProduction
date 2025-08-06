@@ -191,7 +191,7 @@
       </fileStrc>
       <dimensns source="user">
 		<caseQnty source="producer">2501755</caseQnty>
-        <varQnty source="user">5</varQnty>
+        <varQnty source="user">6</varQnty>
       </dimensns>
  	  <dataChck source="producer">Not applicable. Synthetic data validated using internal consistency rules during generation.</dataChck>
       <dataMsng source="producer">No missing data. All fields are synthetically generated and complete (perfect frame with no non-sampling error).</dataMsng>
@@ -650,17 +650,133 @@
         <catStat type="freq">1378610</catStat>
       </catgry>
     </var>
-    <var ID="V48" name="hid" files="F2" intrvl="discrete">
-    <varFormat type="character" schema="other"/>
-    <location width="11"/>
-    <labl>Household identifier</labl>
-    <qstn/>
-    <valrng>
-      <range/>
-    </valrng>
-    <sumStat type="vald">10003891</sumStat>
-    <catgry/>
-  </var>
+    <var ID="V6" name="hhsize" files="F1" intrvl="discrete">
+	  <varFormat type="numeric" schema="other"/>
+	  <location width="12"/>
+	  <labl>Household size</labl>
+	  <qstn/>
+	  <valrng>
+		<range/>
+	  </valrng>
+	  <sumStat type="vald">2501755</sumStat>
+	  <sumStat type="min">1.0</sumStat>
+	  <sumStat type="max">26.0</sumStat>
+	  <catgry>
+		<catValu>1</catValu>
+		<catStat type="freq">243612</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>2</catValu>
+		<catStat type="freq">370276</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>3</catValu>
+		<catStat type="freq">485958</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>4</catValu>
+		<catStat type="freq">541695</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>5</catValu>
+		<catStat type="freq">384777</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>6</catValu>
+		<catStat type="freq">201054</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>7</catValu>
+		<catStat type="freq">117019</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>8</catValu>
+		<catStat type="freq">78155</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>9</catValu>
+		<catStat type="freq">35347</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>10</catValu>
+		<catStat type="freq">20662</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>11</catValu>
+		<catStat type="freq">9234</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>12</catValu>
+		<catStat type="freq">5092</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>13</catValu>
+		<catStat type="freq">2889</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>14</catValu>
+		<catStat type="freq">2399</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>15</catValu>
+		<catStat type="freq">1052</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>16</catValu>
+		<catStat type="freq">815</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>17</catValu>
+		<catStat type="freq">525</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>18</catValu>
+		<catStat type="freq">408</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>19</catValu>
+		<catStat type="freq">227</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>20</catValu>
+		<catStat type="freq">116</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>21</catValu>
+		<catStat type="freq">105</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>22</catValu>
+		<catStat type="freq">82</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>23</catValu>
+		<catStat type="freq">74</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>24</catValu>
+		<catStat type="freq">90</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>25</catValu>
+		<catStat type="freq">58</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>26</catValu>
+		<catStat type="freq">34</catStat>
+	  </catgry>
+</var>
+	<var ID="V48" name="hid" files="F2" intrvl="discrete">
+		<varFormat type="character" schema="other"/>
+		<location width="11"/>
+		<labl>Household identifier</labl>
+		<qstn/>
+		<valrng>
+		  <range/>
+		</valrng>
+		<sumStat type="vald">10003891</sumStat>
+		<catgry/>
+	</var>
 	<var ID="V49" name="idno" files="F2" intrvl="discrete">
     <varFormat type="numeric" schema="other"/>
     <location width="12"/>

@@ -1,8 +1,20 @@
 # Load packages ####
+library(here)
 library(data.table)
+
+
+# Set relative paths ####
+path_project <- here()
+path_src     <- file.path(path_project, 'src')
+
+
+# Load src functions ####
+source(file.path(path_src, "illustrate_sampling_properties.R"))
 
 # Set parameters ####
 N <- 3
+samples_prob <- c(1/7, 1/14, 1/14, 3/14, 4/14, 1/7, 1/14)
+
 n_iter <- 10000
 
 # Sample representation ####
@@ -17,74 +29,42 @@ s_set <- which(s_vector == 1)
 
 # Sampling design ####
 ## Possible samples ####
-samples_possible <- as.matrix(
-  expand.grid(
-    lapply(1:N, function(i) c(0,1))
-  )
-)
-colnames(samples_possible) <- paste0('u', 1:N)
-samples_possible <- samples_possible[-1, ] # We remove the empty sample
-rownames(samples_possible) <- paste0("sample_", 1:nrow(samples_possible))
+(samples_possible <- generate_all_possible_samples(N))
 
 ## Sampling design ####
-samples_prob <- c(1/7, 1/14, 1/14, 3/14, 4/14, 1/7, 1/14)
-names(samples_prob) <- rownames(samples_possible)
-all(samples_prob >= 0)            # check nonnegative probabilities
-abs(sum(samples_prob) - 1) < 1e-9 # check sum all probabilities
+(samples_prob <- define_sampling_design(samples_possible, samples_prob))
 
 ## Sample selection ####
 # We select n_iter samples to illustrate empirically the statistical properties
-sample_indicator <- sample(1:nrow(samples_possible), size = n_iter, replace = TRUE, prob = samples_prob)
-samples_iter <- Reduce(rbind, lapply(sample_indicator, function(i){t(samples_possible[i,])}))
-
+(sample_iter <- simulate_sample_selection(samples_possible, samples_prob, n_iter) )
 
 # Inclusion probabilities ####
-## First order ##
-pik_theoretical <- sapply(1:N, function(i){sum(samples_possible[, i] * samples_prob)})
-pik_empirical <- colMeans(samples_iter)
+(inclusion_probs <- calculate_inclusion_probabilities(samples_possible, samples_prob, samples_iter, N))
 
-## Second order ##
-unit_pairs.dt <- as.data.table(expand.grid(k = 1:N, l = 1:N))[
-  k < l][
-  , pikl := sum(samples_possible[, k] * samples_possible[, l] * samples_prob), by = c('k','l')]
-pikl_theoretical <- matrix(numeric(N^2), nrow = N)
-for (kidx in 1:N){
-  for (lidx in 1:N){
-    if (kidx > lidx) { pikl_theoretical[kidx, lidx] <- pikl_theoretical[lidx, kidx] } else {
-        
-      pikl_theoretical[kidx, lidx] <- ifelse(kidx == lidx, pik_theoretical[kidx], unit_pairs.dt[k == kidx & l== lidx, pikl])
-    }
-  }
-}
-
-pikl_empirical  <- matrix(numeric(N^2), nrow = N)
-for (k in 1:N){
-  for (l in 1:N){
-    if (k > l) pikl_empirical[k, l] <- pikl_empirical[l, k]
-    pikl_empirical[k, l] <- ifelse(k == l, pik_empirical[k], sum(samples_iter[, k] * samples_iter[, l]) / n_iter)
-  }
-}
 
 # Sampling size ####
-samples_size <- rowSums(samples_possible)
+(samples_size <- rowSums(samples_possible))
 
 # Statistical properties ####
+(sample_size_properties <- analyze_sample_size_properties(samples_possible, samples_prob, samples_iter, inclusion_probs))
+
 ## Mean value of sample size: theoretical and empirical ####
-sample_size_mean_theoretical <- sum(samples_size * samples_prob)
-sample_size_mean_empirical <- mean(apply(samples_iter, 1, sum))
-c(sample_size_mean_empirical, sum(pik_empirical))
-c(sample_size_mean_theoretical, sum(pik_theoretical))
+c(sample_size_properties$size_mean['empirical'], formula = sum(pik_empirical))
+c(sample_size_properties$size_mean['theoretical'], formula = sum(pik_theoretical))
 
 ## Variance of sample size: theoretical and empirical ####
-sample_size_var_theoretical <- sum(samples_prob * (samples_size - sample_size_mean_theoretical)^2)  
-sample_size_var_empirical <- (n_iter - 1 ) / n_iter * var(apply(samples_iter, 1, sum))
-Deltakl_theoretical <- pikl_theoretical - pik_theoretical %*% t(pik_theoretical)
-c(sample_size_var_theoretical, sum(Deltakl_theoretical))
-Deltakl_empirical <- pikl_empirical - pik_empirical %*% t(pik_empirical)
-c(sample_size_var_empirical, sum(Deltakl_empirical))
+c(sample_size_properties$size_variance['theoretical'], formula = sum(sample_size_properties$Deltakl$theoretical))
 
+c(sample_size_properties$size_variance['empirical'], formula = sum(sample_size_properties$Deltakl$empirical))
 
+## Different number of iterations ####
+analysis.lst <- list()
+for (iter in c(1e2, 1e3, 1e4, 1e5, 1e6)){
 
+  cat("iter= ", iter, "...")
+  analysis.lst[[as.character(iter)]] <- run_sampling_analysis(3, iter, probs = samples_prob)
+  cat(" ok.\n")
+}
 
 
 

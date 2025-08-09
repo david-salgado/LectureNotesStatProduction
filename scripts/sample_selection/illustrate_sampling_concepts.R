@@ -1,3 +1,9 @@
+#::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::#
+#                                                                              #
+# This script illustrates the core concepts of sampling designs to a toy       #
+# finite population of N=3 units.                                              #
+#                                                                              #
+#::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::#
 # Load packages ####
 library(here)
 library(data.table)
@@ -58,13 +64,41 @@ c(sample_size_properties$size_variance['theoretical'], formula = sum(sample_size
 c(sample_size_properties$size_variance['empirical'], formula = sum(sample_size_properties$Deltakl$empirical))
 
 ## Different number of iterations ####
+n_iters <- c(1e2, 1e3, 1e4, 1e5, 1e6)
 analysis.lst <- list()
-for (iter in c(1e2, 1e3, 1e4, 1e5, 1e6)){
+for (iter in n_iters){
 
   cat("iter= ", iter, "...")
   analysis.lst[[as.character(iter)]] <- run_sampling_analysis(3, iter, probs = samples_prob)
   cat(" ok.\n")
 }
 
+## Convergence of empirical first-order inclusion probabilities ####
+pik_emp.mat <- Reduce(rbind, lapply(analysis.lst, function(lst){
+  lst[['inclusion_probabilities']][["pik_empirical"]]}))
+rownames(pik_emp.mat) <- n_iters
+pik_emp.dt <- rbindlist(lapply(1:N, function(i){
+  
+  data.table(n_iter = n_iters, unit = as.character(i), pik_emp = pik_emp.mat[, i])
+  
+}))
 
+pik_theor.mat <- Reduce(rbind, lapply(analysis.lst, function(lst){
+  lst[['inclusion_probabilities']][["pik_theoretical"]]}))
+rownames(pik_theor.mat) <- n_iters
+pik_theor.dt <- rbindlist(lapply(1:N, function(i){
+  
+  data.table(n_iter = n_iters, unit = as.character(i), pik_theor = pik_theor.mat[, i])
 
+}))
+
+pik.dt <- merge(pik_theor.dt, pik_emp.dt, by = c('n_iter', 'unit'), all = TRUE)
+pik.dt <- melt(pik.dt, id.vars = c('n_iter', 'unit'))
+
+ggplot(pik.dt, aes(x= log10(n_iter), y = value, colour = variable)) +
+  geom_point(size = 3) +
+  geom_line(size = 2) +
+  facet_grid(unit ~ ., scales = "free") +
+  labs(x= "Number of selected samples (log10)", y= "Value\n", title= "Convergence of empirical first-order inclusion probabilities") +
+  theme_bw() +
+  theme(plot.title = element_text(size= 14, hjust = 0.5))

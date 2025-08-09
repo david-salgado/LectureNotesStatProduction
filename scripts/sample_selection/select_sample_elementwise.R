@@ -67,6 +67,19 @@ diff_rel_household_poisson_urbrur_fn <- 'diff_rel_household_poisson_urbrur.csv'
 diff_rel_household_poisson_urbrur_fn <- file.path(
   path_samples, diff_rel_household_poisson_urbrur_fn)
 
+diff_rel_household_ppswor_geo1_fn <- 'diff_rel_household_ppswor_geo1.csv'
+diff_rel_household_ppswor_geo1_fn <- file.path(
+  path_samples, diff_rel_household_ppswor_geo1_fn)
+
+diff_rel_household_ppswor_geo2_fn <- 'diff_rel_household_ppswor_geo2.csv'
+diff_rel_household_ppswor_geo2_fn <- file.path(
+  path_samples, diff_rel_household_ppswor_geo2_fn)
+
+diff_rel_household_ppswor_urbrur_fn <- 'diff_rel_household_ppswor_urbrur.csv'
+diff_rel_household_ppswor_urbrur_fn <- file.path(
+  path_samples, diff_rel_household_ppswor_urbrur_fn)
+
+
 # Read household frame ####
 frame_household_perfect.dt <- fread(
   frame_household_perfect_fn, sep = ";", 
@@ -458,7 +471,7 @@ diff_rel_household_poisson_geo1.dt <- calculate_relative_diff(
   n_values = n_household,
   num_samples = num_samples,
   freq_frame_data = total_household_geo1.dt,
-  pik = frame_household_perfect.dt$hhsize)
+  sampling_method_param = list(pik = frame_household_perfect.dt$hhsize))
 
 fwrite(
   diff_rel_household_poisson_geo1.dt, 
@@ -483,7 +496,7 @@ diff_rel_household_poisson_geo2.dt <- calculate_relative_diff(
   n_values = n_household,
   num_samples = num_samples,
   freq_frame_data = total_household_geo2.dt,
-  pik = frame_household_perfect.dt$hhsize)
+  sampling_method_param = list(pik = frame_household_perfect.dt$hhsize))
 
 fwrite(
   diff_rel_household_poisson_geo2.dt, 
@@ -611,7 +624,7 @@ diff_rel_household_poisson_urbrur.dt <- calculate_relative_diff(
   n_values = n_household,
   num_samples = num_samples,
   freq_frame_data = total_household_urbrur.dt,
-  pik = frame_household_perfect.dt$hhsize))
+  sampling_method_param = list(pik = frame_household_perfect.dt$hhsize))
 
 fwrite(
   diff_rel_household_poisson_urbrur.dt, 
@@ -628,4 +641,27 @@ plot_raincloud_relative_diff_popFraction(
   facet_formula = "n ~ ."
 )
 
-## stsrswor ####
+## pps ####
+diff_rel_household_ppswor_geo1.dt <- calculate_relative_diff(
+  variable = "geo1",
+  sampling_method = "ppswor",
+  frame_data = frame_household_perfect.dt,
+  n_values = n_household,
+  num_samples = num_samples,
+  freq_frame_data = total_household_geo1.dt,
+  sampling_method_param = list(size = c('hhsize')))
+
+fwrite(
+  diff_rel_household_ppswor_geo1.dt, 
+  file = diff_rel_household_ppswor_geo1_fn,
+  sep = ";")
+
+plot_raincloud_relative_diff_popFraction(
+  data = diff_rel_household_ppswor_geo1.dt,
+  x = "geo1", y = "diff_rel",
+  xlab = "Categories of variable urbrur",
+  ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
+  title = "Distribution of selected units across categories of variable geo1",
+  subtitle = "ppswor sampling",
+  facet_formula = "n ~ ."
+)

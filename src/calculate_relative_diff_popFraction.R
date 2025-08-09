@@ -6,7 +6,7 @@
 #' @param n_values Vector of sample sizes to evaluate
 #' @param num_samples Number of samples to draw for each sample size
 #' @param freq_frame_data data.table containing frame frequencies by variable
-#' @param pik Inclusion or selection probabilities for the sampling method
+#' @param sampling_method_param List with the parameters of the sampling method
 #'
 #' @return A data.table with relative differences between sample and frame proportions
 #' @export
@@ -24,7 +24,7 @@
 #' }
 calculate_relative_diff <- function(variable, sampling_method, 
                                     frame_data, n_values, 
-                                    num_samples, freq_frame_data, pik) {
+                                    num_samples, freq_frame_data, sampling_method_param) {
   
   # Validate inputs
   stopifnot(
@@ -62,14 +62,26 @@ calculate_relative_diff <- function(variable, sampling_method,
     for (i in 1:num_samples) {
       # Apply sampling method
       if (sampling_method == "syswor") {
+        
         pik <- rep(n / N, times = N)
         frame_data[, s := sampling::UPsystematic(pik)]
+        
       } else if (sampling_method == "srswor") {
+        
         frame_data[, s := sampling::srswor(n, N)]
+        
       } else if (sampling_method == "poisson") {
-        pik <- pik
+        
+        pik <- sampling_method_param[['pik']]
         frame_data[, s:= sampling::UPpoisson(pik)] 
-      } # Add other methods as needed
+        
+      } else if (sampling_method == 'ppswor') {
+        
+        size <- frame_data[[sampling_method_param[['size']]]]
+        pik <- inclusionprobabilities(size, n)
+        frame_data[, s:= sampling::UPrandompivotal(pik)]
+        
+      }# Add other methods as needed
       
       # Calculate sample totals by variable
       sample_totals <- frame_data[

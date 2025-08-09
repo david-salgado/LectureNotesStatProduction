@@ -1417,6 +1417,56 @@
       <catStat type="freq">90550</catStat>
     </catgry>
   </var>
+  <var ID="V19" name="phone" files="F1" intrvl="discrete">
+	  <varFormat type="numeric" schema="other"/>
+	  <location width="12"/>
+	  <labl>Ownership of a phone (landline)</labl>
+	  <qstn>
+		<qstnLit>Does the household or any of its members own: a phone (landline)</qstnLit>
+		<postQTxt>(Only record "Yes" when the item is working; do not include assets owned by a household enterprise)</postQTxt>
+	  </qstn>
+	  <valrng>
+		<range/>
+	  </valrng>
+	  <sumStat type="vald">2501755</sumStat>
+	  <sumStat type="min">0.0</sumStat>
+	  <sumStat type="max">1.0</sumStat>
+	  <catgry>
+		<catValu>0</catValu>
+		<labl>No</labl>
+		<catStat type="freq">2006742</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>1</catValu>
+		<labl>Yes</labl>
+		<catStat type="freq">495013</catStat>
+	  </catgry>
+  </var>
+  <var ID="V20" name="cell" files="F1" intrvl="discrete">
+	  <varFormat type="numeric" schema="other"/>
+	  <location width="12"/>
+	  <labl>Ownership of a cellphone</labl>
+	  <qstn>
+		<qstnLit>Does the household or any of its members own: a cellphone</qstnLit>
+		<postQTxt>(Only record "Yes" when the item is working; do not include assets owned by a household enterprise)</postQTxt>
+	  </qstn>
+	  <valrng>
+		<range/>
+	  </valrng>
+	  <sumStat type="vald">2501755</sumStat>
+	  <sumStat type="min">0.0</sumStat>
+	  <sumStat type="max">1.0</sumStat>
+	  <catgry>
+		<catValu>0</catValu>
+		<labl>No</labl>
+		<catStat type="freq">981080</catStat>
+	  </catgry>
+	  <catgry>
+		<catValu>1</catValu>
+		<labl>Yes</labl>
+		<catStat type="freq">1520675</catStat>
+	  </catgry>
+   </var>
   <var ID="V21" name="car" files="F1" intrvl="discrete">
     <varFormat type="numeric" schema="other"/>
     <location width="12"/>

@@ -29,6 +29,12 @@ data_HBS_individual_grTruth_fn  <- 'data_HBS2023_individual_grTruth.csv'
 data_HBS_individual_grTruth_fn  <- file.path(
   path_HBS_grTruth, data_HBS_individual_grTruth_fn)
 
+microdata_HBS_household_sample_fn <- "microdata_HBS_household_sample.csv"
+microdata_HBS_household_sample_fn <- file.path(path_samples, microdata_HBS_household_sample_fn)
+
+microdata_HBS_individual_sample_fn <- "microdata_HBS_individual_sample.csv"
+microdata_HBS_individual_sample_fn <- file.path(path_samples, microdata_HBS_individual_sample_fn)
+
 microdata_HBS_household_raw_fn <- "microdata_HBS_household_raw.csv"
 microdata_HBS_household_raw_fn <- file.path(path_samples, microdata_HBS_household_raw_fn)
 
@@ -201,6 +207,15 @@ microdata_HBS_household_sample.dt <- microdata_HBS_household_sample.dt[
 
 microdata_HBS_individual_sample.dt <- microdata_HBS_individual_grTruth.dt[
   hid %chin% microdata_HBS_household_sample.dt$hid]
+
+fwrite(microdata_HBS_household_sample.dt, 
+       microdata_HBS_household_sample_fn,
+       sep = ";")
+
+fwrite(microdata_HBS_individual_sample.dt, 
+       microdata_HBS_individual_sample_fn,
+       sep = ";")
+
 
 # Generate missing values - partial nonresponse ####
 ## Household ####

@@ -14,7 +14,7 @@ library(skimr)
 # Set relative paths ####
 path_project <- here()
 path_HBS_grTruth <- file.path(path_project, 'data', 'HBS', 'ground_truth')
-path_samples <- file.path(path_project, 'data', 'samples')
+path_HBS_samples <- file.path(path_project, 'data', 'HBS', 'samples')
 path_src <- file.path(path_project, 'src')
 
 # Load src functions ####
@@ -30,16 +30,16 @@ data_HBS_individual_grTruth_fn  <- file.path(
   path_HBS_grTruth, data_HBS_individual_grTruth_fn)
 
 microdata_HBS_household_sample_fn <- "microdata_HBS_household_sample.csv"
-microdata_HBS_household_sample_fn <- file.path(path_samples, microdata_HBS_household_sample_fn)
+microdata_HBS_household_sample_fn <- file.path(path_HBS_samples, microdata_HBS_household_sample_fn)
 
 microdata_HBS_individual_sample_fn <- "microdata_HBS_individual_sample.csv"
-microdata_HBS_individual_sample_fn <- file.path(path_samples, microdata_HBS_individual_sample_fn)
+microdata_HBS_individual_sample_fn <- file.path(path_HBS_samples, microdata_HBS_individual_sample_fn)
 
 microdata_HBS_household_raw_fn <- "microdata_HBS_household_raw.csv"
-microdata_HBS_household_raw_fn <- file.path(path_samples, microdata_HBS_household_raw_fn)
+microdata_HBS_household_raw_fn <- file.path(path_HBS_samples, microdata_HBS_household_raw_fn)
 
 microdata_HBS_individual_raw_fn <- "microdata_HBS_individual_raw.csv"
-microdata_HBS_individual_raw_fn <- file.path(path_samples, microdata_HBS_individual_raw_fn)
+microdata_HBS_individual_raw_fn <- file.path(path_HBS_samples, microdata_HBS_individual_raw_fn)
 
 
 # Set parameters ####

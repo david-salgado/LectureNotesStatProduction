@@ -13,40 +13,29 @@ library(skimr)
 
 # Set relative paths ####
 path_project <- here()
-path_HBS_grTruth <- file.path(path_project, 'data', 'HBS', 'ground_truth')
-path_HBS_samples <- file.path(path_project, 'data', 'HBS', 'samples')
+path_HBS_samples <- file.path(path_project, 'data', 'sample_selection', 'HBS')
 path_src <- file.path(path_project, 'src')
 
 # Load src functions ####
 source(file.path(path_src, "generate_missing_values.R"))
 
 # Set absolute filenames ####
-data_HBS_household_grTruth_fn  <- 'data_HBS2023_household_grTruth.csv'
-data_HBS_household_grTruth_fn  <- file.path(
-  path_HBS_grTruth, data_HBS_household_grTruth_fn)
+microdata_HBS_household_sample_fn  <- 'microdata_HBS_household_sample.csv'
+microdata_HBS_household_sample_fn  <- file.path(
+  path_HBS_samples, microdata_HBS_household_sample_fn)
 
-data_HBS_individual_grTruth_fn  <- 'data_HBS2023_individual_grTruth.csv'
-data_HBS_individual_grTruth_fn  <- file.path(
-  path_HBS_grTruth, data_HBS_individual_grTruth_fn)
+microdata_HBS_individual_sample_fn  <- 'microdata_HBS_individual_sample.csv'
+microdata_HBS_individual_sample_fn  <- file.path(
+  path_HBS_samples, microdata_HBS_individual_sample_fn)
 
-microdata_HBS_household_sample_fn <- "microdata_HBS_household_sample.csv"
-microdata_HBS_household_sample_fn <- file.path(path_HBS_samples, microdata_HBS_household_sample_fn)
-
-microdata_HBS_individual_sample_fn <- "microdata_HBS_individual_sample.csv"
-microdata_HBS_individual_sample_fn <- file.path(path_HBS_samples, microdata_HBS_individual_sample_fn)
-
-microdata_HBS_household_raw_fn <- "microdata_HBS_household_raw.csv"
+microdata_HBS_household_raw_fn <- "microdata_HBS_household_raw_nonResp.csv"
 microdata_HBS_household_raw_fn <- file.path(path_HBS_samples, microdata_HBS_household_raw_fn)
 
-microdata_HBS_individual_raw_fn <- "microdata_HBS_individual_raw.csv"
+microdata_HBS_individual_raw_fn <- "microdata_HBS_individual_raw_nonResp.csv"
 microdata_HBS_individual_raw_fn <- file.path(path_HBS_samples, microdata_HBS_individual_raw_fn)
 
 
 # Set parameters ####
-## Sampling fractions ####
-sampling_fraction_district <- 12/61 # At least one district (total 61) per province (geo1 10) + 2 of margin
-sampling_fraction_houselhold <- 0.01 # Same for all districts
-
 ## Household variables ####
 frame_vars_household      <- c("hid", "geo1", "geo2", "ea", "urbrur", "hhsize")
 target_vars_household.lst <- list(
@@ -146,76 +135,18 @@ total_MAR_mechanism_args_individual <- list(
   classification = TRUE
 )
 
-# Read HBS ground truth data at household level ####
-## Household ####
-microdata_HBS_household_grTruth.dt <- fread(
-  data_HBS_household_grTruth_fn, sep = ";")[
-  , c(frame_vars_household, unlist(target_vars_household.lst)), with = FALSE]
+# Read HBS sample ####
+microdata_HBS_household_sample.dt <- fread(
+  microdata_HBS_household_sample_fn,
+  sep = ";",
+  colClasses = vars_classes_household
+)
 
-for (i in seq_along(vars_classes_household)) {
-  col <- names(microdata_HBS_household_grTruth.dt)[i]
-  clase <- vars_classes_household[i]
-  set(microdata_HBS_household_grTruth.dt, j = col, value = match.fun(paste0("as.", clase))(microdata_HBS_household_grTruth.dt[[col]]))
-}
-
-## Individual ####
-microdata_HBS_individual_grTruth.dt <- fread(
-  data_HBS_individual_grTruth_fn, sep = ";")[
-  , c(frame_vars_individual, unlist(target_vars_individual.lst)), with = FALSE]
-
-for (i in seq_along(vars_classes_individual)) {
-  col <- names(microdata_HBS_individual_grTruth.dt)[i]
-  clase <- vars_classes_individual[i]
-  set(microdata_HBS_individual_grTruth.dt, j = col, value = match.fun(paste0("as.", clase))(microdata_HBS_individual_grTruth.dt[[col]]))
-}
-
-# Calculate household first-order inclusion probabilities ####
-NI <- length(unique(microdata_HBS_household_grTruth.dt$geo2))
-nI <- round(sampling_fraction_district * NI)
-microdata_HBS_household_grTruth.dt[
-  , NIi := .N, by = "geo2"]
-
-microdata_HBS_district.dt <- microdata_HBS_household_grTruth.dt[
-  , c("geo2", "NIi"), with = FALSE]
-
-microdata_HBS_district.dt <- microdata_HBS_district.dt[
-  !duplicated(microdata_HBS_district.dt, by = 'geo2')][
-  , piIi := inclusionprobabilities(NIi, nI)]
-
-microdata_HBS_household_sample.dt <- microdata_HBS_household_grTruth.dt[
-  microdata_HBS_district.dt, on = c('geo2', 'NIi')]
-
-# Select district and household samples ####
-microdata_HBS_district_sample.dt <- microdata_HBS_district.dt[
-  , sI := UPrandompivotal(piIi)][
-  sI == 1]
-
-microdata_HBS_household_sample.dt <- microdata_HBS_household_sample.dt[
-  microdata_HBS_district_sample.dt, on = c('geo2', 'NIi', 'piIi')][
-  , nII := round(sampling_fraction_houselhold * NIi)]
-
-microdata_HBS_district_sample.dt <- microdata_HBS_household_sample.dt[
-  , c('geo2', 'nII', 'NIi'), with = FALSE]
-microdata_HBS_district_sample.dt <- microdata_HBS_district_sample.dt[
-  !duplicated(microdata_HBS_district_sample.dt, by = 'geo2')]
-
-district_sample.dt <- microdata_HBS_district_sample.dt[
-  , .(sII = srswor(nII, NIi)), by = "geo2"]
-microdata_HBS_household_sample.dt <- microdata_HBS_household_sample.dt[
-  , sII := district_sample.dt$sII][
-  sII == 1]
-
-microdata_HBS_individual_sample.dt <- microdata_HBS_individual_grTruth.dt[
-  hid %chin% microdata_HBS_household_sample.dt$hid]
-
-fwrite(microdata_HBS_household_sample.dt, 
-       microdata_HBS_household_sample_fn,
-       sep = ";")
-
-fwrite(microdata_HBS_individual_sample.dt, 
-       microdata_HBS_individual_sample_fn,
-       sep = ";")
-
+microdata_HBS_individual_sample.dt <- fread(
+  microdata_HBS_individual_sample_fn,
+  sep = ";",
+  colClasses = vars_classes_individual
+)
 
 # Generate missing values - partial nonresponse ####
 ## Household ####

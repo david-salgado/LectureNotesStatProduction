@@ -10,7 +10,6 @@ library(openxlsx)
 path_project  <- here()
 path_metadata <- file.path(path_project, 'metadata')
 path_metadata_orig <- file.path(path_project, 'metadata', 'original')
-path_metadata_LFS <- file.path(path_project, 'metadata', 'LFS')
 
 # Explore metadata (JSON) ####
 metadata_json <- fromJSON(file.path(path_metadata_orig, "WLD_2023_SYNTH-CEN-EN_v01_M.json"))
@@ -102,6 +101,7 @@ variables.dt <- data.table(
   file = character(length(variables))
 )
 for(i in seq_along(variables)) {
+
   var_id <- xml_attr(variables[i], "ID")
   var_name <- xml_attr(variables[i], "name")
   var_label <- xml_text(xml_find_first(variables[i], "./labl"))

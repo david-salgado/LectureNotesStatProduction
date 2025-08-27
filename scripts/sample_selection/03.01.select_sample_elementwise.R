@@ -31,53 +31,53 @@ frame_household_perfect_fn  <- file.path(path_frames, frame_household_perfect_fn
 frame_individual_perfect_fn  <- 'data_frame2023_individual_perfect.csv'
 frame_individual_perfect_fn  <- file.path(path_frames, frame_individual_perfect_fn)
 
-diff_rel_household_srswor_geo1_fn <- 'diff_rel_household_srswor_geo1.csv'
-diff_rel_household_srswor_geo1_fn <- file.path(
-  path_samples, diff_rel_household_srswor_geo1_fn)
+samples_diff_rel_household_srswor_geo1_fn <- 'samples_diff_rel_household_srswor_geo1.csv'
+samples_diff_rel_household_srswor_geo1_fn <- file.path(
+  path_samples, samples_diff_rel_household_srswor_geo1_fn)
 
-diff_rel_household_srswor_geo2_fn <- 'diff_rel_household_srswor_geo2.csv'
-diff_rel_household_srswor_geo2_fn <- file.path(
-  path_samples, diff_rel_household_srswor_geo2_fn)
+samples_diff_rel_household_srswor_geo2_fn <- 'samples_diff_rel_household_srswor_geo2.csv'
+samples_diff_rel_household_srswor_geo2_fn <- file.path(
+  path_samples, samples_diff_rel_household_srswor_geo2_fn)
 
-diff_rel_household_srswor_urbrur_fn <- 'diff_rel_household_srswor_urbrur.csv'
-diff_rel_household_srswor_urbrur_fn <- file.path(
-  path_samples, diff_rel_household_srswor_urbrur_fn)
+samples_diff_rel_household_srswor_urbrur_fn <- 'samples_diff_rel_household_srswor_urbrur.csv'
+samples_diff_rel_household_srswor_urbrur_fn <- file.path(
+  path_samples, samples_diff_rel_household_srswor_urbrur_fn)
 
-diff_rel_household_syswor_geo1_fn <- 'diff_rel_household_syswor_geo1.csv'
-diff_rel_household_syswor_geo1_fn <- file.path(
-  path_samples, diff_rel_household_syswor_geo1_fn)
+samples_diff_rel_household_syswor_geo1_fn <- 'samples_diff_rel_household_syswor_geo1.csv'
+samples_diff_rel_household_syswor_geo1_fn <- file.path(
+  path_samples, samples_diff_rel_household_syswor_geo1_fn)
 
-diff_rel_household_syswor_geo2_fn <- 'diff_rel_household_syswor_geo2.csv'
-diff_rel_household_syswor_geo2_fn <- file.path(
-  path_samples, diff_rel_household_syswor_geo2_fn)
+samples_diff_rel_household_syswor_geo2_fn <- 'samples_diff_rel_household_syswor_geo2.csv'
+samples_diff_rel_household_syswor_geo2_fn <- file.path(
+  path_samples, samples_diff_rel_household_syswor_geo2_fn)
 
-diff_rel_household_syswor_urbrur_fn <- 'diff_rel_household_syswor_urbrur.csv'
-diff_rel_household_syswor_urbrur_fn <- file.path(
-  path_samples, diff_rel_household_syswor_urbrur_fn)
+samples_diff_rel_household_syswor_urbrur_fn <- 'samples_diff_rel_household_syswor_urbrur.csv'
+samples_diff_rel_household_syswor_urbrur_fn <- file.path(
+  path_samples, samples_diff_rel_household_syswor_urbrur_fn)
 
-diff_rel_household_poisson_geo1_fn <- 'diff_rel_household_poisson_geo1.csv'
-diff_rel_household_poisson_geo1_fn <- file.path(
-  path_samples, diff_rel_household_poisson_geo1_fn)
+samples_diff_rel_household_poisson_geo1_fn <- 'samples_diff_rel_household_poisson_geo1.csv'
+samples_diff_rel_household_poisson_geo1_fn <- file.path(
+  path_samples, samples_diff_rel_household_poisson_geo1_fn)
 
-diff_rel_household_poisson_geo2_fn <- 'diff_rel_household_poisson_geo2.csv'
-diff_rel_household_poisson_geo2_fn <- file.path(
-  path_samples, diff_rel_household_poisson_geo2_fn)
+samples_diff_rel_household_poisson_geo2_fn <- 'samples_diff_rel_household_poisson_geo2.csv'
+samples_diff_rel_household_poisson_geo2_fn <- file.path(
+  path_samples, samples_diff_rel_household_poisson_geo2_fn)
 
-diff_rel_household_poisson_urbrur_fn <- 'diff_rel_household_poisson_urbrur.csv'
-diff_rel_household_poisson_urbrur_fn <- file.path(
-  path_samples, diff_rel_household_poisson_urbrur_fn)
+samples_diff_rel_household_poisson_urbrur_fn <- 'samples_diff_rel_household_poisson_urbrur.csv'
+samples_diff_rel_household_poisson_urbrur_fn <- file.path(
+  path_samples, samples_diff_rel_household_poisson_urbrur_fn)
 
-diff_rel_household_ppswor_geo1_fn <- 'diff_rel_household_ppswor_geo1.csv'
-diff_rel_household_ppswor_geo1_fn <- file.path(
-  path_samples, diff_rel_household_ppswor_geo1_fn)
+samples_diff_rel_household_ppswor_geo1_fn <- 'samples_diff_rel_household_ppswor_geo1.csv'
+samples_diff_rel_household_ppswor_geo1_fn <- file.path(
+  path_samples, samples_diff_rel_household_ppswor_geo1_fn)
 
-diff_rel_household_ppswor_geo2_fn <- 'diff_rel_household_ppswor_geo2.csv'
-diff_rel_household_ppswor_geo2_fn <- file.path(
-  path_samples, diff_rel_household_ppswor_geo2_fn)
+samples_diff_rel_household_ppswor_geo2_fn <- 'samples_diff_rel_household_ppswor_geo2.csv'
+samples_diff_rel_household_ppswor_geo2_fn <- file.path(
+  path_samples, samples_diff_rel_household_ppswor_geo2_fn)
 
-diff_rel_household_ppswor_urbrur_fn <- 'diff_rel_household_ppswor_urbrur.csv'
-diff_rel_household_ppswor_urbrur_fn <- file.path(
-  path_samples, diff_rel_household_ppswor_urbrur_fn)
+samples_diff_rel_household_ppswor_urbrur_fn <- 'samples_diff_rel_household_ppswor_urbrur.csv'
+samples_diff_rel_household_ppswor_urbrur_fn <- file.path(
+  path_samples, samples_diff_rel_household_ppswor_urbrur_fn)
 
 
 # Read household frame ####
@@ -109,7 +109,7 @@ total_household_urbrur.dt <- frame_household_perfect.dt[
 # Select samples ####
 ### srswor ####
 #### geo1 ####
-diff_rel_household_srswor_geo1.dt <- calculate_relative_diff(
+samples_diff_rel_household_srswor_geo1.dt <- calculate_relative_diff(
   variable = "geo1",
   sampling_method = "srswor",
   frame_data = frame_household_perfect.dt,
@@ -119,12 +119,12 @@ diff_rel_household_srswor_geo1.dt <- calculate_relative_diff(
 
 
 fwrite(
-  diff_rel_household_srswor_geo1.dt, 
-  file = diff_rel_household_srswor_geo1_fn,
+  samples_diff_rel_household_srswor_geo1.dt, 
+  file = samples_diff_rel_household_srswor_geo1_fn,
   sep = ";")
 
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_srswor_geo1.dt,
+  data = samples_diff_rel_household_srswor_geo1.dt,
   x = "geo1", y = "diff_rel",
   xlab = "Categories of variable geo1",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -134,7 +134,7 @@ plot_raincloud_relative_diff_popFraction(
 )
 
 #### geo2 ####
-diff_rel_household_syswor_geo2.dt <- calculate_relative_diff(
+samples_diff_rel_household_syswor_geo2.dt <- calculate_relative_diff(
   variable = "geo2",
   sampling_method = "srswor",
   frame_data = frame_household_perfect.dt,
@@ -143,16 +143,16 @@ diff_rel_household_syswor_geo2.dt <- calculate_relative_diff(
   freq_frame_data = total_household_geo2.dt)
 
 fwrite(
-  diff_rel_household_srswor_geo2.dt, 
-  file = diff_rel_household_srswor_geo2_fn,
+  samples_diff_rel_household_srswor_geo2.dt, 
+  file = samples_diff_rel_household_srswor_geo2_fn,
   sep = ";")
 
-diff_rel_household_srswor_geo2.dt[
+samples_diff_rel_household_srswor_geo2.dt[
   , geo1 := ifelse(nchar(as.character(geo2)) == 2, substr(geo2, 1, 1), substr(geo2, 1, 2))]
 
 ##### geo1 == 1 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_srswor_geo2.dt[geo1 == 1],
+  data = samples_diff_rel_household_srswor_geo2.dt[geo1 == 1],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable geo2",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -163,7 +163,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 2 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_srswor_geo2.dt[geo1 == 2],
+  data = samples_diff_rel_household_srswor_geo2.dt[geo1 == 2],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable geo2",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -174,7 +174,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 3 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_srswor_geo2.dt[geo1 == 3],
+  data = samples_diff_rel_household_srswor_geo2.dt[geo1 == 3],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable geo2",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -185,7 +185,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 4 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_srswor_geo2.dt[geo1 == 4],
+  data = samples_diff_rel_household_srswor_geo2.dt[geo1 == 4],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable geo2",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -196,7 +196,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 5 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_srswor_geo2.dt[geo1 == 5],
+  data = samples_diff_rel_household_srswor_geo2.dt[geo1 == 5],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable geo2",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -207,7 +207,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 6 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_srswor_geo2.dt[geo1 == 6],
+  data = samples_diff_rel_household_srswor_geo2.dt[geo1 == 6],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable geo2",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -218,7 +218,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 7 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_srswor_geo2.dt[geo1 == 7],
+  data = samples_diff_rel_household_srswor_geo2.dt[geo1 == 7],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable geo2",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -229,7 +229,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 8 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_srswor_geo2.dt[geo1 == 8],
+  data = samples_diff_rel_household_srswor_geo2.dt[geo1 == 8],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable geo2",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -240,7 +240,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 9 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_srswor_geo2.dt[geo1 == 9],
+  data = samples_diff_rel_household_srswor_geo2.dt[geo1 == 9],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable geo2",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -251,7 +251,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 10 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_srswor_geo2.dt[geo1 == 10],
+  data = samples_diff_rel_household_srswor_geo2.dt[geo1 == 10],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable geo2",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -262,7 +262,7 @@ plot_raincloud_relative_diff_popFraction(
 
 
 #### urbrur ####
-diff_rel_household_syswor_urbrur.dt <- calculate_relative_diff(
+samples_diff_rel_household_syswor_urbrur.dt <- calculate_relative_diff(
   variable = "urbrur",
   sampling_method = "srswor",
   frame_data = frame_household_perfect.dt,
@@ -271,12 +271,12 @@ diff_rel_household_syswor_urbrur.dt <- calculate_relative_diff(
   freq_frame_data = total_household_urbrur.dt)
 
 fwrite(
-  diff_rel_household_srswor_urbrur.dt, 
-  file = diff_rel_household_srswor_urbrur_fn,
+  samples_diff_rel_household_srswor_urbrur.dt, 
+  file = samples_diff_rel_household_srswor_urbrur_fn,
   sep = ";")
 
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_srswor_urbrur.dt,
+  data = samples_diff_rel_household_srswor_urbrur.dt,
   x = "urbrur", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -288,7 +288,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ### syswor ####
 #### geo1 ####
-diff_rel_household_syswor_geo1.dt <- calculate_relative_diff(
+samples_diff_rel_household_syswor_geo1.dt <- calculate_relative_diff(
   variable = "geo1",
   sampling_method = "syswor",
   frame_data = frame_household_perfect.dt,
@@ -297,12 +297,12 @@ diff_rel_household_syswor_geo1.dt <- calculate_relative_diff(
   freq_frame_data = total_household_geo1.dt)
 
 fwrite(
-  diff_rel_household_syswor_geo1.dt, 
-  file = diff_rel_household_syswor_geo1_fn,
+  samples_diff_rel_household_syswor_geo1.dt, 
+  file = samples_diff_rel_household_syswor_geo1_fn,
   sep = ";")
 
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_syswor_geo1.dt,
+  data = samples_diff_rel_household_syswor_geo1.dt,
   x = "geo1", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -312,7 +312,7 @@ plot_raincloud_relative_diff_popFraction(
 )
 
 #### geo2 ####
-diff_rel_household_syswor_geo2.dt <- calculate_relative_diff(
+samples_diff_rel_household_syswor_geo2.dt <- calculate_relative_diff(
   variable = "geo2",
   sampling_method = "syswor",
   frame_data = frame_household_perfect.dt,
@@ -321,16 +321,16 @@ diff_rel_household_syswor_geo2.dt <- calculate_relative_diff(
   freq_frame_data = total_household_geo2.dt)
 
 fwrite(
-  diff_rel_household_syswor_geo2.dt, 
-  file = diff_rel_household_syswor_geo2_fn,
+  samples_diff_rel_household_syswor_geo2.dt, 
+  file = samples_diff_rel_household_syswor_geo2_fn,
   sep = ";")
 
-diff_rel_household_syswor_geo2.dt[
+samples_diff_rel_household_syswor_geo2.dt[
   , geo1 := ifelse(nchar(as.character(geo2)) == 2, substr(geo2, 1, 1), substr(geo2, 1, 2))]
 
 ##### geo1 == 1 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_syswor_geo2.dt[geo1 == 1],
+  data = samples_diff_rel_household_syswor_geo2.dt[geo1 == 1],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -341,7 +341,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 2 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_syswor_geo2.dt[geo1 == 2],
+  data = samples_diff_rel_household_syswor_geo2.dt[geo1 == 2],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -352,7 +352,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 3 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_syswor_geo2.dt[geo1 == 3],
+  data = samples_diff_rel_household_syswor_geo2.dt[geo1 == 3],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -363,7 +363,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 4 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_syswor_geo2.dt[geo1 == 4],
+  data = samples_diff_rel_household_syswor_geo2.dt[geo1 == 4],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -374,7 +374,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 5 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_syswor_geo2.dt[geo1 == 5],
+  data = samples_diff_rel_household_syswor_geo2.dt[geo1 == 5],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -385,7 +385,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 6 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_syswor_geo2.dt[geo1 == 6],
+  data = samples_diff_rel_household_syswor_geo2.dt[geo1 == 6],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -396,7 +396,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 7 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_syswor_geo2.dt[geo1 == 7],
+  data = samples_diff_rel_household_syswor_geo2.dt[geo1 == 7],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -407,7 +407,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 8 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_syswor_geo2.dt[geo1 == 8],
+  data = samples_diff_rel_household_syswor_geo2.dt[geo1 == 8],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -418,7 +418,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 9 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_syswor_geo2.dt[geo1 == 9],
+  data = samples_diff_rel_household_syswor_geo2.dt[geo1 == 9],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -429,7 +429,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 10 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_syswor_geo2.dt[geo1 == 10],
+  data = samples_diff_rel_household_syswor_geo2.dt[geo1 == 10],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -439,7 +439,7 @@ plot_raincloud_relative_diff_popFraction(
 )
 
 #### urbrur ####
-diff_rel_household_syswor_urbrur.dt <- calculate_relative_diff(
+samples_diff_rel_household_syswor_urbrur.dt <- calculate_relative_diff(
      variable = "urbrur",
      sampling_method = "syswor",
      frame_data = frame_household_perfect.dt,
@@ -448,12 +448,12 @@ diff_rel_household_syswor_urbrur.dt <- calculate_relative_diff(
      freq_frame_data = total_household_urbrur.dt)
 
 fwrite(
-  diff_rel_household_syswor_urbrur.dt, 
-  file = diff_rel_household_syswor_urbrur_fn,
+  samples_diff_rel_household_syswor_urbrur.dt, 
+  file = samples_diff_rel_household_syswor_urbrur_fn,
   sep = ";")
 
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_syswor_urbrur.dt,
+  data = samples_diff_rel_household_syswor_urbrur.dt,
   x = "urbrur", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -464,7 +464,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ### poisson ####
 #### geo1 ####
-diff_rel_household_poisson_geo1.dt <- calculate_relative_diff(
+samples_diff_rel_household_poisson_geo1.dt <- calculate_relative_diff(
   variable = "geo1",
   sampling_method = "poisson",
   frame_data = frame_household_perfect.dt,
@@ -474,12 +474,12 @@ diff_rel_household_poisson_geo1.dt <- calculate_relative_diff(
   sampling_method_param = list(pik = frame_household_perfect.dt$hhsize))
 
 fwrite(
-  diff_rel_household_poisson_geo1.dt, 
-  file = diff_rel_household_poisson_geo1_fn,
+  samples_diff_rel_household_poisson_geo1.dt, 
+  file = samples_diff_rel_household_poisson_geo1_fn,
   sep = ";")
 
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_poisson_geo1.dt,
+  data = samples_diff_rel_household_poisson_geo1.dt,
   x = "geo1", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -489,7 +489,7 @@ plot_raincloud_relative_diff_popFraction(
 )
 
 #### geo2 ####
-diff_rel_household_poisson_geo2.dt <- calculate_relative_diff(
+samples_diff_rel_household_poisson_geo2.dt <- calculate_relative_diff(
   variable = "geo2",
   sampling_method = "poisson",
   frame_data = frame_household_perfect.dt,
@@ -499,16 +499,16 @@ diff_rel_household_poisson_geo2.dt <- calculate_relative_diff(
   sampling_method_param = list(pik = frame_household_perfect.dt$hhsize))
 
 fwrite(
-  diff_rel_household_poisson_geo2.dt, 
-  file = diff_rel_household_poisson_geo2_fn,
+  samples_diff_rel_household_poisson_geo2.dt, 
+  file = samples_diff_rel_household_poisson_geo2_fn,
   sep = ";")
 
-diff_rel_household_poisson_geo2.dt[
+samples_diff_rel_household_poisson_geo2.dt[
   , geo1 := ifelse(nchar(as.character(geo2)) == 2, substr(geo2, 1, 1), substr(geo2, 1, 2))]
 
 ##### geo1 == 1 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_poisson_geo2.dt[geo1 == 1],
+  data = samples_diff_rel_household_poisson_geo2.dt[geo1 == 1],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -519,7 +519,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 2 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_poisson_geo2.dt[geo1 == 2],
+  data = samples_diff_rel_household_poisson_geo2.dt[geo1 == 2],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -530,7 +530,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 3 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_poisson_geo2.dt[geo1 == 3],
+  data = samples_diff_rel_household_poisson_geo2.dt[geo1 == 3],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -541,7 +541,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 4 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_poisson_geo2.dt[geo1 == 4],
+  data = samples_diff_rel_household_poisson_geo2.dt[geo1 == 4],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -552,7 +552,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 5 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_poisson_geo2.dt[geo1 == 5],
+  data = samples_diff_rel_household_poisson_geo2.dt[geo1 == 5],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -563,7 +563,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 6 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_poisson_geo2.dt[geo1 == 6],
+  data = samples_diff_rel_household_poisson_geo2.dt[geo1 == 6],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -574,7 +574,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 7 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_poisson_geo2.dt[geo1 == 7],
+  data = samples_diff_rel_household_poisson_geo2.dt[geo1 == 7],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -585,7 +585,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 8 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_poisson_geo2.dt[geo1 == 8],
+  data = samples_diff_rel_household_poisson_geo2.dt[geo1 == 8],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -596,7 +596,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 9 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_poisson_geo2.dt[geo1 == 9],
+  data = samples_diff_rel_household_poisson_geo2.dt[geo1 == 9],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -607,7 +607,7 @@ plot_raincloud_relative_diff_popFraction(
 
 ##### geo1 == 10 ####
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_poisson_geo2.dt[geo1 == 10],
+  data = samples_diff_rel_household_poisson_geo2.dt[geo1 == 10],
   x = "geo2", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -617,7 +617,7 @@ plot_raincloud_relative_diff_popFraction(
 )
 
 #### urbrur ####
-diff_rel_household_poisson_urbrur.dt <- calculate_relative_diff(
+samples_diff_rel_household_poisson_urbrur.dt <- calculate_relative_diff(
   variable = "urbrur",
   sampling_method = "poisson",
   frame_data = frame_household_perfect.dt,
@@ -627,12 +627,12 @@ diff_rel_household_poisson_urbrur.dt <- calculate_relative_diff(
   sampling_method_param = list(pik = frame_household_perfect.dt$hhsize))
 
 fwrite(
-  diff_rel_household_poisson_urbrur.dt, 
-  file = diff_rel_household_poisson_urbrur_fn,
+  samples_diff_rel_household_poisson_urbrur.dt, 
+  file = samples_diff_rel_household_poisson_urbrur_fn,
   sep = ";")
 
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_poisson_urbrur.dt,
+  data = samples_diff_rel_household_poisson_urbrur.dt,
   x = "urbrur", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),
@@ -642,7 +642,7 @@ plot_raincloud_relative_diff_popFraction(
 )
 
 ## pps ####
-diff_rel_household_ppswor_geo1.dt <- calculate_relative_diff(
+samples_diff_rel_household_ppswor_geo1.dt <- calculate_relative_diff(
   variable = "geo1",
   sampling_method = "ppswor",
   frame_data = frame_household_perfect.dt,
@@ -652,12 +652,12 @@ diff_rel_household_ppswor_geo1.dt <- calculate_relative_diff(
   sampling_method_param = list(size = c('hhsize')))
 
 fwrite(
-  diff_rel_household_ppswor_geo1.dt, 
-  file = diff_rel_household_ppswor_geo1_fn,
+  samples_diff_rel_household_ppswor_geo1.dt, 
+  file = samples_diff_rel_household_ppswor_geo1_fn,
   sep = ";")
 
 plot_raincloud_relative_diff_popFraction(
-  data = diff_rel_household_ppswor_geo1.dt,
+  data = samples_diff_rel_household_ppswor_geo1.dt,
   x = "geo1", y = "diff_rel",
   xlab = "Categories of variable urbrur",
   ylab = bquote(frac(f["sample"] - f["frame"], f["frame"])),

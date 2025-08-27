@@ -11,8 +11,8 @@ library(viridis)
 
 # Set relative paths ####
 path_project <- here()
-path_HBS_grTruth <- file.path(path_project, 'data', 'HBS', 'ground_truth')
-path_samples <- file.path(path_project, 'data', 'samples')
+path_HBS_grTruth <- file.path(path_project, 'data', 'ground_truth', 'HBS')
+path_samples <- file.path(path_project, 'data', 'sample_selection')
 path_src <- file.path(path_project, 'src')
 
 # Load src functions ####
@@ -24,7 +24,7 @@ source(file.path(path_src, "plot_violin_box_HTestimate.R"))
 data_HBS_grTruth_fn  <- 'data_HBS2023_household_grTruth.csv'
 data_HBS_grTruth_fn  <- file.path(path_HBS_grTruth, data_HBS_grTruth_fn)
 
-estim_HT_fn  <- 'estim_HT.csv'
+estim_HT_fn  <- 'samples_estim_HT_household_pps.csv'
 estim_HT_fn  <- file.path(path_samples, estim_HT_fn)
 
 # Set parameters ####

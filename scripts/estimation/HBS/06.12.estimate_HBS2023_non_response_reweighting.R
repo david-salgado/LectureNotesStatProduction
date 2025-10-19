@@ -26,7 +26,12 @@ source(file.path(path_src, "generate_missing_values.R"))
 # Set absolute filenames ####
 data_HBS_household_grTruth_fn  <- 'data_HBS2023_household_grTruth.csv'
 data_HBS_household_grTruth_fn  <- file.path(
-  path_HBS_grTruth, data_HBS_household_grTruth_fn)
+  path_HBS_grTruth, data_HBS_household_grTruth_fn
+)
+
+target_estim_nonResponse_reweighting_HBS_fn <- file.path(
+  path_HBS_estimators, "target_estim_nonResponse_reweighting_HBS.dt.csv"
+)
 
 # Set parameters ####
 sampling_fraction <- 0.05 
@@ -210,7 +215,11 @@ target_estim_nonResponse.lst <- lapply(1:n_iter, function(i){
 target_estim_nonResponse.dt <- as.data.table(Reduce(rbind, target_estim_nonResponse.lst))[
   , sample := 1:n_iter]
 
-fwrite(target_estim_nonResponse.dt, file = file.path(path_HBS_estimators, "target_estim_nonResponse_reweighting_worldBank.dt.csv"), sep = ";")
+fwrite(
+  target_estim_nonResponse.dt, 
+  file = target_estim_nonResponse_reweighting_HBS_fn, 
+  sep = ";"
+)
 
 # Plot estimates ####
 target_population <- microdata_HBS_household_grTruth.dt[, sum(get(target_vars))]

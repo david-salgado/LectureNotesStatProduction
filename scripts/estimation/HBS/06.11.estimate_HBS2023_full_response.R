@@ -17,21 +17,28 @@ library(ggrain)
 
 # Set relative paths ####
 path_project <- here()
-path_HBS_grTruth <- file.path(path_project, 'data', 'HBS', 'ground_truth')
-path_HBS_samples <- file.path(path_project, 'data', 'HBS', 'samples')
+path_HBS_grTruth    <- file.path(path_project, 'data', 'HBS', 'ground_truth')
+path_HBS_samples    <- file.path(path_project, 'data', 'HBS', 'samples')
 path_HBS_estimators <- file.path(path_project, 'data', 'estimators', 'HBS')
 path_src <- file.path(path_project, 'src')
 
 # Set absolute filenames ####
 data_HBS_household_grTruth_fn  <- 'data_HBS2023_household_grTruth.csv'
 data_HBS_household_grTruth_fn  <- file.path(
-  path_HBS_grTruth, data_HBS_household_grTruth_fn)
+  path_HBS_grTruth, data_HBS_household_grTruth_fn
+)
 
 microdata_HBS_household_sample_fn <- "microdata_HBS_household_sample.csv"
-microdata_HBS_household_sample_fn <- file.path(path_HBS_samples, microdata_HBS_household_sample_fn)
+microdata_HBS_household_sample_fn <- file.path(
+  path_HBS_samples, microdata_HBS_household_sample_fn
+)
 
 microdata_HBS_household_raw_fn <- "microdata_HBS_household_raw.csv"
 microdata_HBS_household_raw_fn <- file.path(path_HBS_samples, microdata_HBS_household_raw_fn)
+
+target_estim_fullResp_HBS_fn <- file.path(
+  path_HBS_estimators, "target_estim_fullResp_HBS.dt.csv"
+)
 
 # Set parameters ####
 sampling_fraction_household <- 0.01 
@@ -40,9 +47,9 @@ n_iter <- 1000
 
 
 ## Household variables ####
-frame_vars      <- c("hid", "geo1", "geo2", "ea", "urbrur", "hhsize")
-target_vars <- c("exp_01")
-aux_vars <- c("tot_exp", "pc_exp")
+frame_vars   <- c("hid", "geo1", "geo2", "ea", "urbrur", "hhsize")
+target_vars  <- c("exp_01")
+aux_vars     <- c("tot_exp", "pc_exp")
 vars_classes <- 
   c('character', 'factor', 'factor', 'numeric', 'factor', 'integer',
   rep('numeric', length(target_vars)),
@@ -227,7 +234,9 @@ target_estim_fullResponse.lst <- lapply(1:n_iter, function(i){
 target_estim_fullResponse.dt <- as.data.table(Reduce(rbind, target_estim_fullResponse.lst))[
   , sample := 1:n_iter]
 
-fwrite(target_estim_fullResponse.dt, file = file.path(path_HBS_estimators, "target_estim_fullResp_worldBank.dt.csv"), sep = ";")
+fwrite(
+  target_estim_fullResponse.dt, file = target_estim_fullResp_HBS_fn, sep = ";"
+)
 
 # Plot estimates ####
 target_population <- microdata_HBS_household_grTruth.dt[, sum(get(target_vars))]

@@ -15,15 +15,13 @@ library(ggrain)
 
 # Set relative paths ####
 path_project <- here()
-path_HBS_grTruth <- file.path(path_project, 'data', 'HBS', 'ground_truth')
-path_HBS_samples <- file.path(path_project, 'data', 'HBS', 'samples')
-path_HBS_estimators <- file.path(path_project, 'data', 'estimators', 'HBS')
 path_src <- file.path(path_project, 'src')
+path_estimators <- file.path(path_project, 'data', 'estimation', 'belgian_municipalities')
 
 # Set absolute filenames ####
-data_HBS_household_grTruth_fn  <- 'data_HBS2023_household_grTruth.csv'
-data_HBS_household_grTruth_fn  <- file.path(
-  path_HBS_grTruth, data_HBS_household_grTruth_fn)
+target_estim_fullResp_belgianMunic_fn <- file.path(
+  path_estimators, "target_estim_fullResp_belgianMunic.dt.csv"
+)
 
 # Set parameters ####
 sampling_fraction <- 0.05 
@@ -193,7 +191,7 @@ target_estim_fullResponse.lst <- lapply(1:n_iter, function(i){
 target_estim_fullResponse.dt <- as.data.table(Reduce(rbind, target_estim_fullResponse.lst))[
   , sample := 1:n_iter]
 
-fwrite(target_estim_fullResponse.dt, file = file.path(path_HBS_estimators, "target_estim_fullResp_belgianMunic.dt.csv"), sep = ";")
+fwrite(target_estim_fullResponse.dt, file = target_estim_fullResp_belgianMunic_fn, sep = ";")
 
 # Plot estimates ####
 target_population <- microdata_grTruth.dt[, sum(get(target_vars))]
@@ -235,3 +233,4 @@ ggplot(data.dt, aes(x = variable, y = relError * 100, fill = variable)) +
        y = "Relative Error (%)") +
   theme_minimal() +
   theme(legend.position = 'top', legend.title = element_blank())
+

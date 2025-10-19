@@ -15,10 +15,11 @@ library(ggrain)
 
 # Set relative paths ####
 path_project <- here()
-path_HBS_grTruth <- file.path(path_project, 'data', 'HBS', 'ground_truth')
-path_HBS_samples <- file.path(path_project, 'data', 'HBS', 'samples')
-path_HBS_estimators <- file.path(path_project, 'data', 'estimators', 'HBS')
 path_src <- file.path(path_project, 'src')
+path_estimators <- file.path(path_project, 'data', 'estimation', 'belgian_municipalities')
+
+# Set filenames ####
+target_estim_nonResponse_reweighting_belgianMunic_fn <- file.path(path_estimators, "target_estim_nonResponse_reweighting_belgianMunic.dt.csv")
 
 # Load src functions ####
 source(file.path(path_src, "generate_missing_values.R"))
@@ -203,7 +204,11 @@ target_estim_nonResponse.lst <- lapply(1:n_iter, function(i){
 target_estim_nonResponse.dt <- as.data.table(Reduce(rbind, target_estim_nonResponse.lst))[
   , sample := 1:n_iter]
 
-fwrite(target_estim_nonResponse.dt, file = file.path(path_HBS_estimators, "target_estim_nonResponse_reweighting_belgianMunic.dt.csv"), sep = ";")
+fwrite(
+  target_estim_nonResponse.dt, 
+  file = target_estim_nonResponse_reweighting_belgianMunic_fn, 
+  sep = ";"
+)
 
 # Plot estimates ####
 target_population <- microdata_grTruth.dt[, sum(get(target_vars))]

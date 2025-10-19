@@ -7,6 +7,7 @@
 # Load packages ####
 library(here)
 library(data.table)
+library(ggplot2)
 
 
 # Set relative paths ####
@@ -45,18 +46,18 @@ s_set <- which(s_vector == 1)
 (sample_iter <- simulate_sample_selection(samples_possible, samples_prob, n_iter) )
 
 # Inclusion probabilities ####
-(inclusion_probs <- calculate_inclusion_probabilities(samples_possible, samples_prob, samples_iter, N))
+(inclusion_probs <- calculate_inclusion_probabilities(samples_possible, samples_prob, sample_iter, N))
 
 
 # Sampling size ####
 (samples_size <- rowSums(samples_possible))
 
 # Statistical properties ####
-(sample_size_properties <- analyze_sample_size_properties(samples_possible, samples_prob, samples_iter, inclusion_probs))
+(sample_size_properties <- analyze_sample_size_properties(samples_possible, samples_prob, sample_iter, inclusion_probs))
 
 ## Mean value of sample size: theoretical and empirical ####
-c(sample_size_properties$size_mean['empirical'], formula = sum(pik_empirical))
-c(sample_size_properties$size_mean['theoretical'], formula = sum(pik_theoretical))
+c(sample_size_properties$size_mean['empirical'], formula = sum(inclusion_probs$pik_empirical))
+c(sample_size_properties$size_mean['theoretical'], formula = sum(inclusion_probs$pik_theoretical))
 
 ## Variance of sample size: theoretical and empirical ####
 c(sample_size_properties$size_variance['theoretical'], formula = sum(sample_size_properties$Deltakl$theoretical))

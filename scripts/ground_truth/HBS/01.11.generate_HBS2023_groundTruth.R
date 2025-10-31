@@ -7,8 +7,8 @@ library(xml2)
 # Set relative paths ####
 path_project   <- here()
 path_data_orig <- file.path(path_project, 'data', 'original')
-path_data_grTruth <- file.path(path_project, 'data', 'HBS', 'ground_truth')
-path_metadata_HBS_grTruth <- file.path(path_project, 'metadata', 'HBS', 'ground_truth')
+path_data_grTruth_HBS <- file.path(path_project, 'data', 'ground_truth', 'HBS')
+path_metadata_grTruth_HBS <- file.path(path_project, 'metadata', 'ground_truth', 'HBS')
 
 # Set absolute filenames ####
 data_household_orig_fn  <- 'WLD_2023_SYNTH-CEN-HLD-EN_v01_M.dta'
@@ -20,12 +20,12 @@ data_individual_orig_fn <- file.path(
 
 data_HBS2023_household_grTruth_fn  <- 'data_HBS2023_household_grTruth.csv'
 data_HBS2023_household_grTruth_fn  <- file.path(
-  path_data_grTruth, data_HBS2023_household_grTruth_fn)
+  path_data_grTruth_HBS, data_HBS2023_household_grTruth_fn)
 data_HBS2023_individual_grTruth_fn <- 'data_HBS2023_individual_grTruth.csv'
 data_HBS2023_individual_grTruth_fn <- file.path(
-  path_data_grTruth, data_HBS2023_individual_grTruth_fn)
+  path_data_grTruth_HBS, data_HBS2023_individual_grTruth_fn)
 
-metadata_HBS2023_grTruth_fn <- file.path(path_metadata_HBS_grTruth, "HBS_2023_synth_ground-truth.xml")
+metadata_HBS2023_grTruth_fn <- file.path(path_metadata_grTruth_HBS, "HBS_2023_synth_ground-truth.xml")
 
 # Read data and metadata ####
 ## Population of households ####
@@ -51,14 +51,14 @@ for(i in seq_along(variables.xmlnodeset)) {
   var_class <- xml_attr(variables.xmlnodeset[i], "intrvl")
   if (var_file == "F1") {
     
-    varnames_HBS2023_household <- c(varnames_HBS2023_household, var_name)
+    varnames_HBS2023_household   <- c(varnames_HBS2023_household, var_name)
     varclasses_HBS2023_household <- c(varclasses_HBS2023_household, var_class)
     
   }
   
   if (var_file == "F2") {
     
-    varnames_HBS2023_individual <- c(varnames_HBS2023_individual, var_name)
+    varnames_HBS2023_individual   <- c(varnames_HBS2023_individual, var_name)
     varclasses_HBS2023_individual <- c(varclasses_HBS2023_individual, var_class)
     
   }

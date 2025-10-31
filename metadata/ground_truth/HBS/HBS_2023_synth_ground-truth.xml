@@ -615,7 +615,7 @@
       <catStat type="freq">27232</catStat>
     </catgry>
   </var>
-  <var ID="V4" name="ea" files="F1" intrvl="contin">
+  <var ID="V4" name="ea" files="F1" intrvl="discrete">
     <varFormat type="numeric" schema="other"/>
     <location width="9"/>
     <labl>Enumeration area</labl>
@@ -626,7 +626,7162 @@
     <sumStat type="vald">2501755</sumStat>
     <sumStat type="min">11001.0</sumStat>
     <sumStat type="max">109054.0</sumStat>
-    <catgry/>
+    <catgry>
+      <catValu>03_01_001</catValu>
+      <labl>ea_03_01_001</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_002</catValu>
+      <labl>ea_03_01_002</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_003</catValu>
+      <labl>ea_03_01_003</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_004</catValu>
+      <labl>ea_03_01_004</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_005</catValu>
+      <labl>ea_03_01_005</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_006</catValu>
+      <labl>ea_03_01_006</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_007</catValu>
+      <labl>ea_03_01_007</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_008</catValu>
+      <labl>ea_03_01_008</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_010</catValu>
+      <labl>ea_03_01_010</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_011</catValu>
+      <labl>ea_03_01_011</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_012</catValu>
+      <labl>ea_03_01_012</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_013</catValu>
+      <labl>ea_03_01_013</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_014</catValu>
+      <labl>ea_03_01_014</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_015</catValu>
+      <labl>ea_03_01_015</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_016</catValu>
+      <labl>ea_03_01_016</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_017</catValu>
+      <labl>ea_03_01_017</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_018</catValu>
+      <labl>ea_03_01_018</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_019</catValu>
+      <labl>ea_03_01_019</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_020</catValu>
+      <labl>ea_03_01_020</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_021</catValu>
+      <labl>ea_03_01_021</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_022</catValu>
+      <labl>ea_03_01_022</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_023</catValu>
+      <labl>ea_03_01_023</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_024</catValu>
+      <labl>ea_03_01_024</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_025</catValu>
+      <labl>ea_03_01_025</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_026</catValu>
+      <labl>ea_03_01_026</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_027</catValu>
+      <labl>ea_03_01_027</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_028</catValu>
+      <labl>ea_03_01_028</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_029</catValu>
+      <labl>ea_03_01_029</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_030</catValu>
+      <labl>ea_03_01_030</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_031</catValu>
+      <labl>ea_03_01_031</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_032</catValu>
+      <labl>ea_03_01_032</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_033</catValu>
+      <labl>ea_03_01_033</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_034</catValu>
+      <labl>ea_03_01_034</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_035</catValu>
+      <labl>ea_03_01_035</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_036</catValu>
+      <labl>ea_03_01_036</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_038</catValu>
+      <labl>ea_03_01_038</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_039</catValu>
+      <labl>ea_03_01_039</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_040</catValu>
+      <labl>ea_03_01_040</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_041</catValu>
+      <labl>ea_03_01_041</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_042</catValu>
+      <labl>ea_03_01_042</labl>
+      <catStat type="freq">10</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_043</catValu>
+      <labl>ea_03_01_043</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_044</catValu>
+      <labl>ea_03_01_044</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_046</catValu>
+      <labl>ea_03_01_046</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_047</catValu>
+      <labl>ea_03_01_047</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_048</catValu>
+      <labl>ea_03_01_048</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_049</catValu>
+      <labl>ea_03_01_049</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_050</catValu>
+      <labl>ea_03_01_050</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_051</catValu>
+      <labl>ea_03_01_051</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_052</catValu>
+      <labl>ea_03_01_052</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_053</catValu>
+      <labl>ea_03_01_053</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_054</catValu>
+      <labl>ea_03_01_054</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_055</catValu>
+      <labl>ea_03_01_055</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_056</catValu>
+      <labl>ea_03_01_056</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_057</catValu>
+      <labl>ea_03_01_057</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_058</catValu>
+      <labl>ea_03_01_058</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_059</catValu>
+      <labl>ea_03_01_059</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_060</catValu>
+      <labl>ea_03_01_060</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_061</catValu>
+      <labl>ea_03_01_061</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_062</catValu>
+      <labl>ea_03_01_062</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_063</catValu>
+      <labl>ea_03_01_063</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_064</catValu>
+      <labl>ea_03_01_064</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_065</catValu>
+      <labl>ea_03_01_065</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_066</catValu>
+      <labl>ea_03_01_066</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_067</catValu>
+      <labl>ea_03_01_067</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_068</catValu>
+      <labl>ea_03_01_068</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_069</catValu>
+      <labl>ea_03_01_069</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_070</catValu>
+      <labl>ea_03_01_070</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_071</catValu>
+      <labl>ea_03_01_071</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_072</catValu>
+      <labl>ea_03_01_072</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_073</catValu>
+      <labl>ea_03_01_073</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_074</catValu>
+      <labl>ea_03_01_074</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_075</catValu>
+      <labl>ea_03_01_075</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_076</catValu>
+      <labl>ea_03_01_076</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_077</catValu>
+      <labl>ea_03_01_077</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_078</catValu>
+      <labl>ea_03_01_078</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_079</catValu>
+      <labl>ea_03_01_079</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_080</catValu>
+      <labl>ea_03_01_080</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_081</catValu>
+      <labl>ea_03_01_081</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_082</catValu>
+      <labl>ea_03_01_082</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_083</catValu>
+      <labl>ea_03_01_083</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_084</catValu>
+      <labl>ea_03_01_084</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_085</catValu>
+      <labl>ea_03_01_085</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_086</catValu>
+      <labl>ea_03_01_086</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_087</catValu>
+      <labl>ea_03_01_087</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_088</catValu>
+      <labl>ea_03_01_088</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_089</catValu>
+      <labl>ea_03_01_089</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_090</catValu>
+      <labl>ea_03_01_090</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_091</catValu>
+      <labl>ea_03_01_091</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_092</catValu>
+      <labl>ea_03_01_092</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_093</catValu>
+      <labl>ea_03_01_093</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_094</catValu>
+      <labl>ea_03_01_094</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_095</catValu>
+      <labl>ea_03_01_095</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_096</catValu>
+      <labl>ea_03_01_096</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_097</catValu>
+      <labl>ea_03_01_097</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_098</catValu>
+      <labl>ea_03_01_098</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_099</catValu>
+      <labl>ea_03_01_099</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_100</catValu>
+      <labl>ea_03_01_100</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_101</catValu>
+      <labl>ea_03_01_101</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_102</catValu>
+      <labl>ea_03_01_102</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_103</catValu>
+      <labl>ea_03_01_103</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_104</catValu>
+      <labl>ea_03_01_104</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_105</catValu>
+      <labl>ea_03_01_105</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_106</catValu>
+      <labl>ea_03_01_106</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_107</catValu>
+      <labl>ea_03_01_107</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_108</catValu>
+      <labl>ea_03_01_108</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_109</catValu>
+      <labl>ea_03_01_109</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_110</catValu>
+      <labl>ea_03_01_110</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_111</catValu>
+      <labl>ea_03_01_111</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_112</catValu>
+      <labl>ea_03_01_112</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_113</catValu>
+      <labl>ea_03_01_113</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_114</catValu>
+      <labl>ea_03_01_114</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_115</catValu>
+      <labl>ea_03_01_115</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_116</catValu>
+      <labl>ea_03_01_116</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_117</catValu>
+      <labl>ea_03_01_117</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_118</catValu>
+      <labl>ea_03_01_118</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_119</catValu>
+      <labl>ea_03_01_119</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_120</catValu>
+      <labl>ea_03_01_120</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_121</catValu>
+      <labl>ea_03_01_121</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_123</catValu>
+      <labl>ea_03_01_123</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_124</catValu>
+      <labl>ea_03_01_124</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_125</catValu>
+      <labl>ea_03_01_125</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_126</catValu>
+      <labl>ea_03_01_126</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_127</catValu>
+      <labl>ea_03_01_127</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_128</catValu>
+      <labl>ea_03_01_128</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_129</catValu>
+      <labl>ea_03_01_129</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_130</catValu>
+      <labl>ea_03_01_130</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_131</catValu>
+      <labl>ea_03_01_131</labl>
+      <catStat type="freq">10</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_132</catValu>
+      <labl>ea_03_01_132</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_133</catValu>
+      <labl>ea_03_01_133</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_134</catValu>
+      <labl>ea_03_01_134</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_135</catValu>
+      <labl>ea_03_01_135</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_137</catValu>
+      <labl>ea_03_01_137</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_138</catValu>
+      <labl>ea_03_01_138</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_140</catValu>
+      <labl>ea_03_01_140</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_141</catValu>
+      <labl>ea_03_01_141</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_142</catValu>
+      <labl>ea_03_01_142</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_143</catValu>
+      <labl>ea_03_01_143</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_144</catValu>
+      <labl>ea_03_01_144</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_01_145</catValu>
+      <labl>ea_03_01_145</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_001</catValu>
+      <labl>ea_03_02_001</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_002</catValu>
+      <labl>ea_03_02_002</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_003</catValu>
+      <labl>ea_03_02_003</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_004</catValu>
+      <labl>ea_03_02_004</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_005</catValu>
+      <labl>ea_03_02_005</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_006</catValu>
+      <labl>ea_03_02_006</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_007</catValu>
+      <labl>ea_03_02_007</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_008</catValu>
+      <labl>ea_03_02_008</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_009</catValu>
+      <labl>ea_03_02_009</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_010</catValu>
+      <labl>ea_03_02_010</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_011</catValu>
+      <labl>ea_03_02_011</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_012</catValu>
+      <labl>ea_03_02_012</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_013</catValu>
+      <labl>ea_03_02_013</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_014</catValu>
+      <labl>ea_03_02_014</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_015</catValu>
+      <labl>ea_03_02_015</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_016</catValu>
+      <labl>ea_03_02_016</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_017</catValu>
+      <labl>ea_03_02_017</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_018</catValu>
+      <labl>ea_03_02_018</labl>
+      <catStat type="freq">10</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_019</catValu>
+      <labl>ea_03_02_019</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_020</catValu>
+      <labl>ea_03_02_020</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_021</catValu>
+      <labl>ea_03_02_021</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_022</catValu>
+      <labl>ea_03_02_022</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_023</catValu>
+      <labl>ea_03_02_023</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_024</catValu>
+      <labl>ea_03_02_024</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_025</catValu>
+      <labl>ea_03_02_025</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_026</catValu>
+      <labl>ea_03_02_026</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_027</catValu>
+      <labl>ea_03_02_027</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_028</catValu>
+      <labl>ea_03_02_028</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_029</catValu>
+      <labl>ea_03_02_029</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_030</catValu>
+      <labl>ea_03_02_030</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_031</catValu>
+      <labl>ea_03_02_031</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_032</catValu>
+      <labl>ea_03_02_032</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_033</catValu>
+      <labl>ea_03_02_033</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_034</catValu>
+      <labl>ea_03_02_034</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_035</catValu>
+      <labl>ea_03_02_035</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_036</catValu>
+      <labl>ea_03_02_036</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_037</catValu>
+      <labl>ea_03_02_037</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_038</catValu>
+      <labl>ea_03_02_038</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_039</catValu>
+      <labl>ea_03_02_039</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_040</catValu>
+      <labl>ea_03_02_040</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_041</catValu>
+      <labl>ea_03_02_041</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_042</catValu>
+      <labl>ea_03_02_042</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_043</catValu>
+      <labl>ea_03_02_043</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_044</catValu>
+      <labl>ea_03_02_044</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_045</catValu>
+      <labl>ea_03_02_045</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_046</catValu>
+      <labl>ea_03_02_046</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_047</catValu>
+      <labl>ea_03_02_047</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_048</catValu>
+      <labl>ea_03_02_048</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_049</catValu>
+      <labl>ea_03_02_049</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_050</catValu>
+      <labl>ea_03_02_050</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_051</catValu>
+      <labl>ea_03_02_051</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_052</catValu>
+      <labl>ea_03_02_052</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_053</catValu>
+      <labl>ea_03_02_053</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_054</catValu>
+      <labl>ea_03_02_054</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_055</catValu>
+      <labl>ea_03_02_055</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_056</catValu>
+      <labl>ea_03_02_056</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_057</catValu>
+      <labl>ea_03_02_057</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_058</catValu>
+      <labl>ea_03_02_058</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_059</catValu>
+      <labl>ea_03_02_059</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_060</catValu>
+      <labl>ea_03_02_060</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_061</catValu>
+      <labl>ea_03_02_061</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_062</catValu>
+      <labl>ea_03_02_062</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_063</catValu>
+      <labl>ea_03_02_063</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_064</catValu>
+      <labl>ea_03_02_064</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_065</catValu>
+      <labl>ea_03_02_065</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_066</catValu>
+      <labl>ea_03_02_066</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_067</catValu>
+      <labl>ea_03_02_067</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_068</catValu>
+      <labl>ea_03_02_068</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_069</catValu>
+      <labl>ea_03_02_069</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_070</catValu>
+      <labl>ea_03_02_070</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_071</catValu>
+      <labl>ea_03_02_071</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_072</catValu>
+      <labl>ea_03_02_072</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_073</catValu>
+      <labl>ea_03_02_073</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_074</catValu>
+      <labl>ea_03_02_074</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_075</catValu>
+      <labl>ea_03_02_075</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_076</catValu>
+      <labl>ea_03_02_076</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_077</catValu>
+      <labl>ea_03_02_077</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_078</catValu>
+      <labl>ea_03_02_078</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_079</catValu>
+      <labl>ea_03_02_079</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_080</catValu>
+      <labl>ea_03_02_080</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_081</catValu>
+      <labl>ea_03_02_081</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_082</catValu>
+      <labl>ea_03_02_082</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_083</catValu>
+      <labl>ea_03_02_083</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_084</catValu>
+      <labl>ea_03_02_084</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_085</catValu>
+      <labl>ea_03_02_085</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_086</catValu>
+      <labl>ea_03_02_086</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_087</catValu>
+      <labl>ea_03_02_087</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_088</catValu>
+      <labl>ea_03_02_088</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_089</catValu>
+      <labl>ea_03_02_089</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_091</catValu>
+      <labl>ea_03_02_091</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_092</catValu>
+      <labl>ea_03_02_092</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_093</catValu>
+      <labl>ea_03_02_093</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_094</catValu>
+      <labl>ea_03_02_094</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_095</catValu>
+      <labl>ea_03_02_095</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_096</catValu>
+      <labl>ea_03_02_096</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_097</catValu>
+      <labl>ea_03_02_097</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_098</catValu>
+      <labl>ea_03_02_098</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_099</catValu>
+      <labl>ea_03_02_099</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_100</catValu>
+      <labl>ea_03_02_100</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_101</catValu>
+      <labl>ea_03_02_101</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_102</catValu>
+      <labl>ea_03_02_102</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_103</catValu>
+      <labl>ea_03_02_103</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_104</catValu>
+      <labl>ea_03_02_104</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_105</catValu>
+      <labl>ea_03_02_105</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_106</catValu>
+      <labl>ea_03_02_106</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_107</catValu>
+      <labl>ea_03_02_107</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_108</catValu>
+      <labl>ea_03_02_108</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_109</catValu>
+      <labl>ea_03_02_109</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_110</catValu>
+      <labl>ea_03_02_110</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_111</catValu>
+      <labl>ea_03_02_111</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_112</catValu>
+      <labl>ea_03_02_112</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_113</catValu>
+      <labl>ea_03_02_113</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_114</catValu>
+      <labl>ea_03_02_114</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_115</catValu>
+      <labl>ea_03_02_115</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_116</catValu>
+      <labl>ea_03_02_116</labl>
+      <catStat type="freq">10</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_02_117</catValu>
+      <labl>ea_03_02_117</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_001</catValu>
+      <labl>ea_03_05_001</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_002</catValu>
+      <labl>ea_03_05_002</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_003</catValu>
+      <labl>ea_03_05_003</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_004</catValu>
+      <labl>ea_03_05_004</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_005</catValu>
+      <labl>ea_03_05_005</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_006</catValu>
+      <labl>ea_03_05_006</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_007</catValu>
+      <labl>ea_03_05_007</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_008</catValu>
+      <labl>ea_03_05_008</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_009</catValu>
+      <labl>ea_03_05_009</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_010</catValu>
+      <labl>ea_03_05_010</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_011</catValu>
+      <labl>ea_03_05_011</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_012</catValu>
+      <labl>ea_03_05_012</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_013</catValu>
+      <labl>ea_03_05_013</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_014</catValu>
+      <labl>ea_03_05_014</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_015</catValu>
+      <labl>ea_03_05_015</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_016</catValu>
+      <labl>ea_03_05_016</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_017</catValu>
+      <labl>ea_03_05_017</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_018</catValu>
+      <labl>ea_03_05_018</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_019</catValu>
+      <labl>ea_03_05_019</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_020</catValu>
+      <labl>ea_03_05_020</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_021</catValu>
+      <labl>ea_03_05_021</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_022</catValu>
+      <labl>ea_03_05_022</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_023</catValu>
+      <labl>ea_03_05_023</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_024</catValu>
+      <labl>ea_03_05_024</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_025</catValu>
+      <labl>ea_03_05_025</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_026</catValu>
+      <labl>ea_03_05_026</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_027</catValu>
+      <labl>ea_03_05_027</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_028</catValu>
+      <labl>ea_03_05_028</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_029</catValu>
+      <labl>ea_03_05_029</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_030</catValu>
+      <labl>ea_03_05_030</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_031</catValu>
+      <labl>ea_03_05_031</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_032</catValu>
+      <labl>ea_03_05_032</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_033</catValu>
+      <labl>ea_03_05_033</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>03_05_034</catValu>
+      <labl>ea_03_05_034</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_001</catValu>
+      <labl>ea_04_01_001</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_003</catValu>
+      <labl>ea_04_01_003</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_004</catValu>
+      <labl>ea_04_01_004</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_005</catValu>
+      <labl>ea_04_01_005</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_006</catValu>
+      <labl>ea_04_01_006</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_007</catValu>
+      <labl>ea_04_01_007</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_008</catValu>
+      <labl>ea_04_01_008</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_009</catValu>
+      <labl>ea_04_01_009</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_011</catValu>
+      <labl>ea_04_01_011</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_012</catValu>
+      <labl>ea_04_01_012</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_013</catValu>
+      <labl>ea_04_01_013</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_014</catValu>
+      <labl>ea_04_01_014</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_015</catValu>
+      <labl>ea_04_01_015</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_016</catValu>
+      <labl>ea_04_01_016</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_017</catValu>
+      <labl>ea_04_01_017</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_018</catValu>
+      <labl>ea_04_01_018</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_019</catValu>
+      <labl>ea_04_01_019</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_020</catValu>
+      <labl>ea_04_01_020</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_021</catValu>
+      <labl>ea_04_01_021</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_022</catValu>
+      <labl>ea_04_01_022</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_023</catValu>
+      <labl>ea_04_01_023</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_024</catValu>
+      <labl>ea_04_01_024</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_025</catValu>
+      <labl>ea_04_01_025</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_027</catValu>
+      <labl>ea_04_01_027</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_028</catValu>
+      <labl>ea_04_01_028</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_029</catValu>
+      <labl>ea_04_01_029</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_030</catValu>
+      <labl>ea_04_01_030</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_031</catValu>
+      <labl>ea_04_01_031</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_033</catValu>
+      <labl>ea_04_01_033</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_034</catValu>
+      <labl>ea_04_01_034</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_035</catValu>
+      <labl>ea_04_01_035</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_036</catValu>
+      <labl>ea_04_01_036</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_037</catValu>
+      <labl>ea_04_01_037</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_038</catValu>
+      <labl>ea_04_01_038</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_039</catValu>
+      <labl>ea_04_01_039</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_040</catValu>
+      <labl>ea_04_01_040</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_041</catValu>
+      <labl>ea_04_01_041</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_042</catValu>
+      <labl>ea_04_01_042</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_043</catValu>
+      <labl>ea_04_01_043</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_044</catValu>
+      <labl>ea_04_01_044</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_045</catValu>
+      <labl>ea_04_01_045</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_046</catValu>
+      <labl>ea_04_01_046</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_047</catValu>
+      <labl>ea_04_01_047</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_048</catValu>
+      <labl>ea_04_01_048</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_049</catValu>
+      <labl>ea_04_01_049</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_050</catValu>
+      <labl>ea_04_01_050</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_051</catValu>
+      <labl>ea_04_01_051</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_052</catValu>
+      <labl>ea_04_01_052</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_053</catValu>
+      <labl>ea_04_01_053</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_054</catValu>
+      <labl>ea_04_01_054</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_055</catValu>
+      <labl>ea_04_01_055</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_056</catValu>
+      <labl>ea_04_01_056</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_057</catValu>
+      <labl>ea_04_01_057</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_058</catValu>
+      <labl>ea_04_01_058</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_059</catValu>
+      <labl>ea_04_01_059</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_060</catValu>
+      <labl>ea_04_01_060</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_061</catValu>
+      <labl>ea_04_01_061</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_063</catValu>
+      <labl>ea_04_01_063</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_064</catValu>
+      <labl>ea_04_01_064</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_065</catValu>
+      <labl>ea_04_01_065</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_066</catValu>
+      <labl>ea_04_01_066</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_067</catValu>
+      <labl>ea_04_01_067</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_068</catValu>
+      <labl>ea_04_01_068</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_069</catValu>
+      <labl>ea_04_01_069</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_070</catValu>
+      <labl>ea_04_01_070</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_071</catValu>
+      <labl>ea_04_01_071</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_072</catValu>
+      <labl>ea_04_01_072</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_073</catValu>
+      <labl>ea_04_01_073</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_074</catValu>
+      <labl>ea_04_01_074</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_075</catValu>
+      <labl>ea_04_01_075</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_076</catValu>
+      <labl>ea_04_01_076</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_077</catValu>
+      <labl>ea_04_01_077</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_078</catValu>
+      <labl>ea_04_01_078</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_079</catValu>
+      <labl>ea_04_01_079</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_080</catValu>
+      <labl>ea_04_01_080</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_081</catValu>
+      <labl>ea_04_01_081</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_082</catValu>
+      <labl>ea_04_01_082</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_083</catValu>
+      <labl>ea_04_01_083</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_084</catValu>
+      <labl>ea_04_01_084</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_085</catValu>
+      <labl>ea_04_01_085</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_086</catValu>
+      <labl>ea_04_01_086</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_087</catValu>
+      <labl>ea_04_01_087</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_088</catValu>
+      <labl>ea_04_01_088</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_089</catValu>
+      <labl>ea_04_01_089</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_090</catValu>
+      <labl>ea_04_01_090</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_091</catValu>
+      <labl>ea_04_01_091</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_092</catValu>
+      <labl>ea_04_01_092</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_093</catValu>
+      <labl>ea_04_01_093</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_094</catValu>
+      <labl>ea_04_01_094</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_095</catValu>
+      <labl>ea_04_01_095</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_096</catValu>
+      <labl>ea_04_01_096</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_097</catValu>
+      <labl>ea_04_01_097</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_098</catValu>
+      <labl>ea_04_01_098</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_099</catValu>
+      <labl>ea_04_01_099</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_100</catValu>
+      <labl>ea_04_01_100</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_101</catValu>
+      <labl>ea_04_01_101</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_102</catValu>
+      <labl>ea_04_01_102</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_103</catValu>
+      <labl>ea_04_01_103</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_104</catValu>
+      <labl>ea_04_01_104</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_106</catValu>
+      <labl>ea_04_01_106</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_107</catValu>
+      <labl>ea_04_01_107</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_108</catValu>
+      <labl>ea_04_01_108</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_109</catValu>
+      <labl>ea_04_01_109</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_110</catValu>
+      <labl>ea_04_01_110</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_111</catValu>
+      <labl>ea_04_01_111</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_112</catValu>
+      <labl>ea_04_01_112</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_113</catValu>
+      <labl>ea_04_01_113</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_114</catValu>
+      <labl>ea_04_01_114</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_115</catValu>
+      <labl>ea_04_01_115</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_116</catValu>
+      <labl>ea_04_01_116</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_117</catValu>
+      <labl>ea_04_01_117</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_119</catValu>
+      <labl>ea_04_01_119</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_120</catValu>
+      <labl>ea_04_01_120</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_121</catValu>
+      <labl>ea_04_01_121</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_122</catValu>
+      <labl>ea_04_01_122</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_123</catValu>
+      <labl>ea_04_01_123</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_124</catValu>
+      <labl>ea_04_01_124</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_125</catValu>
+      <labl>ea_04_01_125</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_126</catValu>
+      <labl>ea_04_01_126</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_127</catValu>
+      <labl>ea_04_01_127</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_128</catValu>
+      <labl>ea_04_01_128</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_129</catValu>
+      <labl>ea_04_01_129</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_130</catValu>
+      <labl>ea_04_01_130</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_131</catValu>
+      <labl>ea_04_01_131</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_132</catValu>
+      <labl>ea_04_01_132</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_133</catValu>
+      <labl>ea_04_01_133</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_134</catValu>
+      <labl>ea_04_01_134</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_136</catValu>
+      <labl>ea_04_01_136</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_137</catValu>
+      <labl>ea_04_01_137</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_138</catValu>
+      <labl>ea_04_01_138</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_139</catValu>
+      <labl>ea_04_01_139</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_140</catValu>
+      <labl>ea_04_01_140</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_141</catValu>
+      <labl>ea_04_01_141</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_142</catValu>
+      <labl>ea_04_01_142</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_143</catValu>
+      <labl>ea_04_01_143</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_144</catValu>
+      <labl>ea_04_01_144</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_145</catValu>
+      <labl>ea_04_01_145</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_146</catValu>
+      <labl>ea_04_01_146</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_147</catValu>
+      <labl>ea_04_01_147</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_148</catValu>
+      <labl>ea_04_01_148</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_149</catValu>
+      <labl>ea_04_01_149</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_150</catValu>
+      <labl>ea_04_01_150</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_151</catValu>
+      <labl>ea_04_01_151</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_152</catValu>
+      <labl>ea_04_01_152</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_153</catValu>
+      <labl>ea_04_01_153</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_154</catValu>
+      <labl>ea_04_01_154</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_155</catValu>
+      <labl>ea_04_01_155</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_156</catValu>
+      <labl>ea_04_01_156</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_157</catValu>
+      <labl>ea_04_01_157</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_158</catValu>
+      <labl>ea_04_01_158</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_159</catValu>
+      <labl>ea_04_01_159</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_160</catValu>
+      <labl>ea_04_01_160</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_161</catValu>
+      <labl>ea_04_01_161</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_162</catValu>
+      <labl>ea_04_01_162</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_163</catValu>
+      <labl>ea_04_01_163</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_164</catValu>
+      <labl>ea_04_01_164</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_165</catValu>
+      <labl>ea_04_01_165</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_166</catValu>
+      <labl>ea_04_01_166</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_167</catValu>
+      <labl>ea_04_01_167</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_168</catValu>
+      <labl>ea_04_01_168</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_169</catValu>
+      <labl>ea_04_01_169</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_171</catValu>
+      <labl>ea_04_01_171</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_172</catValu>
+      <labl>ea_04_01_172</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_173</catValu>
+      <labl>ea_04_01_173</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_174</catValu>
+      <labl>ea_04_01_174</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_175</catValu>
+      <labl>ea_04_01_175</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_176</catValu>
+      <labl>ea_04_01_176</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_177</catValu>
+      <labl>ea_04_01_177</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_178</catValu>
+      <labl>ea_04_01_178</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_179</catValu>
+      <labl>ea_04_01_179</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_180</catValu>
+      <labl>ea_04_01_180</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_181</catValu>
+      <labl>ea_04_01_181</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_182</catValu>
+      <labl>ea_04_01_182</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_183</catValu>
+      <labl>ea_04_01_183</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_184</catValu>
+      <labl>ea_04_01_184</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_185</catValu>
+      <labl>ea_04_01_185</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_186</catValu>
+      <labl>ea_04_01_186</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_187</catValu>
+      <labl>ea_04_01_187</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_188</catValu>
+      <labl>ea_04_01_188</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_189</catValu>
+      <labl>ea_04_01_189</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_190</catValu>
+      <labl>ea_04_01_190</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_191</catValu>
+      <labl>ea_04_01_191</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_192</catValu>
+      <labl>ea_04_01_192</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_193</catValu>
+      <labl>ea_04_01_193</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_194</catValu>
+      <labl>ea_04_01_194</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_195</catValu>
+      <labl>ea_04_01_195</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_196</catValu>
+      <labl>ea_04_01_196</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_197</catValu>
+      <labl>ea_04_01_197</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_198</catValu>
+      <labl>ea_04_01_198</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_199</catValu>
+      <labl>ea_04_01_199</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_200</catValu>
+      <labl>ea_04_01_200</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_201</catValu>
+      <labl>ea_04_01_201</labl>
+      <catStat type="freq">10</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_202</catValu>
+      <labl>ea_04_01_202</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_203</catValu>
+      <labl>ea_04_01_203</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_204</catValu>
+      <labl>ea_04_01_204</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_205</catValu>
+      <labl>ea_04_01_205</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_206</catValu>
+      <labl>ea_04_01_206</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_207</catValu>
+      <labl>ea_04_01_207</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_208</catValu>
+      <labl>ea_04_01_208</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_209</catValu>
+      <labl>ea_04_01_209</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_210</catValu>
+      <labl>ea_04_01_210</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_211</catValu>
+      <labl>ea_04_01_211</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_212</catValu>
+      <labl>ea_04_01_212</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_213</catValu>
+      <labl>ea_04_01_213</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_214</catValu>
+      <labl>ea_04_01_214</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_215</catValu>
+      <labl>ea_04_01_215</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_216</catValu>
+      <labl>ea_04_01_216</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_217</catValu>
+      <labl>ea_04_01_217</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_218</catValu>
+      <labl>ea_04_01_218</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_219</catValu>
+      <labl>ea_04_01_219</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_220</catValu>
+      <labl>ea_04_01_220</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_221</catValu>
+      <labl>ea_04_01_221</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_222</catValu>
+      <labl>ea_04_01_222</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_223</catValu>
+      <labl>ea_04_01_223</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_224</catValu>
+      <labl>ea_04_01_224</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_225</catValu>
+      <labl>ea_04_01_225</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_226</catValu>
+      <labl>ea_04_01_226</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_227</catValu>
+      <labl>ea_04_01_227</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_228</catValu>
+      <labl>ea_04_01_228</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_229</catValu>
+      <labl>ea_04_01_229</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_230</catValu>
+      <labl>ea_04_01_230</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_231</catValu>
+      <labl>ea_04_01_231</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_232</catValu>
+      <labl>ea_04_01_232</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_233</catValu>
+      <labl>ea_04_01_233</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_234</catValu>
+      <labl>ea_04_01_234</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_235</catValu>
+      <labl>ea_04_01_235</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_237</catValu>
+      <labl>ea_04_01_237</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_238</catValu>
+      <labl>ea_04_01_238</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_239</catValu>
+      <labl>ea_04_01_239</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_240</catValu>
+      <labl>ea_04_01_240</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_241</catValu>
+      <labl>ea_04_01_241</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_242</catValu>
+      <labl>ea_04_01_242</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_243</catValu>
+      <labl>ea_04_01_243</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_244</catValu>
+      <labl>ea_04_01_244</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_245</catValu>
+      <labl>ea_04_01_245</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_247</catValu>
+      <labl>ea_04_01_247</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_248</catValu>
+      <labl>ea_04_01_248</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_249</catValu>
+      <labl>ea_04_01_249</labl>
+      <catStat type="freq">10</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_250</catValu>
+      <labl>ea_04_01_250</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_251</catValu>
+      <labl>ea_04_01_251</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_252</catValu>
+      <labl>ea_04_01_252</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_253</catValu>
+      <labl>ea_04_01_253</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_254</catValu>
+      <labl>ea_04_01_254</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_255</catValu>
+      <labl>ea_04_01_255</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_256</catValu>
+      <labl>ea_04_01_256</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_257</catValu>
+      <labl>ea_04_01_257</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_258</catValu>
+      <labl>ea_04_01_258</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_259</catValu>
+      <labl>ea_04_01_259</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_260</catValu>
+      <labl>ea_04_01_260</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_261</catValu>
+      <labl>ea_04_01_261</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_262</catValu>
+      <labl>ea_04_01_262</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_263</catValu>
+      <labl>ea_04_01_263</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_264</catValu>
+      <labl>ea_04_01_264</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_265</catValu>
+      <labl>ea_04_01_265</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_266</catValu>
+      <labl>ea_04_01_266</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_267</catValu>
+      <labl>ea_04_01_267</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_268</catValu>
+      <labl>ea_04_01_268</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_269</catValu>
+      <labl>ea_04_01_269</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_270</catValu>
+      <labl>ea_04_01_270</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_271</catValu>
+      <labl>ea_04_01_271</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_272</catValu>
+      <labl>ea_04_01_272</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_273</catValu>
+      <labl>ea_04_01_273</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_274</catValu>
+      <labl>ea_04_01_274</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_275</catValu>
+      <labl>ea_04_01_275</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_276</catValu>
+      <labl>ea_04_01_276</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_01_277</catValu>
+      <labl>ea_04_01_277</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_001</catValu>
+      <labl>ea_04_02_001</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_002</catValu>
+      <labl>ea_04_02_002</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_003</catValu>
+      <labl>ea_04_02_003</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_004</catValu>
+      <labl>ea_04_02_004</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_005</catValu>
+      <labl>ea_04_02_005</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_006</catValu>
+      <labl>ea_04_02_006</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_007</catValu>
+      <labl>ea_04_02_007</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_008</catValu>
+      <labl>ea_04_02_008</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_009</catValu>
+      <labl>ea_04_02_009</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_010</catValu>
+      <labl>ea_04_02_010</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_011</catValu>
+      <labl>ea_04_02_011</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_012</catValu>
+      <labl>ea_04_02_012</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_013</catValu>
+      <labl>ea_04_02_013</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_014</catValu>
+      <labl>ea_04_02_014</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_015</catValu>
+      <labl>ea_04_02_015</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_016</catValu>
+      <labl>ea_04_02_016</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_017</catValu>
+      <labl>ea_04_02_017</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_018</catValu>
+      <labl>ea_04_02_018</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_019</catValu>
+      <labl>ea_04_02_019</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_020</catValu>
+      <labl>ea_04_02_020</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_021</catValu>
+      <labl>ea_04_02_021</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_022</catValu>
+      <labl>ea_04_02_022</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_023</catValu>
+      <labl>ea_04_02_023</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_024</catValu>
+      <labl>ea_04_02_024</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_025</catValu>
+      <labl>ea_04_02_025</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_026</catValu>
+      <labl>ea_04_02_026</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_027</catValu>
+      <labl>ea_04_02_027</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_028</catValu>
+      <labl>ea_04_02_028</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_029</catValu>
+      <labl>ea_04_02_029</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_030</catValu>
+      <labl>ea_04_02_030</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_031</catValu>
+      <labl>ea_04_02_031</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_032</catValu>
+      <labl>ea_04_02_032</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_033</catValu>
+      <labl>ea_04_02_033</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_034</catValu>
+      <labl>ea_04_02_034</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_035</catValu>
+      <labl>ea_04_02_035</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_036</catValu>
+      <labl>ea_04_02_036</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_037</catValu>
+      <labl>ea_04_02_037</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_038</catValu>
+      <labl>ea_04_02_038</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_039</catValu>
+      <labl>ea_04_02_039</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_040</catValu>
+      <labl>ea_04_02_040</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_041</catValu>
+      <labl>ea_04_02_041</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_042</catValu>
+      <labl>ea_04_02_042</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_043</catValu>
+      <labl>ea_04_02_043</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_044</catValu>
+      <labl>ea_04_02_044</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_045</catValu>
+      <labl>ea_04_02_045</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_046</catValu>
+      <labl>ea_04_02_046</labl>
+      <catStat type="freq">12</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_047</catValu>
+      <labl>ea_04_02_047</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_048</catValu>
+      <labl>ea_04_02_048</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_049</catValu>
+      <labl>ea_04_02_049</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_050</catValu>
+      <labl>ea_04_02_050</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_051</catValu>
+      <labl>ea_04_02_051</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_052</catValu>
+      <labl>ea_04_02_052</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_053</catValu>
+      <labl>ea_04_02_053</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_054</catValu>
+      <labl>ea_04_02_054</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_055</catValu>
+      <labl>ea_04_02_055</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_056</catValu>
+      <labl>ea_04_02_056</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_057</catValu>
+      <labl>ea_04_02_057</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_058</catValu>
+      <labl>ea_04_02_058</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_059</catValu>
+      <labl>ea_04_02_059</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_060</catValu>
+      <labl>ea_04_02_060</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_061</catValu>
+      <labl>ea_04_02_061</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_062</catValu>
+      <labl>ea_04_02_062</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_063</catValu>
+      <labl>ea_04_02_063</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_064</catValu>
+      <labl>ea_04_02_064</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_065</catValu>
+      <labl>ea_04_02_065</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_066</catValu>
+      <labl>ea_04_02_066</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_067</catValu>
+      <labl>ea_04_02_067</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_068</catValu>
+      <labl>ea_04_02_068</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_069</catValu>
+      <labl>ea_04_02_069</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_070</catValu>
+      <labl>ea_04_02_070</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_071</catValu>
+      <labl>ea_04_02_071</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_072</catValu>
+      <labl>ea_04_02_072</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_073</catValu>
+      <labl>ea_04_02_073</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_074</catValu>
+      <labl>ea_04_02_074</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_075</catValu>
+      <labl>ea_04_02_075</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_076</catValu>
+      <labl>ea_04_02_076</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_077</catValu>
+      <labl>ea_04_02_077</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_078</catValu>
+      <labl>ea_04_02_078</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_079</catValu>
+      <labl>ea_04_02_079</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_080</catValu>
+      <labl>ea_04_02_080</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_081</catValu>
+      <labl>ea_04_02_081</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_082</catValu>
+      <labl>ea_04_02_082</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_083</catValu>
+      <labl>ea_04_02_083</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_084</catValu>
+      <labl>ea_04_02_084</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_085</catValu>
+      <labl>ea_04_02_085</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_086</catValu>
+      <labl>ea_04_02_086</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_087</catValu>
+      <labl>ea_04_02_087</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_088</catValu>
+      <labl>ea_04_02_088</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_089</catValu>
+      <labl>ea_04_02_089</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_090</catValu>
+      <labl>ea_04_02_090</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_091</catValu>
+      <labl>ea_04_02_091</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_092</catValu>
+      <labl>ea_04_02_092</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_093</catValu>
+      <labl>ea_04_02_093</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_094</catValu>
+      <labl>ea_04_02_094</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_095</catValu>
+      <labl>ea_04_02_095</labl>
+      <catStat type="freq">12</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_096</catValu>
+      <labl>ea_04_02_096</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_097</catValu>
+      <labl>ea_04_02_097</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_098</catValu>
+      <labl>ea_04_02_098</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_099</catValu>
+      <labl>ea_04_02_099</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_100</catValu>
+      <labl>ea_04_02_100</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_101</catValu>
+      <labl>ea_04_02_101</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_102</catValu>
+      <labl>ea_04_02_102</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_103</catValu>
+      <labl>ea_04_02_103</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_104</catValu>
+      <labl>ea_04_02_104</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_105</catValu>
+      <labl>ea_04_02_105</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_106</catValu>
+      <labl>ea_04_02_106</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_107</catValu>
+      <labl>ea_04_02_107</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_108</catValu>
+      <labl>ea_04_02_108</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_109</catValu>
+      <labl>ea_04_02_109</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_110</catValu>
+      <labl>ea_04_02_110</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_111</catValu>
+      <labl>ea_04_02_111</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_112</catValu>
+      <labl>ea_04_02_112</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_113</catValu>
+      <labl>ea_04_02_113</labl>
+      <catStat type="freq">13</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_114</catValu>
+      <labl>ea_04_02_114</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_115</catValu>
+      <labl>ea_04_02_115</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_116</catValu>
+      <labl>ea_04_02_116</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_118</catValu>
+      <labl>ea_04_02_118</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_119</catValu>
+      <labl>ea_04_02_119</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_120</catValu>
+      <labl>ea_04_02_120</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_121</catValu>
+      <labl>ea_04_02_121</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_122</catValu>
+      <labl>ea_04_02_122</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_123</catValu>
+      <labl>ea_04_02_123</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_124</catValu>
+      <labl>ea_04_02_124</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_125</catValu>
+      <labl>ea_04_02_125</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_126</catValu>
+      <labl>ea_04_02_126</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_127</catValu>
+      <labl>ea_04_02_127</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_128</catValu>
+      <labl>ea_04_02_128</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_129</catValu>
+      <labl>ea_04_02_129</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_130</catValu>
+      <labl>ea_04_02_130</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_131</catValu>
+      <labl>ea_04_02_131</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_132</catValu>
+      <labl>ea_04_02_132</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_133</catValu>
+      <labl>ea_04_02_133</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_134</catValu>
+      <labl>ea_04_02_134</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_135</catValu>
+      <labl>ea_04_02_135</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_136</catValu>
+      <labl>ea_04_02_136</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_137</catValu>
+      <labl>ea_04_02_137</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_138</catValu>
+      <labl>ea_04_02_138</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_139</catValu>
+      <labl>ea_04_02_139</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_140</catValu>
+      <labl>ea_04_02_140</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_141</catValu>
+      <labl>ea_04_02_141</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_142</catValu>
+      <labl>ea_04_02_142</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_143</catValu>
+      <labl>ea_04_02_143</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_144</catValu>
+      <labl>ea_04_02_144</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_145</catValu>
+      <labl>ea_04_02_145</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_146</catValu>
+      <labl>ea_04_02_146</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_147</catValu>
+      <labl>ea_04_02_147</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_148</catValu>
+      <labl>ea_04_02_148</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_149</catValu>
+      <labl>ea_04_02_149</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_150</catValu>
+      <labl>ea_04_02_150</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_151</catValu>
+      <labl>ea_04_02_151</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_152</catValu>
+      <labl>ea_04_02_152</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_153</catValu>
+      <labl>ea_04_02_153</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_154</catValu>
+      <labl>ea_04_02_154</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_155</catValu>
+      <labl>ea_04_02_155</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_156</catValu>
+      <labl>ea_04_02_156</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_157</catValu>
+      <labl>ea_04_02_157</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_158</catValu>
+      <labl>ea_04_02_158</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_159</catValu>
+      <labl>ea_04_02_159</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_160</catValu>
+      <labl>ea_04_02_160</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_161</catValu>
+      <labl>ea_04_02_161</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_162</catValu>
+      <labl>ea_04_02_162</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_163</catValu>
+      <labl>ea_04_02_163</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_164</catValu>
+      <labl>ea_04_02_164</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_166</catValu>
+      <labl>ea_04_02_166</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_167</catValu>
+      <labl>ea_04_02_167</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_168</catValu>
+      <labl>ea_04_02_168</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_169</catValu>
+      <labl>ea_04_02_169</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_170</catValu>
+      <labl>ea_04_02_170</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_171</catValu>
+      <labl>ea_04_02_171</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_172</catValu>
+      <labl>ea_04_02_172</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_173</catValu>
+      <labl>ea_04_02_173</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_174</catValu>
+      <labl>ea_04_02_174</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_175</catValu>
+      <labl>ea_04_02_175</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_176</catValu>
+      <labl>ea_04_02_176</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_177</catValu>
+      <labl>ea_04_02_177</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_178</catValu>
+      <labl>ea_04_02_178</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_179</catValu>
+      <labl>ea_04_02_179</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_180</catValu>
+      <labl>ea_04_02_180</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_181</catValu>
+      <labl>ea_04_02_181</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_182</catValu>
+      <labl>ea_04_02_182</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_183</catValu>
+      <labl>ea_04_02_183</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_184</catValu>
+      <labl>ea_04_02_184</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_185</catValu>
+      <labl>ea_04_02_185</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_186</catValu>
+      <labl>ea_04_02_186</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_187</catValu>
+      <labl>ea_04_02_187</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_188</catValu>
+      <labl>ea_04_02_188</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_189</catValu>
+      <labl>ea_04_02_189</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_190</catValu>
+      <labl>ea_04_02_190</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_191</catValu>
+      <labl>ea_04_02_191</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_192</catValu>
+      <labl>ea_04_02_192</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_193</catValu>
+      <labl>ea_04_02_193</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_194</catValu>
+      <labl>ea_04_02_194</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_195</catValu>
+      <labl>ea_04_02_195</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_196</catValu>
+      <labl>ea_04_02_196</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_197</catValu>
+      <labl>ea_04_02_197</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_199</catValu>
+      <labl>ea_04_02_199</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_200</catValu>
+      <labl>ea_04_02_200</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_201</catValu>
+      <labl>ea_04_02_201</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_202</catValu>
+      <labl>ea_04_02_202</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_203</catValu>
+      <labl>ea_04_02_203</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_204</catValu>
+      <labl>ea_04_02_204</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_205</catValu>
+      <labl>ea_04_02_205</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_206</catValu>
+      <labl>ea_04_02_206</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_207</catValu>
+      <labl>ea_04_02_207</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>04_02_208</catValu>
+      <labl>ea_04_02_208</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_001</catValu>
+      <labl>ea_01_08_001</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_002</catValu>
+      <labl>ea_01_08_002</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_003</catValu>
+      <labl>ea_01_08_003</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_004</catValu>
+      <labl>ea_01_08_004</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_005</catValu>
+      <labl>ea_01_08_005</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_006</catValu>
+      <labl>ea_01_08_006</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_007</catValu>
+      <labl>ea_01_08_007</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_008</catValu>
+      <labl>ea_01_08_008</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_009</catValu>
+      <labl>ea_01_08_009</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_010</catValu>
+      <labl>ea_01_08_010</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_011</catValu>
+      <labl>ea_01_08_011</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_012</catValu>
+      <labl>ea_01_08_012</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_013</catValu>
+      <labl>ea_01_08_013</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_014</catValu>
+      <labl>ea_01_08_014</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_015</catValu>
+      <labl>ea_01_08_015</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_016</catValu>
+      <labl>ea_01_08_016</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_017</catValu>
+      <labl>ea_01_08_017</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_018</catValu>
+      <labl>ea_01_08_018</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_019</catValu>
+      <labl>ea_01_08_019</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_020</catValu>
+      <labl>ea_01_08_020</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_021</catValu>
+      <labl>ea_01_08_021</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_022</catValu>
+      <labl>ea_01_08_022</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_023</catValu>
+      <labl>ea_01_08_023</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_024</catValu>
+      <labl>ea_01_08_024</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_025</catValu>
+      <labl>ea_01_08_025</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_026</catValu>
+      <labl>ea_01_08_026</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_027</catValu>
+      <labl>ea_01_08_027</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_028</catValu>
+      <labl>ea_01_08_028</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_029</catValu>
+      <labl>ea_01_08_029</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_030</catValu>
+      <labl>ea_01_08_030</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_031</catValu>
+      <labl>ea_01_08_031</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_032</catValu>
+      <labl>ea_01_08_032</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_033</catValu>
+      <labl>ea_01_08_033</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_034</catValu>
+      <labl>ea_01_08_034</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_035</catValu>
+      <labl>ea_01_08_035</labl>
+      <catStat type="freq">10</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_036</catValu>
+      <labl>ea_01_08_036</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_037</catValu>
+      <labl>ea_01_08_037</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_038</catValu>
+      <labl>ea_01_08_038</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_039</catValu>
+      <labl>ea_01_08_039</labl>
+      <catStat type="freq">10</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_040</catValu>
+      <labl>ea_01_08_040</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_041</catValu>
+      <labl>ea_01_08_041</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_042</catValu>
+      <labl>ea_01_08_042</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_043</catValu>
+      <labl>ea_01_08_043</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_044</catValu>
+      <labl>ea_01_08_044</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_045</catValu>
+      <labl>ea_01_08_045</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_046</catValu>
+      <labl>ea_01_08_046</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_047</catValu>
+      <labl>ea_01_08_047</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_048</catValu>
+      <labl>ea_01_08_048</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_049</catValu>
+      <labl>ea_01_08_049</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_050</catValu>
+      <labl>ea_01_08_050</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_051</catValu>
+      <labl>ea_01_08_051</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_052</catValu>
+      <labl>ea_01_08_052</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_053</catValu>
+      <labl>ea_01_08_053</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_054</catValu>
+      <labl>ea_01_08_054</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_055</catValu>
+      <labl>ea_01_08_055</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_056</catValu>
+      <labl>ea_01_08_056</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_057</catValu>
+      <labl>ea_01_08_057</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_058</catValu>
+      <labl>ea_01_08_058</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_059</catValu>
+      <labl>ea_01_08_059</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_060</catValu>
+      <labl>ea_01_08_060</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_061</catValu>
+      <labl>ea_01_08_061</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_062</catValu>
+      <labl>ea_01_08_062</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_063</catValu>
+      <labl>ea_01_08_063</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_064</catValu>
+      <labl>ea_01_08_064</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_066</catValu>
+      <labl>ea_01_08_066</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_067</catValu>
+      <labl>ea_01_08_067</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>01_08_068</catValu>
+      <labl>ea_01_08_068</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_001</catValu>
+      <labl>ea_06_01_001</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_002</catValu>
+      <labl>ea_06_01_002</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_003</catValu>
+      <labl>ea_06_01_003</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_004</catValu>
+      <labl>ea_06_01_004</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_005</catValu>
+      <labl>ea_06_01_005</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_006</catValu>
+      <labl>ea_06_01_006</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_007</catValu>
+      <labl>ea_06_01_007</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_008</catValu>
+      <labl>ea_06_01_008</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_009</catValu>
+      <labl>ea_06_01_009</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_010</catValu>
+      <labl>ea_06_01_010</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_011</catValu>
+      <labl>ea_06_01_011</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_012</catValu>
+      <labl>ea_06_01_012</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_013</catValu>
+      <labl>ea_06_01_013</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_014</catValu>
+      <labl>ea_06_01_014</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_015</catValu>
+      <labl>ea_06_01_015</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_016</catValu>
+      <labl>ea_06_01_016</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_017</catValu>
+      <labl>ea_06_01_017</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_018</catValu>
+      <labl>ea_06_01_018</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_019</catValu>
+      <labl>ea_06_01_019</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_021</catValu>
+      <labl>ea_06_01_021</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_022</catValu>
+      <labl>ea_06_01_022</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_023</catValu>
+      <labl>ea_06_01_023</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_024</catValu>
+      <labl>ea_06_01_024</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_026</catValu>
+      <labl>ea_06_01_026</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_027</catValu>
+      <labl>ea_06_01_027</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_028</catValu>
+      <labl>ea_06_01_028</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_029</catValu>
+      <labl>ea_06_01_029</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_030</catValu>
+      <labl>ea_06_01_030</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_031</catValu>
+      <labl>ea_06_01_031</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_032</catValu>
+      <labl>ea_06_01_032</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_033</catValu>
+      <labl>ea_06_01_033</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_034</catValu>
+      <labl>ea_06_01_034</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_035</catValu>
+      <labl>ea_06_01_035</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_036</catValu>
+      <labl>ea_06_01_036</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_037</catValu>
+      <labl>ea_06_01_037</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_038</catValu>
+      <labl>ea_06_01_038</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_039</catValu>
+      <labl>ea_06_01_039</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_040</catValu>
+      <labl>ea_06_01_040</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_041</catValu>
+      <labl>ea_06_01_041</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_042</catValu>
+      <labl>ea_06_01_042</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_043</catValu>
+      <labl>ea_06_01_043</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_044</catValu>
+      <labl>ea_06_01_044</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_045</catValu>
+      <labl>ea_06_01_045</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_046</catValu>
+      <labl>ea_06_01_046</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_047</catValu>
+      <labl>ea_06_01_047</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_048</catValu>
+      <labl>ea_06_01_048</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_049</catValu>
+      <labl>ea_06_01_049</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_050</catValu>
+      <labl>ea_06_01_050</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_051</catValu>
+      <labl>ea_06_01_051</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_052</catValu>
+      <labl>ea_06_01_052</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_053</catValu>
+      <labl>ea_06_01_053</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_054</catValu>
+      <labl>ea_06_01_054</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_055</catValu>
+      <labl>ea_06_01_055</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_056</catValu>
+      <labl>ea_06_01_056</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_057</catValu>
+      <labl>ea_06_01_057</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_058</catValu>
+      <labl>ea_06_01_058</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_059</catValu>
+      <labl>ea_06_01_059</labl>
+      <catStat type="freq">10</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_060</catValu>
+      <labl>ea_06_01_060</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_061</catValu>
+      <labl>ea_06_01_061</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_062</catValu>
+      <labl>ea_06_01_062</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_063</catValu>
+      <labl>ea_06_01_063</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_064</catValu>
+      <labl>ea_06_01_064</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_065</catValu>
+      <labl>ea_06_01_065</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_066</catValu>
+      <labl>ea_06_01_066</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_067</catValu>
+      <labl>ea_06_01_067</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_068</catValu>
+      <labl>ea_06_01_068</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_069</catValu>
+      <labl>ea_06_01_069</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_070</catValu>
+      <labl>ea_06_01_070</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_072</catValu>
+      <labl>ea_06_01_072</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_073</catValu>
+      <labl>ea_06_01_073</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_074</catValu>
+      <labl>ea_06_01_074</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_075</catValu>
+      <labl>ea_06_01_075</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_076</catValu>
+      <labl>ea_06_01_076</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_077</catValu>
+      <labl>ea_06_01_077</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_078</catValu>
+      <labl>ea_06_01_078</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_079</catValu>
+      <labl>ea_06_01_079</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_080</catValu>
+      <labl>ea_06_01_080</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_081</catValu>
+      <labl>ea_06_01_081</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_082</catValu>
+      <labl>ea_06_01_082</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_083</catValu>
+      <labl>ea_06_01_083</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_084</catValu>
+      <labl>ea_06_01_084</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_085</catValu>
+      <labl>ea_06_01_085</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_086</catValu>
+      <labl>ea_06_01_086</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_087</catValu>
+      <labl>ea_06_01_087</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_088</catValu>
+      <labl>ea_06_01_088</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_089</catValu>
+      <labl>ea_06_01_089</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_090</catValu>
+      <labl>ea_06_01_090</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_091</catValu>
+      <labl>ea_06_01_091</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_092</catValu>
+      <labl>ea_06_01_092</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_093</catValu>
+      <labl>ea_06_01_093</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_094</catValu>
+      <labl>ea_06_01_094</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_095</catValu>
+      <labl>ea_06_01_095</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_096</catValu>
+      <labl>ea_06_01_096</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_097</catValu>
+      <labl>ea_06_01_097</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_098</catValu>
+      <labl>ea_06_01_098</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_099</catValu>
+      <labl>ea_06_01_099</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_100</catValu>
+      <labl>ea_06_01_100</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_101</catValu>
+      <labl>ea_06_01_101</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_102</catValu>
+      <labl>ea_06_01_102</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_103</catValu>
+      <labl>ea_06_01_103</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_104</catValu>
+      <labl>ea_06_01_104</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_105</catValu>
+      <labl>ea_06_01_105</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_106</catValu>
+      <labl>ea_06_01_106</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_107</catValu>
+      <labl>ea_06_01_107</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_108</catValu>
+      <labl>ea_06_01_108</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_109</catValu>
+      <labl>ea_06_01_109</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_110</catValu>
+      <labl>ea_06_01_110</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_111</catValu>
+      <labl>ea_06_01_111</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_112</catValu>
+      <labl>ea_06_01_112</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_113</catValu>
+      <labl>ea_06_01_113</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_114</catValu>
+      <labl>ea_06_01_114</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_115</catValu>
+      <labl>ea_06_01_115</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_116</catValu>
+      <labl>ea_06_01_116</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_117</catValu>
+      <labl>ea_06_01_117</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_118</catValu>
+      <labl>ea_06_01_118</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_120</catValu>
+      <labl>ea_06_01_120</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_121</catValu>
+      <labl>ea_06_01_121</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_122</catValu>
+      <labl>ea_06_01_122</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_123</catValu>
+      <labl>ea_06_01_123</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_124</catValu>
+      <labl>ea_06_01_124</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_125</catValu>
+      <labl>ea_06_01_125</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_126</catValu>
+      <labl>ea_06_01_126</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_128</catValu>
+      <labl>ea_06_01_128</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_129</catValu>
+      <labl>ea_06_01_129</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_130</catValu>
+      <labl>ea_06_01_130</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_131</catValu>
+      <labl>ea_06_01_131</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_132</catValu>
+      <labl>ea_06_01_132</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_133</catValu>
+      <labl>ea_06_01_133</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_134</catValu>
+      <labl>ea_06_01_134</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>06_01_135</catValu>
+      <labl>ea_06_01_135</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_001</catValu>
+      <labl>ea_07_03_001</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_002</catValu>
+      <labl>ea_07_03_002</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_003</catValu>
+      <labl>ea_07_03_003</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_004</catValu>
+      <labl>ea_07_03_004</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_005</catValu>
+      <labl>ea_07_03_005</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_006</catValu>
+      <labl>ea_07_03_006</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_007</catValu>
+      <labl>ea_07_03_007</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_008</catValu>
+      <labl>ea_07_03_008</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_009</catValu>
+      <labl>ea_07_03_009</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_010</catValu>
+      <labl>ea_07_03_010</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_011</catValu>
+      <labl>ea_07_03_011</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_012</catValu>
+      <labl>ea_07_03_012</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_013</catValu>
+      <labl>ea_07_03_013</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_014</catValu>
+      <labl>ea_07_03_014</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_015</catValu>
+      <labl>ea_07_03_015</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_016</catValu>
+      <labl>ea_07_03_016</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_017</catValu>
+      <labl>ea_07_03_017</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_018</catValu>
+      <labl>ea_07_03_018</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_019</catValu>
+      <labl>ea_07_03_019</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_020</catValu>
+      <labl>ea_07_03_020</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_021</catValu>
+      <labl>ea_07_03_021</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_022</catValu>
+      <labl>ea_07_03_022</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_023</catValu>
+      <labl>ea_07_03_023</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_024</catValu>
+      <labl>ea_07_03_024</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_025</catValu>
+      <labl>ea_07_03_025</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_026</catValu>
+      <labl>ea_07_03_026</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_027</catValu>
+      <labl>ea_07_03_027</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_028</catValu>
+      <labl>ea_07_03_028</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_029</catValu>
+      <labl>ea_07_03_029</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_030</catValu>
+      <labl>ea_07_03_030</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_031</catValu>
+      <labl>ea_07_03_031</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_032</catValu>
+      <labl>ea_07_03_032</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_033</catValu>
+      <labl>ea_07_03_033</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_034</catValu>
+      <labl>ea_07_03_034</labl>
+      <catStat type="freq">10</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_035</catValu>
+      <labl>ea_07_03_035</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_036</catValu>
+      <labl>ea_07_03_036</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_037</catValu>
+      <labl>ea_07_03_037</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_038</catValu>
+      <labl>ea_07_03_038</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_039</catValu>
+      <labl>ea_07_03_039</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_040</catValu>
+      <labl>ea_07_03_040</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_041</catValu>
+      <labl>ea_07_03_041</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_042</catValu>
+      <labl>ea_07_03_042</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_043</catValu>
+      <labl>ea_07_03_043</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_044</catValu>
+      <labl>ea_07_03_044</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_045</catValu>
+      <labl>ea_07_03_045</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_046</catValu>
+      <labl>ea_07_03_046</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_047</catValu>
+      <labl>ea_07_03_047</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_048</catValu>
+      <labl>ea_07_03_048</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_049</catValu>
+      <labl>ea_07_03_049</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_050</catValu>
+      <labl>ea_07_03_050</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_051</catValu>
+      <labl>ea_07_03_051</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_052</catValu>
+      <labl>ea_07_03_052</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_053</catValu>
+      <labl>ea_07_03_053</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_054</catValu>
+      <labl>ea_07_03_054</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_055</catValu>
+      <labl>ea_07_03_055</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_056</catValu>
+      <labl>ea_07_03_056</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_057</catValu>
+      <labl>ea_07_03_057</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_058</catValu>
+      <labl>ea_07_03_058</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_059</catValu>
+      <labl>ea_07_03_059</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_060</catValu>
+      <labl>ea_07_03_060</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_061</catValu>
+      <labl>ea_07_03_061</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_062</catValu>
+      <labl>ea_07_03_062</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_063</catValu>
+      <labl>ea_07_03_063</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_064</catValu>
+      <labl>ea_07_03_064</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_065</catValu>
+      <labl>ea_07_03_065</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_066</catValu>
+      <labl>ea_07_03_066</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_067</catValu>
+      <labl>ea_07_03_067</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_068</catValu>
+      <labl>ea_07_03_068</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_069</catValu>
+      <labl>ea_07_03_069</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_070</catValu>
+      <labl>ea_07_03_070</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_071</catValu>
+      <labl>ea_07_03_071</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_072</catValu>
+      <labl>ea_07_03_072</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_073</catValu>
+      <labl>ea_07_03_073</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_074</catValu>
+      <labl>ea_07_03_074</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_075</catValu>
+      <labl>ea_07_03_075</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_076</catValu>
+      <labl>ea_07_03_076</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_077</catValu>
+      <labl>ea_07_03_077</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_078</catValu>
+      <labl>ea_07_03_078</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_079</catValu>
+      <labl>ea_07_03_079</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_080</catValu>
+      <labl>ea_07_03_080</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_081</catValu>
+      <labl>ea_07_03_081</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_082</catValu>
+      <labl>ea_07_03_082</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_083</catValu>
+      <labl>ea_07_03_083</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_084</catValu>
+      <labl>ea_07_03_084</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_086</catValu>
+      <labl>ea_07_03_086</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_087</catValu>
+      <labl>ea_07_03_087</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_088</catValu>
+      <labl>ea_07_03_088</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_089</catValu>
+      <labl>ea_07_03_089</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_090</catValu>
+      <labl>ea_07_03_090</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_091</catValu>
+      <labl>ea_07_03_091</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_092</catValu>
+      <labl>ea_07_03_092</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_093</catValu>
+      <labl>ea_07_03_093</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_094</catValu>
+      <labl>ea_07_03_094</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_096</catValu>
+      <labl>ea_07_03_096</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_097</catValu>
+      <labl>ea_07_03_097</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_098</catValu>
+      <labl>ea_07_03_098</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_099</catValu>
+      <labl>ea_07_03_099</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_100</catValu>
+      <labl>ea_07_03_100</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_101</catValu>
+      <labl>ea_07_03_101</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_102</catValu>
+      <labl>ea_07_03_102</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_103</catValu>
+      <labl>ea_07_03_103</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_104</catValu>
+      <labl>ea_07_03_104</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_105</catValu>
+      <labl>ea_07_03_105</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_106</catValu>
+      <labl>ea_07_03_106</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_107</catValu>
+      <labl>ea_07_03_107</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_108</catValu>
+      <labl>ea_07_03_108</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_109</catValu>
+      <labl>ea_07_03_109</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_110</catValu>
+      <labl>ea_07_03_110</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_111</catValu>
+      <labl>ea_07_03_111</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_112</catValu>
+      <labl>ea_07_03_112</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_113</catValu>
+      <labl>ea_07_03_113</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_114</catValu>
+      <labl>ea_07_03_114</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_115</catValu>
+      <labl>ea_07_03_115</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_116</catValu>
+      <labl>ea_07_03_116</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_117</catValu>
+      <labl>ea_07_03_117</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_118</catValu>
+      <labl>ea_07_03_118</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_119</catValu>
+      <labl>ea_07_03_119</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_120</catValu>
+      <labl>ea_07_03_120</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_121</catValu>
+      <labl>ea_07_03_121</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_122</catValu>
+      <labl>ea_07_03_122</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_123</catValu>
+      <labl>ea_07_03_123</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_124</catValu>
+      <labl>ea_07_03_124</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_125</catValu>
+      <labl>ea_07_03_125</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_126</catValu>
+      <labl>ea_07_03_126</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_127</catValu>
+      <labl>ea_07_03_127</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_128</catValu>
+      <labl>ea_07_03_128</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_129</catValu>
+      <labl>ea_07_03_129</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_130</catValu>
+      <labl>ea_07_03_130</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_131</catValu>
+      <labl>ea_07_03_131</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_132</catValu>
+      <labl>ea_07_03_132</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_133</catValu>
+      <labl>ea_07_03_133</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_134</catValu>
+      <labl>ea_07_03_134</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_135</catValu>
+      <labl>ea_07_03_135</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_136</catValu>
+      <labl>ea_07_03_136</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_137</catValu>
+      <labl>ea_07_03_137</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_138</catValu>
+      <labl>ea_07_03_138</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_139</catValu>
+      <labl>ea_07_03_139</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_140</catValu>
+      <labl>ea_07_03_140</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_141</catValu>
+      <labl>ea_07_03_141</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_142</catValu>
+      <labl>ea_07_03_142</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_143</catValu>
+      <labl>ea_07_03_143</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_144</catValu>
+      <labl>ea_07_03_144</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_145</catValu>
+      <labl>ea_07_03_145</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_146</catValu>
+      <labl>ea_07_03_146</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_147</catValu>
+      <labl>ea_07_03_147</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_148</catValu>
+      <labl>ea_07_03_148</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_149</catValu>
+      <labl>ea_07_03_149</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_150</catValu>
+      <labl>ea_07_03_150</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_151</catValu>
+      <labl>ea_07_03_151</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_152</catValu>
+      <labl>ea_07_03_152</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_153</catValu>
+      <labl>ea_07_03_153</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_154</catValu>
+      <labl>ea_07_03_154</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_155</catValu>
+      <labl>ea_07_03_155</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_156</catValu>
+      <labl>ea_07_03_156</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_157</catValu>
+      <labl>ea_07_03_157</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_158</catValu>
+      <labl>ea_07_03_158</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_159</catValu>
+      <labl>ea_07_03_159</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_160</catValu>
+      <labl>ea_07_03_160</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_161</catValu>
+      <labl>ea_07_03_161</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_162</catValu>
+      <labl>ea_07_03_162</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_163</catValu>
+      <labl>ea_07_03_163</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_164</catValu>
+      <labl>ea_07_03_164</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_165</catValu>
+      <labl>ea_07_03_165</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_166</catValu>
+      <labl>ea_07_03_166</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_167</catValu>
+      <labl>ea_07_03_167</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_168</catValu>
+      <labl>ea_07_03_168</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_169</catValu>
+      <labl>ea_07_03_169</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_170</catValu>
+      <labl>ea_07_03_170</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_171</catValu>
+      <labl>ea_07_03_171</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_172</catValu>
+      <labl>ea_07_03_172</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_173</catValu>
+      <labl>ea_07_03_173</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_174</catValu>
+      <labl>ea_07_03_174</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_03_175</catValu>
+      <labl>ea_07_03_175</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_001</catValu>
+      <labl>ea_07_04_001</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_002</catValu>
+      <labl>ea_07_04_002</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_003</catValu>
+      <labl>ea_07_04_003</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_004</catValu>
+      <labl>ea_07_04_004</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_005</catValu>
+      <labl>ea_07_04_005</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_006</catValu>
+      <labl>ea_07_04_006</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_007</catValu>
+      <labl>ea_07_04_007</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_008</catValu>
+      <labl>ea_07_04_008</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_009</catValu>
+      <labl>ea_07_04_009</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_010</catValu>
+      <labl>ea_07_04_010</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_011</catValu>
+      <labl>ea_07_04_011</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_012</catValu>
+      <labl>ea_07_04_012</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_013</catValu>
+      <labl>ea_07_04_013</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_014</catValu>
+      <labl>ea_07_04_014</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_015</catValu>
+      <labl>ea_07_04_015</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_016</catValu>
+      <labl>ea_07_04_016</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_017</catValu>
+      <labl>ea_07_04_017</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_018</catValu>
+      <labl>ea_07_04_018</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_019</catValu>
+      <labl>ea_07_04_019</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_020</catValu>
+      <labl>ea_07_04_020</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_021</catValu>
+      <labl>ea_07_04_021</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_022</catValu>
+      <labl>ea_07_04_022</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_023</catValu>
+      <labl>ea_07_04_023</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_024</catValu>
+      <labl>ea_07_04_024</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_025</catValu>
+      <labl>ea_07_04_025</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_026</catValu>
+      <labl>ea_07_04_026</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_027</catValu>
+      <labl>ea_07_04_027</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_028</catValu>
+      <labl>ea_07_04_028</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_029</catValu>
+      <labl>ea_07_04_029</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_030</catValu>
+      <labl>ea_07_04_030</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_031</catValu>
+      <labl>ea_07_04_031</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_032</catValu>
+      <labl>ea_07_04_032</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_033</catValu>
+      <labl>ea_07_04_033</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_034</catValu>
+      <labl>ea_07_04_034</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_035</catValu>
+      <labl>ea_07_04_035</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_036</catValu>
+      <labl>ea_07_04_036</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_037</catValu>
+      <labl>ea_07_04_037</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_038</catValu>
+      <labl>ea_07_04_038</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_039</catValu>
+      <labl>ea_07_04_039</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_040</catValu>
+      <labl>ea_07_04_040</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_041</catValu>
+      <labl>ea_07_04_041</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_042</catValu>
+      <labl>ea_07_04_042</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_043</catValu>
+      <labl>ea_07_04_043</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_044</catValu>
+      <labl>ea_07_04_044</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_045</catValu>
+      <labl>ea_07_04_045</labl>
+      <catStat type="freq">10</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_046</catValu>
+      <labl>ea_07_04_046</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_047</catValu>
+      <labl>ea_07_04_047</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_048</catValu>
+      <labl>ea_07_04_048</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_049</catValu>
+      <labl>ea_07_04_049</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_050</catValu>
+      <labl>ea_07_04_050</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_051</catValu>
+      <labl>ea_07_04_051</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_052</catValu>
+      <labl>ea_07_04_052</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_053</catValu>
+      <labl>ea_07_04_053</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_054</catValu>
+      <labl>ea_07_04_054</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_055</catValu>
+      <labl>ea_07_04_055</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_056</catValu>
+      <labl>ea_07_04_056</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_057</catValu>
+      <labl>ea_07_04_057</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_058</catValu>
+      <labl>ea_07_04_058</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_060</catValu>
+      <labl>ea_07_04_060</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_061</catValu>
+      <labl>ea_07_04_061</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_062</catValu>
+      <labl>ea_07_04_062</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_063</catValu>
+      <labl>ea_07_04_063</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_064</catValu>
+      <labl>ea_07_04_064</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_065</catValu>
+      <labl>ea_07_04_065</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_066</catValu>
+      <labl>ea_07_04_066</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_067</catValu>
+      <labl>ea_07_04_067</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_068</catValu>
+      <labl>ea_07_04_068</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_069</catValu>
+      <labl>ea_07_04_069</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_070</catValu>
+      <labl>ea_07_04_070</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_071</catValu>
+      <labl>ea_07_04_071</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_072</catValu>
+      <labl>ea_07_04_072</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_073</catValu>
+      <labl>ea_07_04_073</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_074</catValu>
+      <labl>ea_07_04_074</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_075</catValu>
+      <labl>ea_07_04_075</labl>
+      <catStat type="freq">10</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_076</catValu>
+      <labl>ea_07_04_076</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_077</catValu>
+      <labl>ea_07_04_077</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_078</catValu>
+      <labl>ea_07_04_078</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_079</catValu>
+      <labl>ea_07_04_079</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_080</catValu>
+      <labl>ea_07_04_080</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_081</catValu>
+      <labl>ea_07_04_081</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_082</catValu>
+      <labl>ea_07_04_082</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_083</catValu>
+      <labl>ea_07_04_083</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_084</catValu>
+      <labl>ea_07_04_084</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_085</catValu>
+      <labl>ea_07_04_085</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_086</catValu>
+      <labl>ea_07_04_086</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_087</catValu>
+      <labl>ea_07_04_087</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_088</catValu>
+      <labl>ea_07_04_088</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_089</catValu>
+      <labl>ea_07_04_089</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_090</catValu>
+      <labl>ea_07_04_090</labl>
+      <catStat type="freq">16</catStat>
+    </catgry>
+    <catgry>
+      <catValu>07_04_091</catValu>
+      <labl>ea_07_04_091</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_001</catValu>
+      <labl>ea_08_02_001</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_002</catValu>
+      <labl>ea_08_02_002</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_003</catValu>
+      <labl>ea_08_02_003</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_004</catValu>
+      <labl>ea_08_02_004</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_005</catValu>
+      <labl>ea_08_02_005</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_006</catValu>
+      <labl>ea_08_02_006</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_007</catValu>
+      <labl>ea_08_02_007</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_008</catValu>
+      <labl>ea_08_02_008</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_009</catValu>
+      <labl>ea_08_02_009</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_010</catValu>
+      <labl>ea_08_02_010</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_011</catValu>
+      <labl>ea_08_02_011</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_012</catValu>
+      <labl>ea_08_02_012</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_013</catValu>
+      <labl>ea_08_02_013</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_014</catValu>
+      <labl>ea_08_02_014</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_015</catValu>
+      <labl>ea_08_02_015</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_016</catValu>
+      <labl>ea_08_02_016</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_017</catValu>
+      <labl>ea_08_02_017</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_018</catValu>
+      <labl>ea_08_02_018</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_019</catValu>
+      <labl>ea_08_02_019</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_020</catValu>
+      <labl>ea_08_02_020</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_021</catValu>
+      <labl>ea_08_02_021</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_022</catValu>
+      <labl>ea_08_02_022</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_023</catValu>
+      <labl>ea_08_02_023</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_024</catValu>
+      <labl>ea_08_02_024</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_025</catValu>
+      <labl>ea_08_02_025</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_026</catValu>
+      <labl>ea_08_02_026</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_027</catValu>
+      <labl>ea_08_02_027</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_028</catValu>
+      <labl>ea_08_02_028</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_029</catValu>
+      <labl>ea_08_02_029</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_030</catValu>
+      <labl>ea_08_02_030</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_031</catValu>
+      <labl>ea_08_02_031</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_032</catValu>
+      <labl>ea_08_02_032</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_033</catValu>
+      <labl>ea_08_02_033</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_034</catValu>
+      <labl>ea_08_02_034</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_035</catValu>
+      <labl>ea_08_02_035</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_036</catValu>
+      <labl>ea_08_02_036</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_037</catValu>
+      <labl>ea_08_02_037</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_038</catValu>
+      <labl>ea_08_02_038</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_039</catValu>
+      <labl>ea_08_02_039</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_040</catValu>
+      <labl>ea_08_02_040</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_041</catValu>
+      <labl>ea_08_02_041</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_042</catValu>
+      <labl>ea_08_02_042</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_043</catValu>
+      <labl>ea_08_02_043</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_044</catValu>
+      <labl>ea_08_02_044</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_046</catValu>
+      <labl>ea_08_02_046</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_047</catValu>
+      <labl>ea_08_02_047</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_048</catValu>
+      <labl>ea_08_02_048</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_049</catValu>
+      <labl>ea_08_02_049</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_050</catValu>
+      <labl>ea_08_02_050</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_02_051</catValu>
+      <labl>ea_08_02_051</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_001</catValu>
+      <labl>ea_08_03_001</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_002</catValu>
+      <labl>ea_08_03_002</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_003</catValu>
+      <labl>ea_08_03_003</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_004</catValu>
+      <labl>ea_08_03_004</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_005</catValu>
+      <labl>ea_08_03_005</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_006</catValu>
+      <labl>ea_08_03_006</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_007</catValu>
+      <labl>ea_08_03_007</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_008</catValu>
+      <labl>ea_08_03_008</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_009</catValu>
+      <labl>ea_08_03_009</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_010</catValu>
+      <labl>ea_08_03_010</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_011</catValu>
+      <labl>ea_08_03_011</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_012</catValu>
+      <labl>ea_08_03_012</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_013</catValu>
+      <labl>ea_08_03_013</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_014</catValu>
+      <labl>ea_08_03_014</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_015</catValu>
+      <labl>ea_08_03_015</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_016</catValu>
+      <labl>ea_08_03_016</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_017</catValu>
+      <labl>ea_08_03_017</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_018</catValu>
+      <labl>ea_08_03_018</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_019</catValu>
+      <labl>ea_08_03_019</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_020</catValu>
+      <labl>ea_08_03_020</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_021</catValu>
+      <labl>ea_08_03_021</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_022</catValu>
+      <labl>ea_08_03_022</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_023</catValu>
+      <labl>ea_08_03_023</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_024</catValu>
+      <labl>ea_08_03_024</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_025</catValu>
+      <labl>ea_08_03_025</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_026</catValu>
+      <labl>ea_08_03_026</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_027</catValu>
+      <labl>ea_08_03_027</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_028</catValu>
+      <labl>ea_08_03_028</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_029</catValu>
+      <labl>ea_08_03_029</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_030</catValu>
+      <labl>ea_08_03_030</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_031</catValu>
+      <labl>ea_08_03_031</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_032</catValu>
+      <labl>ea_08_03_032</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_033</catValu>
+      <labl>ea_08_03_033</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_034</catValu>
+      <labl>ea_08_03_034</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_035</catValu>
+      <labl>ea_08_03_035</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_036</catValu>
+      <labl>ea_08_03_036</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_037</catValu>
+      <labl>ea_08_03_037</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_038</catValu>
+      <labl>ea_08_03_038</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_039</catValu>
+      <labl>ea_08_03_039</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_040</catValu>
+      <labl>ea_08_03_040</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_041</catValu>
+      <labl>ea_08_03_041</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_042</catValu>
+      <labl>ea_08_03_042</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_043</catValu>
+      <labl>ea_08_03_043</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_044</catValu>
+      <labl>ea_08_03_044</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_045</catValu>
+      <labl>ea_08_03_045</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_046</catValu>
+      <labl>ea_08_03_046</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_047</catValu>
+      <labl>ea_08_03_047</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_048</catValu>
+      <labl>ea_08_03_048</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_049</catValu>
+      <labl>ea_08_03_049</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_050</catValu>
+      <labl>ea_08_03_050</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_051</catValu>
+      <labl>ea_08_03_051</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_052</catValu>
+      <labl>ea_08_03_052</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_053</catValu>
+      <labl>ea_08_03_053</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_054</catValu>
+      <labl>ea_08_03_054</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_055</catValu>
+      <labl>ea_08_03_055</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_056</catValu>
+      <labl>ea_08_03_056</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_057</catValu>
+      <labl>ea_08_03_057</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_058</catValu>
+      <labl>ea_08_03_058</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_060</catValu>
+      <labl>ea_08_03_060</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_061</catValu>
+      <labl>ea_08_03_061</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_062</catValu>
+      <labl>ea_08_03_062</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_063</catValu>
+      <labl>ea_08_03_063</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_064</catValu>
+      <labl>ea_08_03_064</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_065</catValu>
+      <labl>ea_08_03_065</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_066</catValu>
+      <labl>ea_08_03_066</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_067</catValu>
+      <labl>ea_08_03_067</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_068</catValu>
+      <labl>ea_08_03_068</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_069</catValu>
+      <labl>ea_08_03_069</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_070</catValu>
+      <labl>ea_08_03_070</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_071</catValu>
+      <labl>ea_08_03_071</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_072</catValu>
+      <labl>ea_08_03_072</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_073</catValu>
+      <labl>ea_08_03_073</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_074</catValu>
+      <labl>ea_08_03_074</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_075</catValu>
+      <labl>ea_08_03_075</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_076</catValu>
+      <labl>ea_08_03_076</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_077</catValu>
+      <labl>ea_08_03_077</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_078</catValu>
+      <labl>ea_08_03_078</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_079</catValu>
+      <labl>ea_08_03_079</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_080</catValu>
+      <labl>ea_08_03_080</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_081</catValu>
+      <labl>ea_08_03_081</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_082</catValu>
+      <labl>ea_08_03_082</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_084</catValu>
+      <labl>ea_08_03_084</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_085</catValu>
+      <labl>ea_08_03_085</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_086</catValu>
+      <labl>ea_08_03_086</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_087</catValu>
+      <labl>ea_08_03_087</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_088</catValu>
+      <labl>ea_08_03_088</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_089</catValu>
+      <labl>ea_08_03_089</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_090</catValu>
+      <labl>ea_08_03_090</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_091</catValu>
+      <labl>ea_08_03_091</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_092</catValu>
+      <labl>ea_08_03_092</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_093</catValu>
+      <labl>ea_08_03_093</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_094</catValu>
+      <labl>ea_08_03_094</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_096</catValu>
+      <labl>ea_08_03_096</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_097</catValu>
+      <labl>ea_08_03_097</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_098</catValu>
+      <labl>ea_08_03_098</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_099</catValu>
+      <labl>ea_08_03_099</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_100</catValu>
+      <labl>ea_08_03_100</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_101</catValu>
+      <labl>ea_08_03_101</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_102</catValu>
+      <labl>ea_08_03_102</labl>
+      <catStat type="freq">10</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_103</catValu>
+      <labl>ea_08_03_103</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_104</catValu>
+      <labl>ea_08_03_104</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_105</catValu>
+      <labl>ea_08_03_105</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_106</catValu>
+      <labl>ea_08_03_106</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_107</catValu>
+      <labl>ea_08_03_107</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_108</catValu>
+      <labl>ea_08_03_108</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>08_03_109</catValu>
+      <labl>ea_08_03_109</labl>
+      <catStat type="freq">9</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_002</catValu>
+      <labl>ea_09_07_002</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_003</catValu>
+      <labl>ea_09_07_003</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_004</catValu>
+      <labl>ea_09_07_004</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_005</catValu>
+      <labl>ea_09_07_005</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_006</catValu>
+      <labl>ea_09_07_006</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_007</catValu>
+      <labl>ea_09_07_007</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_008</catValu>
+      <labl>ea_09_07_008</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_009</catValu>
+      <labl>ea_09_07_009</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_010</catValu>
+      <labl>ea_09_07_010</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_011</catValu>
+      <labl>ea_09_07_011</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_012</catValu>
+      <labl>ea_09_07_012</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_013</catValu>
+      <labl>ea_09_07_013</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_014</catValu>
+      <labl>ea_09_07_014</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_015</catValu>
+      <labl>ea_09_07_015</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_017</catValu>
+      <labl>ea_09_07_017</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_018</catValu>
+      <labl>ea_09_07_018</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_019</catValu>
+      <labl>ea_09_07_019</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_020</catValu>
+      <labl>ea_09_07_020</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_021</catValu>
+      <labl>ea_09_07_021</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_022</catValu>
+      <labl>ea_09_07_022</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_024</catValu>
+      <labl>ea_09_07_024</labl>
+      <catStat type="freq">12</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_025</catValu>
+      <labl>ea_09_07_025</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_026</catValu>
+      <labl>ea_09_07_026</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_027</catValu>
+      <labl>ea_09_07_027</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_028</catValu>
+      <labl>ea_09_07_028</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_029</catValu>
+      <labl>ea_09_07_029</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_030</catValu>
+      <labl>ea_09_07_030</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_032</catValu>
+      <labl>ea_09_07_032</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_033</catValu>
+      <labl>ea_09_07_033</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_034</catValu>
+      <labl>ea_09_07_034</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_035</catValu>
+      <labl>ea_09_07_035</labl>
+      <catStat type="freq">8</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_036</catValu>
+      <labl>ea_09_07_036</labl>
+      <catStat type="freq">11</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_037</catValu>
+      <labl>ea_09_07_037</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_038</catValu>
+      <labl>ea_09_07_038</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_039</catValu>
+      <labl>ea_09_07_039</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_040</catValu>
+      <labl>ea_09_07_040</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_041</catValu>
+      <labl>ea_09_07_041</labl>
+      <catStat type="freq">5</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_042</catValu>
+      <labl>ea_09_07_042</labl>
+      <catStat type="freq">7</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_043</catValu>
+      <labl>ea_09_07_043</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_044</catValu>
+      <labl>ea_09_07_044</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_045</catValu>
+      <labl>ea_09_07_045</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_046</catValu>
+      <labl>ea_09_07_046</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_047</catValu>
+      <labl>ea_09_07_047</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_048</catValu>
+      <labl>ea_09_07_048</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_049</catValu>
+      <labl>ea_09_07_049</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_050</catValu>
+      <labl>ea_09_07_050</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_051</catValu>
+      <labl>ea_09_07_051</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_052</catValu>
+      <labl>ea_09_07_052</labl>
+      <catStat type="freq">2</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_053</catValu>
+      <labl>ea_09_07_053</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_054</catValu>
+      <labl>ea_09_07_054</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_055</catValu>
+      <labl>ea_09_07_055</labl>
+      <catStat type="freq">4</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_056</catValu>
+      <labl>ea_09_07_056</labl>
+      <catStat type="freq">15</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_057</catValu>
+      <labl>ea_09_07_057</labl>
+      <catStat type="freq">1</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_058</catValu>
+      <labl>ea_09_07_058</labl>
+      <catStat type="freq">3</catStat>
+    </catgry>
+    <catgry>
+      <catValu>09_07_059</catValu>
+      <labl>ea_09_07_059</labl>
+      <catStat type="freq">6</catStat>
+    </catgry>
+
   </var>
   <var ID="V5" name="urbrur" files="F1" intrvl="discrete">
     <varFormat type="numeric" schema="other"/>

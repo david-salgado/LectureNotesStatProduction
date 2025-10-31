@@ -133,6 +133,7 @@ generate_missing_values <- function(
   # Distinguish total and partial non-response
   
   if (nonresponse == "total"){
+    
     if (mechanism == "MCAR") {
         
       stopifnot(
@@ -140,51 +141,9 @@ generate_missing_values <- function(
       )
       # Generate missing indices
       na_indices <- sample(1:n, size = round(n * p))
-      
-      for (i in seq_along(target_vars)) {
-        
-        var <- target_vars[i]
-        cat(paste0("Generating missing values in variable ", var, "..."))
-        p <- prop_missing
-        
-        col_type <- class(data_with_missing[[var]])[1]  # Get primary class
-        
-        # Assign type-specific NA
-        if (col_type %in% c("integer", "factor")) {
-          
-          data_with_missing[na_indices, (var) := NA_integer_]
-          
-        }
-        if (col_type == "numeric") {
-          
-          data_with_missing[na_indices, (var) := NA_real_]
-          
-        } 
-        if (col_type == "character") {
-          
-          data_with_missing[na_indices, (var) := NA_character_]
-          
-        } 
-        if (col_type == "logical") {
-          
-          data_with_missing[na_indices, (var) := NA]
-          
-        } 
-        if (col_type == "Date") {
-          
-          data_with_missing[na_indices, (var) := as.Date(NA)]
-          
-        } 
-        if (!col_type %in% c("integer", "factor", "numeric", "character", "logical", "Date")){
-          
-          warning(paste("Unsupported type for variable", var, "using default NA"))
-          data_with_missing[na_indices, (var) := NA]
-          
-        }
-        
-        cat("ok.\n")
-      
-    }
+      data_with_missing[
+        na_indices, r := 0L][
+          is.na(r), r := 1L]
     
     }
     
@@ -297,26 +256,9 @@ generate_missing_values <- function(
       } 
       
       na_indices <- which(runif(n) < prob_vector)
-      
-      # Apply missing values with type preservation
-      for (i in seq_along(target_vars)) {
-        
-        var <- target_vars[i]
-        
-        # Type-specific NA assignment
-        col_type <- class(data_with_missing[[var]])[1]
-        na_value <- switch(
-          col_type,
-          "integer" = NA_integer_,
-          "numeric" = NA_real_,
-          "character" = NA_character_,
-          "logical" = NA,
-          "factor" = factor(NA, levels = levels(data_with_missing[[var]])),
-          "Date" = as.Date(NA),
-          NA)
-        
-        data_with_missing[na_indices, (var) := na_value]
-      }
+      data_with_missing[
+        na_indices, r := 0L][
+        is.na(r), r := 1L]
       
     }
     
